@@ -1,0 +1,92 @@
+name: Compliance gate
+
+# Runs the full pipeline (clustering -> content -> static site build) and
+# then the mandatory compliance check (Agent 5) before any deploy step.
+# The deploy job below is a placeholder - point it at your real hosting
+# provider's deploy action once one is chosen; it only runs after
+# `compliance-check` succeeds, on pushes to main.
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  compliance-check:
+    name: Build sites and run compliance checks
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: "npm"
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Type-check
+        run: npx tsc --noEmit
+
+      - name: Collect keywords
+        run: npm run collect-keywords
+        env:
+          AHREFS_API_KEY: ${{ secrets.AHREFS_API_KEY }}
+
+      - name: Cluster keywords
+        run: npm run cluster
+        env:
+          SERP_API_KEY: ${{ secrets.SERP_API_KEY }}
+
+      - name: Assign clusters to sites
+        run: npm run assign-clusters
+
+      - name: Generate content briefs
+        run: npm run analyze-serp
+        env:
+          SERP_API_KEY: ${{ secrets.SERP_API_KEY }}
+
+      - name: Generate page content
+        run: npm run generate-content
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+
+      - name: Build static sites
+        run: npm run build-sites
+
+      - name: Run compliance gate (Agent 5)
+        run: npm run compliance-check
+        env:
+          UKGC_REGISTER_LOOKUP_URL: ${{ secrets.UKGC_REGISTER_LOOKUP_URL }}
+
+      - name: Upload compliance report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: compliance-report
+          path: compliance-report.md
+
+      - name: Upload built sites
+        if: success()
+        uses: actions/upload-artifact@v4
+        with:
+          name: sites
+          path: sites/
+
+  deploy:
+    name: Deploy (placeholder)
+    needs: compliance-check
+    if: github.ref == 'refs/heads/main' && github.event_name == 'push'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Download built sites
+        uses: actions/download-artifact@v4
+        with:
+          name: sites
+          path: sites/
+      - name: Deploy
+        run: |
+          echo "Wire this step to your hosting provider (e.g. Cloudflare Pages, Netlify, S3+CloudFront) for each of the 5 folders under sites/."
+          echo "This job only runs after compliance-check has passed."

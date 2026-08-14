@@ -12,7 +12,7 @@
     "generate-content": "tsx scripts/generate-content.ts",
     "build-sites": "tsx scripts/build-sites.ts",
     "compliance-check": "tsx scripts/compliance-check.ts",
-    "build": "npm run cluster && npm run assign-clusters && npm run analyze-serp && npm run generate-content && npm run build-sites && npm run compliance-check"
+    "build": "npm run collect-keywords && npm run cluster && npm run assign-clusters && npm run analyze-serp && npm run generate-content && npm run build-sites && npm run compliance-check"
   },
   "dependencies": {
     "natural": "^8.0.1",

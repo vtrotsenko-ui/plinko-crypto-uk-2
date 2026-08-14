@@ -29,9 +29,9 @@ export function responsibleGamblingHtml(siteName: string): string {
   <div class="rg-block" data-testid="responsible-gambling-block">
     <p><strong>18+.</strong> Plinko and every other casino-style game on this site is intended for adults aged 18 and over only. Gambling can be addictive - please play responsibly and never stake more than you can afford to lose.</p>
     <ul>
-      <li>Free help and support: <a href="https://www.begambleaware.org" rel="sponsored nofollow noopener" target="_blank">BeGambleAware</a> or call the National Gambling Helpline on <strong>0808 8020 133</strong> (free, 24/7).</li>
-      <li>Advice and treatment: <a href="https://www.gamcare.org.uk" rel="sponsored nofollow noopener" target="_blank">GamCare</a>.</li>
-      <li>Self-exclude from all UK-licensed gambling websites and apps at once: <a href="https://www.gamstop.co.uk" rel="sponsored nofollow noopener" target="_blank">GAMSTOP</a>.</li>
+      <li>Free help and support: <a href="https://www.begambleaware.org" rel="noopener" target="_blank">BeGambleAware</a> or call the National Gambling Helpline on <strong>0808 8020 133</strong> (free, 24/7).</li>
+      <li>Advice and treatment: <a href="https://www.gamcare.org.uk" rel="noopener" target="_blank">GamCare</a>.</li>
+      <li>Self-exclude from all UK-licensed gambling websites and apps at once: <a href="https://www.gamstop.co.uk" rel="noopener" target="_blank">GAMSTOP</a>.</li>
     </ul>
     <p>${siteName} does not accept advertising from, or link to, operators that do not hold a current Gambling Commission licence for Great Britain. Nothing on this site is financial or gambling advice, and no outcome is guaranteed.</p>
   </div>`;
