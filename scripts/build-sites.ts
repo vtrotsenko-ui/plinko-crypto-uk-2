@@ -26,6 +26,7 @@ import { fileURLToPath } from "node:url";
 import { parse as parseYaml } from "yaml";
 
 import { renderPage, type NavLink, type PageInput, type SiteChrome } from "./lib/layout.js";
+import { brandLogoSvg } from "./lib/svg.js";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT_DIR = path.resolve(__dirname, "..");
@@ -81,6 +82,18 @@ const HERO_IMAGE_BY_SITE: Record<string, string> = {
   "plinko-app-hub-uk": "hero-plinko-mobile-app.jpg",
 };
 
+// Each site gets its own accent so the 5 sites don't look like clones of
+// one template - used for links/buttons (site.css custom properties) and
+// baked into that site's own logo.svg (favicon + header mark + schema.org
+// Organization.logo).
+const ACCENT_BY_SITE: Record<string, { accent: string; accentDark: string }> = {
+  "plinko-game-guide-uk": { accent: "#1f6f54", accentDark: "#14503c" }, // teal green
+  "plinko-casino-hub-uk": { accent: "#2b5faa", accentDark: "#1c4278" }, // navy blue
+  "plinko-strategy-lab-uk": { accent: "#b8790a", accentDark: "#7a5206" }, // amber/gold
+  "crypto-plinko-uk": { accent: "#7c4dbd", accentDark: "#553486" }, // purple
+  "plinko-app-hub-uk": { accent: "#c1502e", accentDark: "#8f3a20" }, // coral
+};
+
 function slugToPageKey(slug: string): string {
   if (slug === "/") return "index";
   return slug.replace(/^\/|\/$/g, "");
@@ -118,6 +131,7 @@ async function buildSite(siteDef: SiteYamlDef, pages: PlanPage[]): Promise<void>
   ];
   const footerLegal: NavLink[] = Object.entries(TRUST_LABELS).map(([href, label]) => ({ href, label }));
 
+  const accent = ACCENT_BY_SITE[siteDef.id] ?? ACCENT_BY_SITE["plinko-game-guide-uk"];
   const chrome: SiteChrome = {
     siteName: siteDef.name,
     domain: siteDef.domain,
@@ -125,6 +139,8 @@ async function buildSite(siteDef: SiteYamlDef, pages: PlanPage[]): Promise<void>
     footerGuides,
     footerLegal,
     heroImage: HERO_IMAGE_BY_SITE[siteDef.id] ?? "hero-plinko-board.jpg",
+    accentColor: accent.accent,
+    accentDark: accent.accentDark,
   };
 
   for (const page of pages) {
@@ -163,6 +179,15 @@ async function buildSite(siteDef: SiteYamlDef, pages: PlanPage[]): Promise<void>
   await cp(path.join(ASSETS_SRC_DIR, "css"), path.join(siteOutDir, "assets", "css"), { recursive: true });
   await cp(path.join(ASSETS_SRC_DIR, "js"), path.join(siteOutDir, "assets", "js"), { recursive: true });
   await cp(path.join(ASSETS_SRC_DIR, "images"), path.join(siteOutDir, "assets", "images"), { recursive: true });
+
+  // Per-site logo/favicon, tinted with this site's own accent colour -
+  // used as the header brand mark, the favicon, and schema.org
+  // Organization.logo (see scripts/lib/layout.ts).
+  await writeFile(
+    path.join(siteOutDir, "assets", "images", "logo.svg"),
+    brandLogoSvg(accent.accent, accent.accentDark),
+    "utf8"
+  );
 
   const origin = `https://${siteDef.domain}`;
   await writeFile(

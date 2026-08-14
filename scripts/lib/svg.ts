@@ -28,6 +28,20 @@ export function riskLevelDiagram(): string {
   </svg>`;
 }
 
+/** Compact brand mark: a rounded badge with a small triangle of "pegs" and
+ * one highlighted "ball" - echoes the Plinko board theme, used inline in
+ * the header (no extra HTTP request) and written to each site's
+ * assets/images/logo.svg for the favicon and Organization.logo. */
+export function brandLogoSvg(accentColor: string, accentDark: string): string {
+  return `<svg viewBox="0 0 40 40" role="img" aria-label="Site logo" xmlns="http://www.w3.org/2000/svg">
+    <rect width="40" height="40" rx="10" fill="${accentDark}" />
+    <circle cx="20" cy="12" r="3" fill="#f5f2e8" />
+    <circle cx="13" cy="21" r="3" fill="#f5f2e8" />
+    <circle cx="27" cy="21" r="3" fill="#f5f2e8" />
+    <circle cx="20" cy="30" r="4" fill="${accentColor}" stroke="#f5f2e8" stroke-width="1.5" />
+  </svg>`;
+}
+
 export function oddsBarChart(rows: number[] = [8, 12, 16]): string {
   const width = 560;
   const height = 220;
