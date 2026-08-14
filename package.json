@@ -5,10 +5,18 @@
   "type": "module",
   "description": "Keyword research tooling for the UK Plinko casino affiliate project.",
   "scripts": {
-    "collect-keywords": "tsx scripts/collect-keywords.ts"
+    "collect-keywords": "tsx scripts/collect-keywords.ts",
+    "cluster": "tsx scripts/cluster.ts",
+    "assign-clusters": "tsx scripts/assign-clusters.ts",
+    "analyze-serp": "tsx scripts/analyze-serp.ts",
+    "generate-content": "tsx scripts/generate-content.ts",
+    "build-sites": "tsx scripts/build-sites.ts",
+    "compliance-check": "tsx scripts/compliance-check.ts",
+    "build": "npm run cluster && npm run assign-clusters && npm run analyze-serp && npm run generate-content && npm run build-sites && npm run compliance-check"
   },
   "dependencies": {
-    "natural": "^8.0.1"
+    "natural": "^8.0.1",
+    "yaml": "^2.9.0"
   },
   "devDependencies": {
     "@types/node": "^22.10.5",

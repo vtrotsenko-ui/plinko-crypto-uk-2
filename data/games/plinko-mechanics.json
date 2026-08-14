@@ -1,0 +1,27 @@
+{
+  "_provenance": "Generic, provider-agnostic Plinko mechanics. These are widely-documented, publicly-known facts about how digital Plinko titles work (peg-board drop games popularised by online casino/crypto-casino software studios). No specific provider's RTP, house edge or paytable is claimed here - those figures vary by studio and must come from that studio's own published game rules, never guessed.",
+  "howItWorks": {
+    "summary": "A ball is dropped from the top of a triangular field of pegs and bounces left or right at each peg row before landing in one of several multiplier slots along the bottom.",
+    "steps": [
+      "The player sets a stake and, in most implementations, a risk level (commonly Low, Medium or High) and a row count (commonly 8-16 rows).",
+      "Pressing play/drop triggers a Random Number Generator (RNG) that determines the ball's left/right bounce at every peg.",
+      "The ball settles in one of the bottom slots; each slot has a fixed multiplier that is applied to the stake.",
+      "Higher risk settings and edge slots typically carry higher multipliers and lower landing probability; centre slots typically carry lower multipliers and higher landing probability."
+    ]
+  },
+  "riskLevels": [
+    { "level": "Low", "description": "Narrower spread of multipliers, more landings near the centre, smaller swings round to round." },
+    { "level": "Medium", "description": "A middle ground between Low and High - moderate multiplier spread." },
+    { "level": "High", "description": "Widest multiplier spread; edge slots can pay significantly more, but most drops land closer to the centre for a smaller return." }
+  ],
+  "rowOptions": [8, 9, 10, 11, 12, 13, 14, 15, 16],
+  "fairnessConcepts": {
+    "rng": "Licensed real-money Plinko titles use a certified Random Number Generator, independently tested by labs such as GLI, eCOGRA or iTech Labs.",
+    "provablyFair": "Crypto-funded Plinko variants often additionally publish a 'provably fair' scheme: a server seed (hashed and shown before play) and a client seed are combined to produce each outcome, so a player can independently verify after the fact that the result wasn't altered.",
+    "houseEdge": "Every Plinko paytable is built with a house edge (the average multiplier across all slots, weighted by landing probability, is below 1x). The exact edge is set by the game studio and disclosed in that game's information/paytable screen - always check the specific title's own rules rather than relying on general figures."
+  },
+  "demoVsRealMoney": {
+    "demo": "A demo/free-play mode uses virtual credits with no real value and no withdrawal - it exists to let players learn the board and risk settings before ever depositing.",
+    "realMoney": "Real-money play is only available through operators holding a valid licence in the player's jurisdiction. In Great Britain that means a current Gambling Commission (UKGC) licence; players should verify a licence number via the public register before depositing."
+  }
+}

@@ -43,3 +43,22 @@ tv show
 # category: irrelevant intent - generic non-casino board/kids game
 board game
 kids game
+
+# category: irrelevant intent - physical toy / retail listing (not the casino game)
+tabletop
+table top
+bottle top
+costco
+
+# category: irrelevant intent - unrelated crypto/finance topic (not gambling)
+buy crypto
+crypto to invest
+penny crypto
+cash app
+tracks price drops
+tracks sale prices
+looperman
+safest platform to buy
+
+# category: irrelevant intent - unrelated card/board game brand
+play nine

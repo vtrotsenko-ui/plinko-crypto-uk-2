@@ -5,5 +5,12 @@ dist/
 .env.local
 !.env.example
 
-# Generated pipeline output - regenerate via `npm run collect-keywords`
+# Generated pipeline output - regenerate via `npm run build`
 data/keywords-raw.csv
+data/clusters.csv
+data/orphans.csv
+data/sitemap-plan.json
+briefs/
+content/generated/
+.cache/
+sites/

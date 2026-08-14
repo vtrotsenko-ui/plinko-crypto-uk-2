@@ -4,15 +4,20 @@
  *
  * Pipeline:
  *   1. Read seed keywords from data/seeds.txt.
- *   2. Expand seeds via the Ahrefs API v3 (keywords-explorer/related-terms +
+ *   2. Import data/semantic-core.csv if present: the client-supplied semantic
+ *      core (a real Ahrefs export for country=gb, "crypto plinko" niche).
+ *      Its keyword/volume/difficulty/cpc/parent-keyword/SERP-features cells
+ *      are real numbers straight from that export - copied through as-is,
+ *      never re-derived or adjusted.
+ *   3. Expand seeds via the Ahrefs API v3 (keywords-explorer/related-terms +
  *      keywords-explorer/overview), scoped to country=gb.
- *   3. Expand seeds via Google Autocomplete (suggestqueries), combined with
+ *   4. Expand seeds via Google Autocomplete (suggestqueries), combined with
  *      prefixes/modifiers from data/prefixes.txt, hl=en&gl=uk.
- *   4. Deduplicate by a normalized form (lowercase -> strip punctuation ->
+ *   5. Deduplicate by a normalized form (lowercase -> strip punctuation ->
  *      drop stopwords -> Porter-stem remaining tokens).
- *   5. Drop blacklisted keywords (data/blacklist.txt): unlicensed operator
+ *   6. Drop blacklisted keywords (data/blacklist.txt): unlicensed operator
  *      brands and irrelevant intents (toy/DIY, probability lessons, TV show).
- *   6. Write data/keywords-raw.csv.
+ *   7. Write data/keywords-raw.csv.
  *
  * Metrics (volume/kd/cpc/parent_topic) are only ever populated with values
  * actually returned by the Ahrefs API. Keywords with no Ahrefs match are
@@ -38,6 +43,7 @@ const DATA_DIR = path.join(ROOT_DIR, "data");
 const SEEDS_PATH = path.join(DATA_DIR, "seeds.txt");
 const PREFIXES_PATH = path.join(DATA_DIR, "prefixes.txt");
 const BLACKLIST_PATH = path.join(DATA_DIR, "blacklist.txt");
+const SEMANTIC_CORE_PATH = path.join(DATA_DIR, "semantic-core.csv");
 const OUTPUT_PATH = path.join(DATA_DIR, "keywords-raw.csv");
 
 const COUNTRY = "gb";
@@ -50,7 +56,7 @@ const GOOGLE_AUTOCOMPLETE_URL = "https://suggestqueries.google.com/complete/sear
 const AUTOCOMPLETE_CONCURRENCY = 5;
 const AUTOCOMPLETE_DELAY_MS = 120;
 
-type Source = "ahrefs_related" | "ahrefs_overview" | "google_autocomplete";
+type Source = "ahrefs_related" | "ahrefs_overview" | "google_autocomplete" | "semantic_core_sheet";
 
 interface KeywordRecord {
   keyword: string;
@@ -194,6 +200,94 @@ function upsertKeyword(
   if (existing.serpFeatures.length === 0 && metrics.serpFeatures?.length) {
     existing.serpFeatures = metrics.serpFeatures;
   }
+}
+
+// ---------------------------------------------------------------------------
+// Client-supplied semantic core (data/semantic-core.csv)
+// ---------------------------------------------------------------------------
+
+function parseCsvLine(line: string): string[] {
+  const cells: string[] = [];
+  let current = "";
+  let inQuotes = false;
+  for (let i = 0; i < line.length; i++) {
+    const ch = line[i];
+    if (inQuotes) {
+      if (ch === '"' && line[i + 1] === '"') {
+        current += '"';
+        i++;
+      } else if (ch === '"') {
+        inQuotes = false;
+      } else {
+        current += ch;
+      }
+    } else if (ch === '"') {
+      inQuotes = true;
+    } else if (ch === ",") {
+      cells.push(current);
+      current = "";
+    } else {
+      current += ch;
+    }
+  }
+  cells.push(current);
+  return cells;
+}
+
+/**
+ * Imports the client-supplied semantic core export (a real Ahrefs pull for
+ * country=gb, "crypto plinko" niche - see README for provenance). Columns
+ * are read by header name so re-exports with reordered columns still work.
+ * Every numeric cell is copied through verbatim; blank cells stay null.
+ */
+async function collectFromSemanticCore(
+  filePath: string,
+  map: Map<string, KeywordRecord>
+): Promise<number> {
+  let raw: string;
+  try {
+    raw = await readFile(filePath, "utf8");
+  } catch {
+    console.warn(`[warn] ${filePath} not found - skipping semantic-core import stage`);
+    return 0;
+  }
+
+  const lines = raw.split("\n").filter((l) => l.trim().length > 0);
+  const [headerLine, ...rows] = lines;
+  const header = parseCsvLine(headerLine);
+  const colIndex = (name: string) => header.indexOf(name);
+  const idx = {
+    keyword: colIndex("Keyword"),
+    volume: colIndex("Volume"),
+    kd: colIndex("Difficulty"),
+    cpc: colIndex("CPC"),
+    parentTopic: colIndex("Parent Keyword"),
+    serpFeatures: colIndex("SERP Features"),
+  };
+
+  if (idx.keyword === -1) {
+    console.error(`[error] ${filePath} has no "Keyword" column - skipping import`);
+    return 0;
+  }
+
+  const toNumber = (cell: string | undefined): number | null =>
+    cell && cell.trim().length > 0 ? Number(cell) : null;
+
+  let count = 0;
+  for (const line of rows) {
+    const cells = parseCsvLine(line);
+    const keyword = cells[idx.keyword]?.trim();
+    if (!keyword) continue;
+    upsertKeyword(map, keyword, "semantic_core_sheet", {
+      volume: toNumber(cells[idx.volume]),
+      kd: toNumber(cells[idx.kd]),
+      cpc: toNumber(cells[idx.cpc]),
+      parentTopic: cells[idx.parentTopic]?.trim() || null,
+      serpFeatures: cells[idx.serpFeatures]?.split(",").map((s) => s.trim()).filter(Boolean) ?? [],
+    });
+    count += 1;
+  }
+  return count;
 }
 
 // ---------------------------------------------------------------------------
@@ -438,6 +532,11 @@ async function main(): Promise<void> {
   }
 
   const map = new Map<string, KeywordRecord>();
+
+  const semanticCoreCount = await collectFromSemanticCore(SEMANTIC_CORE_PATH, map);
+  if (semanticCoreCount > 0) {
+    console.log(`[info] semantic core sheet: imported ${semanticCoreCount} keywords with real metrics`);
+  }
 
   const apiKey = process.env.AHREFS_API_KEY;
   let ahrefsStats = { relatedCount: 0, overviewCount: 0, errors: 0 };
