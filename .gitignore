@@ -1,0 +1,9 @@
+node_modules/
+dist/
+*.log
+.env
+.env.local
+!.env.example
+
+# Generated pipeline output - regenerate via `npm run collect-keywords`
+data/keywords-raw.csv

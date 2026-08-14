@@ -1,0 +1,45 @@
+# Blacklist for the UK Plinko casino keyword set.
+# One term/phrase per line, case-insensitive, matched on whole words.
+# Lines starting with # are comments; a line "# category: <name>" starts a
+# new category used in the drop log. Blank comment lines are ignored.
+# A keyword is dropped if it contains ANY of the terms below.
+
+# category: unlicensed operator brand (no UKGC licence, crypto-only casino)
+stake
+stake.com
+rollbit
+bc.game
+bcgame
+duelbits
+roobet
+csgoempire
+gamdom
+shuffle.com
+metaspins
+bitstarz
+cloudbet
+sportsbet.io
+thunderpick
+
+# category: irrelevant intent - physical toy / DIY
+toy
+diy
+build a plinko board
+homemade plinko
+
+# category: irrelevant intent - probability/statistics lesson
+galton board
+probability lesson
+probability experiment
+binomial distribution
+statistics class
+science fair
+
+# category: irrelevant intent - Price Is Right TV show
+price is right
+priceisright
+tv show
+
+# category: irrelevant intent - generic non-casino board/kids game
+board game
+kids game
