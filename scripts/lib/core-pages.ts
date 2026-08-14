@@ -70,6 +70,27 @@ export const CORE_PAGES: Record<string, CorePage> = {
           "A dedicated <a href=\"/responsible-gambling/\">responsible gambling</a> page with free UK support resources.",
         ]),
       },
+      {
+        h2: "Where the Plinko mechanic actually comes from",
+        html: `<p>The drop-and-bounce idea long predates online casinos. A pin-studded board that turns a straight drop into a random spread is a genuinely old idea in physics demonstrations (it's the same basic principle behind a "Galton board", used to illustrate probability distributions in statistics classes) and it later found its way into a well-known American TV game show format, where contestants dropped physical discs down a pegged board for cash prizes. Neither of those earlier versions involved a paytable or a house edge - they were built for entertainment and education, not for wagering.</p>
+        <p>Online casino software studios picked up the same visual language - pegs, a triangular field, a bounce path - and rebuilt it as a fully mathematical instant-win game with a fixed multiplier attached to every bottom slot. The look is nostalgic; the maths underneath is entirely new and entirely disclosed through the paytable, not through guesswork about where a physical disc might land.</p>
+        <p>That history matters for one practical reason: because the shape is so recognisable, people sometimes assume Plinko behaves like the toy or TV version, where a human's dropping technique or a board's physical imperfections could nudge an outcome. A digital Plinko game doesn't work that way at all - it's pure RNG, and understanding that difference is the first step to reading the rest of this site sensibly.</p>`,
+      },
+      {
+        h2: "Common mistakes beginners make",
+        html: ul([
+          "Assuming a higher row count is automatically \"better\" - it changes volatility, not your expected return.",
+          "Watching a handful of drops and drawing conclusions about whether a risk level \"works\" - a handful of drops is not a meaningful sample.",
+          "Skipping demo mode entirely and learning the paytable using real stakes instead.",
+          "Confusing a game's maximum advertised multiplier with a typical or likely result - headline multipliers are, by design, rare outcomes.",
+          "Not checking whether the specific site offering the game is actually licensed before treating any of its numbers as trustworthy.",
+        ]),
+      },
+      {
+        h2: "How different studios build their own take on the mechanic",
+        html: `<p>Not every Plinko implementation looks or feels the same, even though the underlying maths follows the same rules described throughout this page. Some studios lean into a minimalist, fast-paced presentation with quick animations aimed at players who want to run through many drops in a short session; others build a slower, more visually elaborate board with sound design and celebratory effects around bigger multiplier hits, aimed at a more casual, exploratory play style. Some titles add optional features like an auto-play mode that queues up a set number of drops at a chosen configuration, or a "turbo" setting that speeds up the drop animation without changing the underlying odds.</p>
+        <p>None of these presentation choices affect the fundamental probability maths - a faster animation doesn't change how often a ball lands in any given slot, and a more elaborate visual theme doesn't change the disclosed house edge. What does vary between studios and titles is the actual paytable itself: available row counts, the exact multiplier at each slot, and the RTP figure a given studio chooses to publish. That's precisely why this guide talks about mechanics that are common across implementations rather than quoting numbers for a specific provider we haven't independently verified.</p>`,
+      },
     ],
     faq: [
       {
@@ -130,6 +151,22 @@ export const CORE_PAGES: Record<string, CorePage> = {
           "A bigger row count doesn't mean a better return - it changes volatility, not the underlying house edge.",
         ]),
       },
+      {
+        h2: "A worked example: following one ball down a 12-row board",
+        html: `<p>It helps to walk through a single drop mentally. On a 12-row board there are 13 bottom slots, numbered 0 to 12 from left to right. At every one of the 12 peg rows, the RNG makes an independent left-or-right choice. If you count up how many times the ball went "right" across all 12 rows, that count is exactly which slot it lands in - land on 6 rights out of 12 and the ball ends in the centre slot; land on 0 or 12 rights and it ends in one of the two extreme edge slots.</p>
+        <p>Because each row is an independent coin-flip-style choice, landing near the centre is far more likely than landing on an edge - there are far more ways to arrange, say, 6 rights and 6 lefts across 12 rows than there are ways to arrange 12 rights and 0 lefts. That's exactly why centre slots typically carry low multipliers and edge slots carry the highest ones: the board's own maths, not any bias in the game, makes edge slots rare.</p>
+        <p>This is also why the paytable is "self-balancing" from the operator's side: multipliers are set so that the average return, weighted by how often each slot is actually reached, produces the disclosed house edge over a large enough number of drops.</p>`,
+      },
+      {
+        h2: "Why some sessions feel unlucky - understanding variance",
+        html: `<p>A short run of drops can look wildly different from the underlying probabilities even when nothing is wrong with the game. Flip a fair coin 10 times and getting 7 heads isn't unusual at all, even though the "true" probability is 50/50 - the same statistical noise shows up over a short Plinko session. A cluster of low-multiplier centre landings in a row, or conversely a lucky run of edge hits, doesn't tell you anything reliable about whether the RNG is behaving correctly.</p>
+        <p>What does become reliable is a much larger sample: thousands of drops will converge much more closely on the disclosed odds than a few dozen ever will. If you want to get a genuine feel for a board's behaviour rather than a misleading short-run impression, running an extended session in demo mode - deliberately watching the outcomes accumulate over time rather than judging by the last five drops - gives a far more honest picture.</p>`,
+      },
+      {
+        h2: "How the paytable connects back to the house edge",
+        html: `<p>It's worth tying the probability maths explained above directly back to the house edge concept, because the connection is often glossed over. Once you know the exact probability of landing in every slot for a given row count, and you know the multiplier attached to each of those slots, multiplying each probability by its multiplier and summing the results across every slot gives you the game's theoretical return - the proportion of total stakes the game is mathematically expected to pay back over a very large number of drops. Subtract that figure from 100% and you have the house edge.</p>
+        <p>This is exactly why an operator can advertise eye-catching multipliers at the edges of the board while still running a modest, disclosed house edge overall - those big numbers are attached to genuinely rare outcomes, and the far more common centre-slot results are priced accordingly low to balance the maths. Understanding this relationship is the single most useful thing to take away from a technical explanation of how Plinko works.</p>`,
+      },
     ],
     faq: [
       {
@@ -189,6 +226,25 @@ export const CORE_PAGES: Record<string, CorePage> = {
             ["Purpose", "Learn the mechanics with nothing at stake", "Should only follow informed, budgeted choice"],
           ]
         ),
+      },
+      {
+        h2: "What a genuinely useful demo should let you do",
+        html: `<p>Not every "free play" badge means the same thing. A demo that's actually useful for learning should let you freely switch between every risk level and every row count the real-money version offers, show the full paytable (not just a headline multiplier), and let you play as many drops as you want without nagging you to deposit after a handful of tries. If a "demo" only shows one fixed configuration or disappears after a few free drops, it's closer to a marketing teaser than a genuine learning tool.</p>
+        <p>It's also worth checking whether the demo's underlying maths actually mirrors the real-money version. Reputable operators build demo mode from the exact same paytable and RNG logic as the live game, just running on virtual credits - so what you learn in demo mode transfers directly. A demo that behaves noticeably differently from what players report in the real-money mode is a signal to be more cautious with that specific site, not just with that specific game.</p>`,
+      },
+      {
+        h2: "Moving from demo play to an informed decision",
+        html: `<p>The point of spending real time in demo mode isn't just to "get it out of your system" before depositing - it's to arrive at any later decision with actual information rather than a first impression. By the time you've tried multiple risk levels and row counts across a reasonably long demo session, you should be able to answer three questions honestly: which volatility level actually matches how much swing you're comfortable with, roughly how often you can expect a "boring" centre-slot result even on a good day, and whether the pacing of the game suits how you like to spend time.</p>
+        <ol>
+          <li>Set a hypothetical budget in your head and imagine it were real money throughout a demo session - would you have been comfortable with the swings you saw?</li>
+          <li>Note which risk level felt sustainable over a longer session rather than exciting for the first few drops.</li>
+          <li>Only after that reflection, and only with a licensed operator, consider whether real-money play makes sense for you at all - it's a genuinely optional step, not an inevitable next one.</li>
+        </ol>`,
+      },
+      {
+        h2: "Demo mode is also a fairness sanity check",
+        html: `<p>Beyond simply learning the controls, spending real time in demo mode gives you a rough, informal check against a game's own disclosed behaviour. If a game's information screen states a particular risk-level distribution or approximate landing frequency, a long enough demo session should broadly reflect that over time, even allowing for normal statistical variance. It's not a substitute for the formal RNG certification process independent labs carry out, but noticing a wild, persistent mismatch between what a demo actually produces and what the game claims about itself is a reasonable, if informal, early warning sign worth taking seriously before ever committing real funds.</p>
+        <p>Equally, don't over-read a demo session either - even a few hundred drops can still show noticeable short-run variance from the "true" long-run probabilities. The goal of a demo session is familiarity and a general sanity check, not a rigorous statistical audit; that formal role belongs to accredited testing labs, not to any individual player's personal demo history.</p>`,
       },
     ],
     faq: [
@@ -251,6 +307,31 @@ export const CORE_PAGES: Record<string, CorePage> = {
           "Confirm the site links to BeGambleAware, GamCare and GAMSTOP somewhere accessible from every page.",
           "Check whether Plinko itself is included in the bonus's eligible-games list - some bonuses exclude certain game types entirely.",
         ]),
+      },
+      {
+        h2: "Red flags that should end your search immediately",
+        html: `<p>Some warning signs are worth treating as an instant disqualifier, regardless of how attractive the rest of a site looks. No licence number anywhere on the site - not tucked away in the footer, not mentioned at all - is one of them; a genuinely licensed operator has every reason to display it prominently, since it's a trust signal, not a liability. A bonus page that describes wagering requirements vaguely ("terms apply") without a link to the actual figures is another, as is a site that makes self-exclusion or deposit limits difficult to find in account settings.</p>
+        <p>Pressure tactics are also worth watching for: countdown timers on bonus offers, pop-ups discouraging you from leaving before you deposit, or language implying you're about to miss out on a rare opportunity. None of that is a UK regulatory requirement or a sign of a well-run operator - it's marketing pressure, and a responsible site doesn't need it.</p>
+        <p>Finally, check how a site talks about losses and risk in its own marketing copy. A site that only ever shows big-win screenshots, never mentions the house edge, and never links to responsible gambling resources is telling you something about its priorities before you've even looked at its Plinko paytable.</p>`,
+      },
+      {
+        h2: "How we plan to structure future reviews",
+        html: `<p>When our verified operator feed is in place, each listing on this hub will follow the same structure: confirmed licence status and number, a summary of the specific Plinko title(s) offered and their disclosed RNG/RTP information where the provider publishes it, the full current bonus terms rather than a rounded-up headline figure, and a plain note on which responsible-gambling tools are available in-account. Sites that don't meet the licensing bar simply won't appear here, regardless of how large their marketing budget is.</p>
+        <p>We'd rather publish fewer, verified listings than a long list padded with sites we haven't actually checked - that's the trade-off this hub is built around.</p>`,
+      },
+      {
+        h2: "What a genuinely useful comparison should weigh, in order",
+        html: ol([
+          "Licensing status - a hard pass/fail gate before anything else is even considered.",
+          "Responsible-gambling tooling - deposit/loss/time limits, self-exclusion, and clear links to national support services.",
+          "Fairness disclosure - a certified RNG or, for crypto-funded sites, a working provably-fair verification tool.",
+          "Payment and withdrawal transparency - clear limits, timeframes and verification requirements stated up front.",
+          "Only after all of the above: game selection, bonus structure, and overall user experience.",
+        ]),
+      },
+      {
+        h2: "Why this order matters more than it might seem",
+        html: `<p>It's tempting to treat licensing as a formality and jump straight to comparing bonuses, because bonuses are the part that visibly differs between sites and feels like the "interesting" decision. But licensing status determines whether any of the other comparisons are even meaningful - a generous-looking bonus from an unlicensed operator carries none of the protections that make a bonus comparison worthwhile in the first place, since there's no regulator enforcing fair treatment of that offer, no required RG tooling behind it, and no accessible dispute-resolution route if something goes wrong. Once licensing is confirmed, all of the remaining criteria become genuinely comparable between sites in a way that's actually useful for making a decision.</p>`,
       },
     ],
     faq: [
@@ -317,6 +398,21 @@ export const CORE_PAGES: Record<string, CorePage> = {
           "Understand UK rules on our <a href=\"/is-plinko-legal-in-the-uk/\">legality</a> page.",
         ]),
       },
+      {
+        h2: "Understanding game weighting and RTP disclosure",
+        html: `<p>"Game weighting" decides how much a game contributes toward clearing a bonus's wagering requirement, and it's one of the most commonly misunderstood terms on any casino site, Plinko included. A bonus that requires 35x wagering doesn't necessarily mean every game counts equally toward that total - many operators weight instant-win games like Plinko at less than 100%, sometimes far less, specifically because their fast pace and adjustable risk can otherwise be used to clear wagering unusually quickly. Always check the specific weighting figure for Plinko before assuming a bonus is straightforward to clear by playing it.</p>
+        <p>RTP (return to player) disclosure works differently: it's a statement about the game's own long-run mathematics, published by the game's provider, not by the casino hosting it. A licensed site should make this figure accessible from within the game itself, usually via an information or paytable screen. If a Plinko title on a given site doesn't show an RTP figure anywhere and the operator's support team can't point you to one either, that's a legitimate reason to be cautious about that specific title, even if the operator itself is properly licensed.</p>`,
+      },
+      {
+        h2: "Mobile vs desktop: does the experience actually differ?",
+        html: `<p>The underlying paytable and RNG are identical between mobile and desktop versions of the same Plinko title - a licensed operator can't legally offer different odds depending on device. What does change is the interface: mobile versions typically simplify the risk/row controls into a compact settings panel, and touch-based "drop" controls replace a mouse click. Loading times and animation smoothness can also vary noticeably between older and newer phones, particularly on titles with heavier visual effects.</p>
+        <p>If you plan to play primarily on mobile, it's worth testing the demo version on your actual device first - a game that looks great on a review site's desktop screenshots isn't always as comfortable to use one-handed on a smaller screen, and settings that are easy to reach with a mouse can be fiddly with a thumb.</p>`,
+      },
+      {
+        h2: "Payout speed and verification: what's actually normal",
+        html: `<p>Withdrawal timeframes vary by payment method and by how much extra identity verification a given withdrawal triggers, but a licensed UK operator should state its typical processing windows clearly rather than leaving you to guess. E-wallet withdrawals are often processed faster than card or bank transfer withdrawals, though all methods remain subject to the operator completing any outstanding know-your-customer checks first. A first-time withdrawal, or one that crosses a certain size threshold, commonly triggers a more thorough identity check even on an account that's been used without issue for deposits - this is standard practice under UK licensing conditions, not a sign that anything unusual is happening with your account specifically.</p>
+        <p>What isn't normal is a repeated pattern of unexplained delays beyond the operator's own stated timeframe, requests for additional undisclosed fees to "release" a withdrawal, or a support team that can't give you a clear status update when asked directly. Any of those patterns are worth escalating through the operator's formal complaints process.</p>`,
+      },
     ],
     faq: [
       {
@@ -377,6 +473,29 @@ export const CORE_PAGES: Record<string, CorePage> = {
       {
         h2: "Why we don't publish specific offers yet",
         html: `<p>Bonus terms change frequently and a stale figure is worse than no figure at all. We publish live, verified operator offers only once we have a maintained data feed - see <a href="/about-us/">About Us</a>. Until then, use the checklist above on any offer you find elsewhere.</p>`,
+      },
+      {
+        h2: "A worked example of how wagering actually plays out",
+        html: `<p>Numbers make wagering requirements much less abstract. Imagine (purely for illustration, not as a real offer) a no deposit bonus of £10 with a 40x wagering requirement and 50% weighting on Plinko. To clear it, you'd need to generate £400 of qualifying stakes (£10 x 40), but because Plinko only counts at half weighting, you'd actually need to stake £800 worth of Plinko bets to reach that £400 of "counted" wagering. If the bonus also carries a £50 maximum cashout, then even a lucky run during that wagering period can only ever convert into £50 of withdrawable funds, no matter how much higher your balance climbs along the way.</p>
+        <p>None of that makes a no deposit bonus worthless - some players genuinely value the chance to try a site with zero deposit risk - but it does mean the advertised £10 tells you almost nothing about what the offer is actually worth in practice. The wagering multiple, the weighting percentage and the cashout cap, taken together, are what actually determine that.</p>`,
+      },
+      {
+        h2: "Alternatives worth understanding alongside no deposit offers",
+        html: ul([
+          "<strong>Free spins bundles</strong> - similar principle to no deposit bonus funds, but restricted to specific slot titles rather than Plinko; check eligibility before assuming they apply.",
+          "<strong>Low minimum deposit offers</strong> - require a small deposit but often carry more generous wagering terms than true no deposit promotions.",
+          "<strong>Demo mode</strong> - not a bonus at all, but the only option with genuinely zero financial exposure and zero wagering requirement of any kind.",
+          "<strong>Loyalty/reload offers</strong> - aimed at existing account holders rather than new sign-ups, worth checking once you already hold a verified account with a licensed operator.",
+        ]),
+      },
+      {
+        h2: "Why bonus terms change so often",
+        html: `<p>Bonus offers aren't fixed products the way a game's paytable is - operators adjust them frequently in response to marketing strategy, regulatory guidance, and competitive pressure, which is exactly why a screenshot of an offer from a few months ago can no longer be trusted as current. UK regulatory guidance has also pushed operators over recent years toward clearer, more prominent display of wagering requirements and away from headline figures that obscure the real terms, which means older archived versions of a bonus page may not reflect how that same operator presents offers today.</p>
+        <p>The practical takeaway is straightforward: always read a bonus's terms directly from the operator's current, live promotions page immediately before opting in, rather than relying on a summary from a review site, a forum post, or your own memory of a similar-sounding offer from another operator.</p>`,
+      },
+      {
+        h2: "Treating a no deposit offer as a trial, not an outcome",
+        html: `<p>The healthiest way to approach a no deposit bonus is as a genuinely low-stakes trial of a site's interface, game selection and general feel, rather than as a meaningful chance at a windfall. Given typical wagering requirements and cashout caps, the realistic financial upside of any single no deposit offer is usually modest even in a best-case outcome, and that's fine - the value is in trying the platform without touching your own funds, not in the pound value of the offer itself. Judged against that expectation, a no deposit bonus is a reasonable way to get a feel for a licensed operator before deciding whether to ever make a real deposit at all.</p>`,
       },
     ],
     faq: [
@@ -445,6 +564,32 @@ export const CORE_PAGES: Record<string, CorePage> = {
           "We won't frame variance as a \"system\" - see <a href=\"/plinko-strategy/\">Plinko strategy</a> for what a sound approach actually looks like.",
         ]),
       },
+      {
+        h2: "The maths behind a Plinko payout table",
+        html: `<p>Every Plinko paytable is, at its core, a binomial distribution wearing a casino skin. For a board with N rows, the probability of landing exactly k slots to the right of centre follows the standard binomial formula: the number of ways to arrange k rightward bounces among N total bounces, divided by the total number of possible bounce sequences (2 to the power of N). That count of "ways to arrange" is what makes centre outcomes so much more common than edge outcomes - there's only one sequence that produces an all-left or all-right result, but there are many different sequences that produce a roughly even split.</p>
+        <p>Once an operator knows that probability distribution for a given row count, building the paytable is a matter of choosing multipliers for every slot so that the sum of (probability x multiplier) across all slots lands just under 1 - that shortfall is the house edge. Studios can choose to concentrate more of that edge into the high-probability centre slots (keeping their multiplier near or just above 1x) while pushing generous multipliers into the low-probability edges, which is exactly why edge multipliers can look dramatic while still fitting inside a modest overall house edge.</p>`,
+      },
+      {
+        h2: "Common odds myths, debunked",
+        html: table(
+          "Myths about Plinko odds we hear often",
+          ["Myth", "Reality"],
+          [
+            ["\"More rows means better odds for me\"", "More rows change volatility (spread), not the average return"],
+            ["\"A hot streak means the game is paying out more right now\"", "Short-run streaks are expected statistical noise, not a signal"],
+            ["\"Betting bigger after a loss recovers it over time\"", "Stake size doesn't change the underlying probabilities or house edge"],
+          ]
+        ),
+      },
+      {
+        h2: "Why odds discussions get more heated than they need to",
+        html: `<p>A lot of online discussion about Plinko odds ends up more emotionally charged than the underlying maths warrants, usually because someone is generalising from a small, memorable sample - a big win, a rough losing streak, a friend's story - into a broader claim about how the game "really" works. Probability doesn't operate that way: a fair, correctly-functioning RNG will still occasionally produce streaks that feel meaningful even though they're statistically unremarkable over a large enough sample. Recognising that distinction is arguably more useful than any specific odds table, because it changes how you interpret everything else you read about Plinko, on this site or elsewhere.</p>
+        <p>Our approach on this page is to stick to what the maths can actually tell you - probability distributions, house edge mechanics, and how row/risk settings interact - rather than trying to settle debates about individual anecdotes, which statistics simply isn't built to do.</p>`,
+      },
+      {
+        h2: "Where to go deeper from here",
+        html: `<p>If the probability concepts on this page were new to you, the two most useful next steps on this site are working through <a href="/plinko-strategy/">Plinko strategy</a> to see how these odds translate into practical bankroll decisions, and reading <a href="/is-plinko-rigged/">is Plinko rigged</a> to understand how independent testing verifies that a game's real-world behaviour actually matches the odds described here. Together, the three pages form a reasonably complete picture: what the odds are, what you can sensibly do about them, and how you can trust that a specific game is actually honouring them.</p>`,
+      },
     ],
     faq: [
       {
@@ -508,6 +653,25 @@ export const CORE_PAGES: Record<string, CorePage> = {
           "Use the free self-assessment tools on our <a href=\"/responsible-gambling/\">responsible gambling</a> page.",
           "Speak to GamCare or BeGambleAware - both offer free, confidential support.",
         ]),
+      },
+      {
+        h2: "Building a personal session plan, step by step",
+        html: `<p>A workable session plan is shorter and less exciting than most "strategy" articles suggest, and that's deliberate. Start by deciding a total amount you can genuinely afford to lose in full - not an amount you hope to grow, but an amount whose complete loss wouldn't affect anything else in your life. Divide that into a small number of separate sessions rather than committing it all to one sitting; this gives you natural stopping points and time to reassess between them rather than one continuous run where fatigue and frustration can creep in.</p>
+        <p>Within each session, decide your risk level and row count before you start, based on what you learned testing them in demo mode, and commit to not changing them mid-session in response to results - switching to High risk specifically because Medium "isn't paying" is a decision driven by frustration, not by any real change in the odds. Set a stop-win figure as well as a stop-loss: it can feel odd to walk away from a session that's going well, but a plan that only has a floor and no ceiling tends to give back gains over a long enough session anyway.</p>`,
+      },
+      {
+        h2: "What professional-style bankroll management actually looks like",
+        html: `<p>People sometimes imagine that more experienced players have found some deeper technique that casual players are missing. In reality, the difference is almost entirely about discipline around the same basic rules everyone has access to: fixed, pre-committed budgets; stakes sized as a small, consistent percentage of that budget rather than large opportunistic bets; and a hard rule against increasing stake size to chase a loss. None of that changes the odds of any individual drop - it simply controls how long a fixed budget can sustainably last and how much a single unlucky run can actually cost.</p>
+        <ul>
+          <li>Treat your session budget as fully spent the moment you sit down, psychologically - anything left over at the end is a bonus, not an expectation.</li>
+          <li>Keep individual stakes small relative to your total budget so that ordinary variance doesn't end your session early.</li>
+          <li>Track results across sessions honestly, including the losing ones, rather than only remembering the highlights.</li>
+        </ul>`,
+      },
+      {
+        h2: "Matching risk level to your own temperament, not just your budget",
+        html: `<p>Budget size is only half of choosing a risk level well - the other half is honestly assessing how you personally react to swings, independent of whether you can technically afford them. Some players find a long run of small, centre-slot results genuinely boring and are tempted to switch to higher risk mid-session purely to relieve that boredom, which is a decision driven by mood rather than by any change in the underlying odds. Others find high-risk swings stressful even when the money involved is modest, and end up making worse decisions - chasing losses, extending sessions past their planned stop point - specifically because the volatility itself is uncomfortable for them.</p>
+        <p>Being honest about which category you fall into, ideally based on how you actually behaved during a demo session rather than how you assume you'd behave, is a more useful input into choosing a risk level than the bare size of your budget alone.</p>`,
       },
     ],
     faq: [
@@ -573,6 +737,23 @@ export const CORE_PAGES: Record<string, CorePage> = {
           "If none of the above is present, treat the platform as unverified rather than assuming it's rigged or fair either way.",
         ]),
       },
+      {
+        h2: "How independent RNG testing labs actually work",
+        html: `<p>Labs such as GLI, eCOGRA and iTech Labs don't just take a game studio's word for how its RNG behaves - they run the algorithm through statistical test suites designed to catch patterns a human wouldn't notice, checking things like whether outcomes are genuinely independent of previous results, whether the long-run frequency of each result matches the disclosed probability, and whether the seed generation itself resists being predicted or manipulated. A game only receives certification once it passes these tests, and operators are typically required to resubmit for testing whenever the game's logic changes.</p>
+        <p>This testing happens before the game goes live and continues periodically afterwards, but it's the operator's responsibility to maintain that certification and the regulator's role to enforce it as a licence condition - which is exactly why licensing status and RNG certification are two sides of the same coin rather than separate concerns.</p>`,
+      },
+      {
+        h2: "What a rigged game would actually look like statistically",
+        html: `<p>If a Plinko implementation really were manipulated against players, it wouldn't show up as a "feeling" of bad luck - it would show up as a measurable, persistent gap between the disclosed probabilities and the actual long-run outcomes, the kind of gap that statistical auditing is specifically built to catch. A legitimately rigged RNG might, for example, subtly under-deliver edge-slot landings compared to what the stated odds promise, or apply a house edge larger than the one disclosed to players. Both of those are exactly the kind of pattern independent testing labs are looking for, which is why a currently certified game is a meaningfully different proposition to an unaudited one, even though neither guarantees you a good result on any given day.</p>`,
+      },
+      {
+        h2: "Why anecdote-driven \"proof\" of rigging rarely holds up",
+        html: `<p>Forum posts claiming a game is rigged almost always cite a personal losing streak as evidence, but a losing streak - even a long, painful one - is exactly what ordinary variance produces some of the time on any game with a genuine house edge, rigged or not. That's precisely why individual anecdotes can't distinguish between "this game has normal variance and I had a rough run" and "this game is actually manipulated": both would feel identical from inside a single player's experience. Distinguishing them properly requires the kind of large-sample statistical analysis that independent testing labs perform, not a single player's memory of a bad session, however vivid that memory is.</p>`,
+      },
+      {
+        h2: "A more useful question than \"is it rigged\"",
+        html: `<p>Reframing the question slightly tends to lead somewhere more useful: instead of asking whether Plinko in general is rigged, ask whether the specific site or app in front of you has done the things a properly licensed, properly audited operator is expected to do - a checkable licence, a disclosed RNG certificate or provably-fair tool, and a paytable that's actually shown rather than implied. A site that ticks those boxes has given you real, checkable reasons for confidence; a site that doesn't hasn't necessarily proven itself dishonest, but it also hasn't given you anything concrete to base trust on, which in practice deserves the same caution as an outright red flag.</p>`,
+      },
     ],
     faq: [
       {
@@ -634,6 +815,29 @@ export const CORE_PAGES: Record<string, CorePage> = {
           "See our <a href=\"/crypto-plinko-uk-legal-and-tax-notes/\">UK legal and tax notes</a> before considering any crypto gambling activity.",
           "Check any operator's status on the <a href=\"https://www.gamblingcommission.gov.uk/public-register\" rel=\"noopener\" target=\"_blank\">Gambling Commission public register</a> before depositing anywhere.",
         ]),
+      },
+      {
+        h2: "How Plinko became a crypto-casino staple",
+        html: `<p>Plinko's rise inside crypto casinos isn't really about the game itself changing - it's about which platforms adopted it early. Crypto-first casino software studios needed instant-win, RNG-driven titles that were cheap to build, easy to verify cryptographically, and simple enough to run smoothly even on the more limited infrastructure many early crypto gambling sites operated on. A peg-board drop game fit all three requirements neatly: no complex bonus rounds or reel mechanics to certify, no need for elaborate art assets, and outcomes that are trivial to make provably verifiable using a hash-based seed system.</p>
+        <p>As those platforms grew, Plinko became something of a signature title for the crypto-casino segment specifically, in the same way certain slot mechanics became associated with particular traditional software providers. That popularity is exactly why searches combining "crypto" and "Plinko" are so common - and exactly why it matters to separate genuine interest in the mechanic from an assumption that any platform offering it is automatically trustworthy or lawful to use from the UK.</p>`,
+      },
+      {
+        h2: "Questions worth asking before funding any crypto gambling account",
+        html: ol([
+          "Does this platform hold a Gambling Commission licence for Great Britain, checkable on the public register?",
+          "Does it publish a specific Plinko RTP or house edge figure anywhere in the game itself?",
+          "Does it offer a genuine provably-fair seed-reveal tool, not just a marketing claim of \"provably fair\"?",
+          "Does it link to BeGambleAware, GamCare or GAMSTOP anywhere on the site?",
+          "If the answer to the first question is no, are you comfortable proceeding with none of the UK's consumer protections in place?",
+        ]),
+      },
+      {
+        h2: "Why we treat crypto Plinko as an educational topic, not a promotion",
+        html: `<p>It would be easy to build a site around this topic that simply lists crypto-only platforms and their headline offers, and plenty of sites do exactly that. We've deliberately chosen not to, for a straightforward reason: a large share of the platforms most commonly associated with crypto Plinko operate without a Gambling Commission licence for Great Britain, and recommending them - even implicitly, through a "top crypto Plinko sites" style listing - would run directly against the UK's advertising and consumer-protection rules for gambling. Instead, this site exists to explain the mechanic, the fairness tooling, and the legal landscape clearly enough that you can make an informed decision, including the decision to stick to licensed GB operators for real-money play, or to treat crypto Plinko purely as a topic of technical interest rather than something to fund.</p>`,
+      },
+      {
+        h2: "What genuine interest in this topic looks like",
+        html: `<p>Plenty of readers land on this page out of genuine curiosity about how crypto and casino-style RNG mechanics intersect, rather than an intention to gamble at all - and that's a perfectly reasonable reason to be here. Understanding hash-based verification systems, how a peg-board game's maths translates into a paytable, and how UK gambling regulation treats novel funding methods are all interesting topics in their own right, independent of whether you ever plan to stake anything. We've written the rest of this site with that reader in mind as much as anyone considering real-money play, which is part of why the legal and technical detail here goes further than a typical promotional page would bother to.</p>`,
       },
     ],
     faq: [
@@ -699,6 +903,26 @@ export const CORE_PAGES: Record<string, CorePage> = {
           "It does not change the house edge built into the paytable.",
         ]),
       },
+      {
+        h2: "A step-by-step illustration of seed verification",
+        html: `<p>To make the process concrete, imagine a platform shows you a hashed server seed before your session begins - a long string of letters and numbers that looks meaningless on its own. You play a series of drops, each one combining that (still-hidden) server seed with your client seed and an increasing nonce value to determine the outcome. At the point you choose to rotate seeds, or at the end of your session, the platform reveals the plain-text server seed it had been using all along.</p>
+        <p>At that point, verification is mechanical: you (or, more realistically, a verification tool) run the revealed server seed through the same hash function the platform used originally, and check that the result matches the hash you were shown before you ever started playing. If it matches, the server seed genuinely was fixed in advance and wasn't swapped after your bets were placed. You can then use the revealed server seed, your client seed and the nonce for any individual drop to recompute that drop's outcome from scratch and confirm it matches what the game actually displayed at the time.</p>
+        <p>Most platforms that offer this system also provide a built-in verifier page or third-party open-source tools that do this hashing and recomputation for you, so in practice you rarely need to do the maths by hand - what matters is knowing that the option to check exists and understanding what a successful check does and doesn't prove.</p>`,
+      },
+      {
+        h2: "Limitations of provably fair systems worth understanding",
+        html: ul([
+          "It only verifies integrity of results already generated - it says nothing about whether the paytable itself is fairly designed or disclosed.",
+          "It doesn't substitute for independent RNG lab certification, which some regulators require regardless of provably-fair tooling.",
+          "It doesn't verify anything about the platform's licensing, financial stability, or willingness to honour withdrawals.",
+          "A platform can implement provably fair verification correctly and still be operating without a licence valid for UK consumers.",
+        ]),
+      },
+      {
+        h2: "Provably fair vs independent RNG certification, in practice",
+        html: `<p>These two fairness mechanisms answer different questions and, ideally, work best together rather than as substitutes for one another. Provably fair verification answers "was this specific result tampered with after the fact?" - a question about integrity of an individual outcome. Independent RNG lab certification answers a different, broader question: "does this game's random number generation genuinely produce outcomes matching its disclosed statistical probabilities over time?" - a question about the design of the system as a whole, not any single result.</p>
+        <p>A platform could theoretically implement provably fair tooling correctly while still running a random number generator whose underlying distribution doesn't match what it discloses - the seed-reveal system would show that no individual result was swapped, without saying anything about whether the disclosed odds are actually being honoured in aggregate. That's one of the reasons UK licensing conditions require accredited RNG testing rather than accepting provably fair tooling as a full substitute; the two checks cover genuinely different failure modes.</p>`,
+      },
     ],
     faq: [
       {
@@ -757,6 +981,28 @@ export const CORE_PAGES: Record<string, CorePage> = {
       {
         h2: "Nothing here is financial or legal advice",
         html: `<p>This page summarises publicly available regulatory principles for general information only. It is not tax advice, legal advice, or a recommendation to gamble. See our <a href="/is-plinko-legal-in-the-uk/">UK legality</a> page for the wider licensing picture and our <a href="/responsible-gambling/">responsible gambling</a> page for support resources.</p>`,
+      },
+      {
+        h2: "How regulation of crypto gambling might evolve",
+        html: `<p>UK gambling regulation has historically been technology-neutral in principle - the Gambling Act 2005 regulates the activity of remote gambling regardless of payment method - but cryptocurrency's pseudonymous, cross-border nature creates practical enforcement challenges that pure fiat gambling doesn't. Over recent years, UK and international regulators have shown increasing interest in tightening anti-money-laundering and source-of-funds checks specifically around crypto-funded gambling, and it's plausible that licensing conditions around crypto deposits could become more detailed rather than less over time.</p>
+        <p>None of that changes the current baseline requirement covered above - a GB licence is required regardless of currency - but it does mean the specific practical rules around how a licensed operator might handle crypto deposits, if any choose to, are an area worth checking for updates rather than assuming will stay static.</p>`,
+      },
+      {
+        h2: "Practical steps if you're unsure about a platform's status",
+        html: ol([
+          "Search the exact registered business name (not just the marketing brand) on the Gambling Commission public register.",
+          "Check the platform's own terms and footer for any GB licence number, then verify that number independently rather than trusting the platform's own claim.",
+          "If no GB licence appears anywhere, treat the platform as unlicensed for UK purposes and understand that no UK regulatory protections apply there.",
+          "If you're still unsure after checking, contact the Gambling Commission directly or consult a qualified adviser rather than proceeding on assumption.",
+        ]),
+      },
+      {
+        h2: "Record-keeping is worth doing regardless of your tax position",
+        html: `<p>Even setting aside the general tax pointers above, keeping your own records of deposits, withdrawals, and any crypto-to-fiat conversions related to gambling activity is good practice on its own merits. Cryptocurrency transactions can be harder to reconstruct after the fact than a simple bank statement, particularly if you've used more than one wallet or exchange, and having a clear personal record makes any future conversation with a tax adviser, or any dispute with a platform over your own transaction history, considerably more straightforward. This is worth doing whether or not you ultimately owe any tax on the activity itself.</p>`,
+      },
+      {
+        h2: "How this page relates to the rest of the site",
+        html: `<p>This legal and tax overview is deliberately the most cautious page on Crypto Plinko UK, and that's intentional - it's the page most likely to be read by someone actually weighing up a real decision, rather than purely researching the mechanic out of interest. If you haven't yet, it's worth reading <a href="/">our home page</a> for the broader picture of how crypto Plinko works technically, and <a href="/how-provably-fair-crypto-plinko-works/">how provably fair verification works</a> for the fairness side specifically - together with this page, they cover the three questions we think matter most: how it works, how you'd verify it's fair, and whether engaging with it at all fits within UK rules and your own circumstances.</p>`,
       },
     ],
     faq: [
@@ -826,6 +1072,28 @@ export const CORE_PAGES: Record<string, CorePage> = {
           "Start in the app's demo/practice mode if one is offered.",
         ]),
       },
+      {
+        h2: "iOS vs Android: what actually differs",
+        html: `<p>Both major app stores run their own review process before a gambling app is listed, but the details differ. Apple's App Store restricts real-money gambling apps to specific storefronts and generally requires the developer to hold appropriate licensing for each territory it targets, with UK listings expected to show a Gambling Commission licence. Google Play takes a broadly similar approach through its own gambling content policy, though enforcement consistency has varied over time, and Android's more open sideloading option (installing an APK directly, outside the Play Store) removes that review layer entirely if a user chooses to bypass it.</p>
+        <p>In practice, this means an app listed through the official UK storefront on either platform has cleared at least one layer of store-level review, while an app obtained as a direct APK download has not - which is exactly why we treat off-store APK links as a standing red flag regardless of how the app itself looks.</p>`,
+      },
+      {
+        h2: "Reading app store reviews critically",
+        html: ul([
+          "A high average rating can be skewed by a burst of early reviews before real-money withdrawal issues have had time to surface - check the date spread, not just the average.",
+          "Look specifically for repeated mentions of withdrawal delays, account verification loops, or requests for extra payments - these recur in genuine complaint patterns and are rarely one-off mistakes.",
+          "Discount reviews that only praise graphics or gameplay feel without ever mentioning payouts or support - they tell you little about real-money trustworthiness.",
+          "Treat a sudden cluster of very short, very positive reviews with similar wording as a possible sign of incentivised or fake reviews, and weigh detailed, specific reviews more heavily.",
+        ]),
+      },
+      {
+        h2: "Permissions and data access worth noticing",
+        html: `<p>The permissions a Plinko app requests during installation are also worth a glance, particularly for real-money apps handling account and payment information. A legitimate gambling app will typically request notification access (for account and promotional alerts) and, for some payment methods, camera access for identity document verification - both reasonably explainable in context. Requests for permissions with no obvious connection to a casino app's function, such as broad access to contacts, call logs, or device storage well beyond what's needed for basic operation, are worth questioning, and the app's own privacy policy should explain clearly why each permission is needed. If it doesn't, that's a fair reason to look more closely before proceeding, especially before linking a payment method.</p>`,
+      },
+      {
+        h2: "How our two deep-dive pages fit together",
+        html: `<p>This page is deliberately the broad overview - once you've absorbed the general licensing-first approach here, <a href="/is-plinko-app-legit/">is the Plinko app legit</a> walks through the same checks applied step by step to a single app, and <a href="/plinko-real-money-apps/">Plinko real money apps</a> goes further into what real-money account features (KYC, deposit limits, withdrawal handling) a compliant app is actually required to offer. Read together, the three pages take you from "how do I judge any Plinko app" through to "what does a specific compliant app look like in practice", which is a more useful path than trying to absorb everything from a single page.</p>`,
+      },
     ],
     faq: [
       {
@@ -891,6 +1159,29 @@ export const CORE_PAGES: Record<string, CorePage> = {
           "Understand the licensing framework on our <a href=\"/is-plinko-legal-in-the-uk/\">legality</a> page.",
         ]),
       },
+      {
+        h2: "A real walkthrough of checking an app's operator",
+        html: `<p>Working through the checklist looks like this in practice. Open the app's store listing and scroll to the developer/publisher name - not the app's display name, which is often a marketing brand rather than the licensed legal entity. Copy that publisher name and search it directly on the Gambling Commission's public register rather than trusting any "licensed and regulated" badge shown in the app's own screenshots, since those images are controlled entirely by the developer and prove nothing on their own. If the register search returns an Active licence tied to a business name that plausibly matches the app's publisher, that's a genuine positive signal; if it returns nothing, or a name that only loosely resembles the app, treat that as unresolved rather than assuming it's a coincidence.</p>
+        <p>From there, open the app itself (in demo mode where possible) and look specifically for a help, info or "fair play" section - this is usually where an RNG certificate, provider name, or provably-fair explanation would be disclosed if one exists. An app with no such section at all, despite offering real-money play, is missing a disclosure that licensed operators are generally expected to provide somewhere accessible.</p>`,
+      },
+      {
+        h2: "What to do if you've already downloaded a questionable app",
+        html: ol([
+          "Don't add a payment method or deposit if you haven't already - stop at the checklist stage.",
+          "If you've already deposited, avoid depositing further while you complete the licence check.",
+          "Attempt a withdrawal of any available balance sooner rather than later if concerns persist, since account or platform issues tend to compound over time.",
+          "If a licensed operator is genuinely behind the app and a dispute arises, use their formal complaints process and, if unresolved, their listed alternative dispute resolution (ADR) provider.",
+          "If no licensed operator can be identified at all, treat the situation as a consumer-protection risk and consider reporting the app to the relevant app store.",
+        ]),
+      },
+      {
+        h2: "Why the same checklist applies regardless of how you found the app",
+        html: `<p>It doesn't matter whether you found a Plinko app through an app store search, a social media advert, a friend's recommendation, or a forum thread - the verification steps above apply identically in every case, because none of those discovery routes says anything about the operator's actual licensing status. A polished social media advert campaign costs money regardless of whether the operator behind it is properly licensed, and a friend's genuine positive experience so far doesn't verify licensing status either, it just reflects one person's experience up to that point. Treating the checklist as a fixed first step - regardless of how promising an app initially looks - is what actually protects you, rather than any particular level of scepticism about the discovery channel itself.</p>`,
+      },
+      {
+        h2: "Keeping your own verification notes",
+        html: `<p>It's worth writing down what you find at each checklist step the first time you check an app - the operator name you searched, the licence number and status you found on the public register, and whether the in-app fairness disclosure was present. This takes a few minutes but gives you something concrete to refer back to later, particularly useful if you ever need to raise a complaint and want to demonstrate you checked the operator's status before depositing. It also makes re-checking an app after a long gap much faster, since you'll immediately notice if something that used to be present - a licence badge, a working verification tool - has since disappeared.</p>`,
+      },
     ],
     faq: [
       {
@@ -955,6 +1246,29 @@ export const CORE_PAGES: Record<string, CorePage> = {
           "Check the operator's licence status and complaints history.",
           "Use our <a href=\"/responsible-gambling/\">responsible gambling</a> page for free, confidential support if play has stopped feeling fun.",
         ]),
+      },
+      {
+        h2: "Understanding KYC and verification requirements",
+        html: `<p>Know Your Customer (KYC) checks are a licence condition, not an optional inconvenience a real-money app adds on top - UK-licensed operators are legally required to verify a player's identity and age before allowing withdrawals, and often before allowing deposits above certain thresholds. In practice this usually means uploading a photo ID and, at some point, proof of address or payment method ownership. This process can feel intrusive the first time you encounter it, but its absence is actually the bigger warning sign: an app that lets you deposit and withdraw significant real-money sums with no identity verification at all is not behaving like a properly licensed operator.</p>
+        <p>Verification is typically requested either at sign-up or at the point of your first withdrawal request, and a legitimate operator will explain clearly what documents are needed and roughly how long review takes. Being asked for documents unrelated to identity or payment verification - or being asked to pay a fee to "process" a withdrawal - is not standard KYC practice anywhere in the UK-licensed market and should be treated as a serious red flag.</p>`,
+      },
+      {
+        h2: "What happens if a withdrawal is delayed",
+        html: ol([
+          "Check the operator's stated processing times in their own terms - some delay is normal and disclosed upfront, particularly around identity verification.",
+          "Confirm your account's KYC/verification status is fully complete, since an incomplete step is the most common genuine cause of a stalled withdrawal.",
+          "Raise a support ticket in writing (not just live chat) so you have a documented record of your request and any response.",
+          "If the delay continues well beyond the operator's own stated timeframe, escalate to their formal complaints process, and if still unresolved, to their listed alternative dispute resolution (ADR) provider - a requirement of every UK gambling licence.",
+          "Keep records of all correspondence and account statements throughout, in case you need them for a formal complaint.",
+        ]),
+      },
+      {
+        h2: "Setting account-level limits before your first real deposit",
+        html: `<p>Every UK-licensed real-money app is required to offer deposit limits, and most also offer loss limits, session time reminders, and a self-exclusion option, all configurable from account settings. Setting a deposit limit before you make your first deposit - rather than after a few sessions - means your spending is bounded by a decision you made calmly in advance, rather than one made in the middle of a session. It's a small step that takes a couple of minutes and is worth treating as a standard part of setting up any new real-money account, in the same way you might set a spending notification on a bank card, regardless of how much you intend to actually spend.</p>`,
+      },
+      {
+        h2: "How this page connects to the rest of the app hub",
+        html: `<p>Everything on this page assumes you've already worked through the broader checks on <a href="/">best Plinko app UK</a> and <a href="/is-plinko-app-legit/">is the Plinko app legit</a> - this page focuses specifically on the account-level features (KYC, limits, withdrawal handling) that come into play once you've decided an operator is properly licensed and are considering an actual deposit. Treat the three pages as a sequence rather than independent checklists: general legitimacy first, then the specific real-money account features covered here, in that order.</p>`,
       },
     ],
     faq: [

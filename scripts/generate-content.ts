@@ -56,8 +56,9 @@ const CONTENT_OUT_DIR = path.join(ROOT_DIR, "content", "generated");
 const SITEMAP_PLAN_PATH = path.join(DATA_DIR, "sitemap-plan.json");
 const SITES_YAML_PATH = path.join(DATA_DIR, "sites.yaml");
 
-const CONTENT_SOURCE_VERSION = "core-pages-v1"; // bump when core-pages.ts/trust-pages.ts content changes materially
+const CONTENT_SOURCE_VERSION = "core-pages-v2"; // bump when core-pages.ts/trust-pages.ts content changes materially
 const MAX_CROSS_SITE_SIMILARITY = 0.75;
+const MIN_WORD_COUNT_BY_PAGE_TYPE: Record<string, number> = { home: 1100, landing: 1100, trust: 550 };
 
 interface PlanPage {
   site: string;
@@ -239,6 +240,12 @@ function validate(page: PlanPage, content: FinalContent): string[] {
   const first100 = bodyText.slice(0, 100).toLowerCase();
   if (!first100.includes(keyword.split(" ")[0])) {
     errors.push(`primary keyword "${page.primary_keyword}" not found in first 100 characters of body text`);
+  }
+
+  const wordTotal = wordCount(bodyText);
+  const minWords = MIN_WORD_COUNT_BY_PAGE_TYPE[page.page_type] ?? 1100;
+  if (wordTotal < minWords) {
+    errors.push(`only ${wordTotal} words, need >= ${minWords} for a "${page.page_type}" page`);
   }
 
   const tableCount = (fullHtml.match(/<table/g) ?? []).length;

@@ -47,8 +47,8 @@ interface ClusterMember {
 }
 
 const WORD_COUNT_TARGETS: Record<string, { median: number; h2: number; tables: number; lists: number }> = {
-  home: { median: 1700, h2: 7, tables: 3, lists: 5 },
-  landing: { median: 1300, h2: 6, tables: 3, lists: 4 },
+  home: { median: 1400, h2: 9, tables: 3, lists: 5 },
+  landing: { median: 1300, h2: 8, tables: 3, lists: 4 },
   trust: { median: 900, h2: 5, tables: 3, lists: 4 },
 };
 
