@@ -1,0 +1,6 @@
+# Whitelist of domains that partner/affiliate links are allowed to point to.
+# One domain per line (registrable domain, no scheme/path). Lines starting
+# with # are comments. Empty by default - add a domain only once you have a
+# signed affiliate agreement AND the operator has passed the UKGC check in
+# scripts/compliance-check.ts. Any affiliate link found pointing outside this
+# list fails the compliance build.

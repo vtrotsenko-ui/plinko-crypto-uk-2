@@ -1,0 +1,161 @@
+# Site portfolio for the UK Plinko affiliate project (Agent 3 input).
+#
+# `domain` values are placeholders (repo is not yet pointed at live
+# registered domains) - swap them for real domains before deploying.
+#
+# `cluster_match` is a case-insensitive substring/regex matched against
+# `cluster_name` and member keywords in data/clusters.csv. assign-clusters.ts
+# resolves it to a concrete cluster_id at run time (never hardcoded, so the
+# plan stays valid after re-running the clustering stage).
+#
+# `primary_keyword` is a human-curated, UK-appropriate keyword for the page's
+# H1/title. It is deliberately NOT always identical to the raw cluster_name,
+# because the fallback (no-SERP-API) clustering names a cluster after an
+# arbitrary member when no real search volume is known, which sometimes
+# surfaces a non-UK geo variant (e.g. "...in south africa") picked purely by
+# lexical similarity. The curated keyword must still belong to the resolved
+# cluster's member list - see the "curated keyword must be a cluster member"
+# check in assign-clusters.ts.
+#
+# K7 (legality) and K10 (responsible gambling) trust pages are NOT listed
+# here - they are added to every site automatically and unconditionally by
+# assign-clusters.ts, per the E-E-A-T minimum requirement.
+
+sites:
+  - id: plinko-game-guide-uk
+    domain: plinkoguide.uk
+    name: "Plinko Guide UK"
+    positioning: >
+      Informational hub explaining what Plinko is, how the drop/peg/multiplier
+      mechanic works, and how to try it for free before ever considering real
+      stakes. Beginner-first, mechanics-and-rules tone.
+    pages:
+      - slug: "/"
+        page_type: home
+        intent: informational
+        cluster_match: "\\bapp game plinko\\b|^plinko game$"
+        primary_keyword: "plinko game"
+        priority: 1.0
+      - slug: "/how-does-plinko-work/"
+        page_type: landing
+        intent: informational
+        cluster_match: "how does plinko work"
+        primary_keyword: "how does plinko work"
+        priority: 0.7
+      - slug: "/plinko-demo/"
+        page_type: landing
+        intent: informational
+        cluster_match: "demo cost|plinko demo|free to play plinko balls"
+        primary_keyword: "plinko demo"
+        priority: 0.8
+
+  - id: plinko-casino-hub-uk
+    domain: plinkocasinohub.uk
+    name: "Plinko Casino Hub UK"
+    positioning: >
+      Commercial/comparison hub about Plinko-style casino sites for a UK
+      audience: what to check before playing (licensing, RG tools, game
+      fairness) rather than promoting unverified operators.
+    pages:
+      - slug: "/"
+        page_type: home
+        intent: commercial
+        cluster_match: "best plinko gambling sites|best plinko sites|plinko casino uk"
+        primary_keyword: "best plinko sites UK"
+        priority: 1.0
+      - slug: "/plinko-online-casinos/"
+        page_type: landing
+        intent: commercial
+        cluster_match: "best place to play plinko online|plinko online"
+        primary_keyword: "plinko online casino"
+        priority: 0.8
+      - slug: "/plinko-no-deposit-bonus/"
+        page_type: landing
+        intent: transactional
+        cluster_match: "free plinko no deposit|no deposit plinko"
+        primary_keyword: "plinko no deposit bonus"
+        priority: 0.7
+
+  - id: plinko-strategy-lab-uk
+    domain: plinkostrategylab.uk
+    name: "Plinko Strategy Lab UK"
+    positioning: >
+      Odds, volatility and bankroll-management explainers. Educational tone,
+      explicitly rejects "guaranteed win" framing - focuses on understanding
+      risk levels, not on beating the house edge.
+    pages:
+      - slug: "/"
+        page_type: home
+        intent: informational
+        cluster_match: "best plinko odds reddit|plinko odds"
+        primary_keyword: "plinko odds"
+        priority: 1.0
+      - slug: "/plinko-strategy/"
+        page_type: landing
+        intent: informational
+        cluster_match: "plinko strategy"
+        primary_keyword: "plinko strategy"
+        priority: 0.8
+      - slug: "/is-plinko-rigged/"
+        page_type: landing
+        intent: informational
+        cluster_match: "is plinko rigged|plinko is it real|plinko game fake hai ya real"
+        primary_keyword: "is Plinko rigged?"
+        priority: 0.7
+
+  - id: crypto-plinko-uk
+    domain: crypto-plinko-guide.uk
+    name: "Crypto Plinko UK"
+    positioning: >
+      Flagship site: crypto-funded Plinko games, provably-fair mechanics, and
+      the UK legal/regulatory angle for crypto-currency gambling. This is the
+      only site whose primary cluster is backed by real Ahrefs search-volume
+      data from the client-supplied semantic core (data/semantic-core.csv).
+    pages:
+      - slug: "/"
+        page_type: home
+        intent: commercial
+        cluster_match: "crypto casino plinko"
+        primary_keyword: "crypto casino plinko"
+        priority: 1.0
+      - slug: "/how-provably-fair-crypto-plinko-works/"
+        page_type: landing
+        intent: informational
+        # Deliberately no cluster_match: this is a deep-dive subpage of the
+        # "crypto casino plinko" pillar (home), not a second bid for the same
+        # SERP - giving it its own cluster would just re-claim c1 and trip
+        # the anti-cannibalisation rule, so it is scoped as an editorial page.
+        primary_keyword: "provably fair crypto Plinko"
+        priority: 0.6
+      - slug: "/crypto-plinko-uk-legal-and-tax-notes/"
+        page_type: landing
+        intent: informational
+        primary_keyword: "crypto Plinko UK legal and tax notes"
+        priority: 0.5
+
+  - id: plinko-app-hub-uk
+    domain: plinkoapphub.uk
+    name: "Plinko App Hub UK"
+    positioning: >
+      Mobile-first hub: how Plinko apps work on iOS/Android/browser, how to
+      tell a legitimate app from a scam listing, and what "real money" claims
+      actually require (a UKGC-licensed operator behind the app).
+    pages:
+      - slug: "/"
+        page_type: home
+        intent: commercial
+        cluster_match: "best plinko app to win money apk|app plinko download play store"
+        primary_keyword: "best Plinko app UK"
+        priority: 1.0
+      - slug: "/is-plinko-app-legit/"
+        page_type: landing
+        intent: informational
+        cluster_match: "is plinko app legit in south africa reddit|is plinko app legit"
+        primary_keyword: "is the Plinko app legit?"
+        priority: 0.7
+      - slug: "/plinko-real-money-apps/"
+        page_type: landing
+        intent: transactional
+        cluster_match: "best plinko game real money in south africa|best real money plinko app"
+        primary_keyword: "Plinko real money apps"
+        priority: 0.8

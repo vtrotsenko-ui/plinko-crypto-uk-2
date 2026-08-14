@@ -1,0 +1,17 @@
+{
+  "_comment": "Template only - filename starts with _ so loaders skip it. Copy to <operator-id>.json and fill in real, verifiable values before it will be picked up by scripts/generate-content.ts / scripts/compliance-check.ts.",
+  "id": "example-operator",
+  "brandName": "Example Casino",
+  "ukgcAccountNumber": "00000-0000-00000000-00",
+  "affiliateUrl": "https://affiliates.example-operator.example/click?id=REPLACE_ME",
+  "homepageUrl": "https://www.example-operator.example/",
+  "bonus": {
+    "headline": "REPLACE - real headline offer copied from the operator's own T&Cs",
+    "minDeposit": "REPLACE e.g. £10",
+    "wageringRequirement": "REPLACE e.g. 35x bonus amount",
+    "expiry": "REPLACE e.g. 7 days",
+    "eligibleGames": ["Plinko"],
+    "gameWeighting": "REPLACE e.g. 100% Plinko"
+  },
+  "hasPlinko": true
+}

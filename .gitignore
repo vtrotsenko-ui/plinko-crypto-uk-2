@@ -1,0 +1,16 @@
+node_modules/
+dist/
+*.log
+.env
+.env.local
+!.env.example
+
+# Generated pipeline output - regenerate via `npm run build`.
+# sites/ (the final deployable output) IS committed on purpose - see README.
+data/keywords-raw.csv
+data/clusters.csv
+data/orphans.csv
+data/sitemap-plan.json
+briefs/
+content/generated/
+.cache/
