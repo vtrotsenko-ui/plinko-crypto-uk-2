@@ -1,0 +1,32 @@
+{
+  "name": "1win-argentina-seo",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "SEO pipeline and static site for the Argentina 1win affiliate project.",
+  "scripts": {
+    "collect-keywords": "tsx scripts/collect-keywords.ts",
+    "cluster": "tsx scripts/cluster.ts",
+    "assign-clusters": "tsx scripts/assign-clusters.ts",
+    "analyze-serp": "tsx scripts/analyze-serp.ts",
+    "generate-content": "tsx scripts/generate-content.ts",
+    "generate-1win-content": "python3 scripts/generate-1win-content.py",
+    "build-sites": "tsx scripts/build-sites.ts",
+    "compliance-check": "tsx scripts/compliance-check.ts",
+    "validate-schema": "tsx scripts/validate-schema.ts",
+    "zip-site": "rm -f 1win-argentina-site.zip && cd sites/1win-argentina && zip -r ../../1win-argentina-site.zip .",
+    "build": "npm run cluster && npm run assign-clusters && npm run generate-1win-content && npm run build-sites && npm run compliance-check && npm run validate-schema && npm run zip-site"
+  },
+  "dependencies": {
+    "natural": "^8.0.1",
+    "yaml": "^2.9.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.5",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

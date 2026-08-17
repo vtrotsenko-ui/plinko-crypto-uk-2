@@ -1,0 +1,17 @@
+{
+  "operator": "1win",
+  "games": [
+    {"slug": "aviator", "name": "Aviator", "category": "crash", "short": "Multiplier climbs until the plane flies away - cash out before it leaves."},
+    {"slug": "lucky-jet", "name": "Lucky Jet", "category": "crash", "short": "Fast crash rounds with a jet theme and manual or auto cash-out options."},
+    {"slug": "mines", "name": "Mines", "category": "instant", "short": "Reveal safe tiles, avoid mines, and decide when to bank your multiplier."},
+    {"slug": "plinko", "name": "Plinko", "category": "instant", "short": "Drop a ball through pegs toward multiplier slots with adjustable risk."},
+    {"slug": "balloon", "name": "Balloon", "category": "crash", "short": "Watch the balloon inflate and cash out before it bursts."},
+    {"slug": "penalty-shoot-out", "name": "Penalty Shoot Out", "category": "sports-arcade", "short": "Pick a shot direction and play quick football-themed rounds."},
+    {"slug": "jetx", "name": "JetX", "category": "crash", "short": "Another crash-style title where timing your exit is the whole decision."},
+    {"slug": "poker", "name": "Poker", "category": "cards", "short": "Video and table poker formats for players who prefer card strategy."},
+    {"slug": "live-roulette", "name": "Live Roulette", "category": "live", "short": "Live-dealer roulette streams with standard and lightning-style variants."},
+    {"slug": "blackjack", "name": "Blackjack", "category": "cards", "short": "Classic 21 against the house in RNG or live-dealer seats."},
+    {"slug": "slots", "name": "Slots", "category": "slots", "short": "A broad slots lobby spanning classic, megaways-style, and feature-rich titles."},
+    {"slug": "football-betting", "name": "Football betting", "category": "sports", "short": "Pre-match and in-play football markets across domestic and international leagues."}
+  ]
+}

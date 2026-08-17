@@ -1,0 +1,23 @@
+# Prefixes/modifiers used to expand seed keywords against Google Autocomplete.
+# One prefix per line. Lines starting with # are comments and are ignored.
+# Each prefix is tried both before and after the seed keyword.
+best
+top
+free
+new
+how to play
+is
+what is
+review
+reviews
+uk
+real money
+no deposit
+bonus
+strategy
+app
+online
+legit
+safe
+demo
+rigged

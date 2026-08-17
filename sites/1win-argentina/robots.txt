@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://1win-argentina-guide.com/sitemap.xml
