@@ -183,10 +183,92 @@ main {
   width: 100%;
   border-radius: 0;
   box-shadow: none;
-  border: 1px solid var(--color-border);
   animation: fade-in 1s ease both 0.15s;
 }
 .review-rating-line { font-size: 0.92rem; }
+
+.hero-cta {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.75rem;
+  margin: 1rem 0 1.1rem;
+}
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.75rem 1.25rem;
+  font-family: "Syne", "DM Sans", sans-serif;
+  font-weight: 700;
+  font-size: 0.95rem;
+  text-decoration: none;
+  border: 2px solid transparent;
+  transition: transform 0.2s ease, box-shadow 0.2s ease, background 0.2s ease, border-color 0.2s ease;
+  cursor: pointer;
+}
+.btn-primary {
+  background: var(--color-accent);
+  color: #042014;
+  border-color: #00a844;
+}
+.btn-primary:hover {
+  transform: translateY(-2px) scale(1.02);
+  box-shadow: 0 8px 18px rgba(0, 160, 70, 0.28);
+  background: #14d865;
+  color: #042014;
+}
+.btn-secondary {
+  background: #fff;
+  color: var(--color-accent-dark);
+  border-color: var(--color-accent-dark);
+}
+.btn-secondary:hover {
+  transform: translateY(-2px) scale(1.02);
+  background: var(--color-accent-dark);
+  color: #fff;
+  box-shadow: 0 8px 18px rgba(10, 31, 23, 0.22);
+}
+.cta-note {
+  flex-basis: 100%;
+  margin: 0;
+  font-size: 0.82rem;
+  color: var(--color-muted);
+  line-height: 1.45;
+}
+.nav-cta {
+  background: var(--color-accent) !important;
+  color: #042014 !important;
+  padding: 0.35rem 0.75rem;
+  font-weight: 800 !important;
+  border: 1px solid #00a844;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.nav-cta:hover {
+  transform: translateY(-1px) scale(1.04);
+  box-shadow: 0 4px 12px rgba(0, 160, 70, 0.3);
+  color: #042014 !important;
+}
+
+/* All site images: padding, border, hover interactivity */
+.site-media,
+article.page-content img,
+.hero-photo,
+.game-icon {
+  margin: 0.85rem 0;
+  padding: 0.45rem;
+  border: 2px solid var(--color-border);
+  background: #fff;
+  transition: transform 0.22s ease, box-shadow 0.22s ease, border-color 0.22s ease;
+}
+.site-media:hover,
+article.page-content img:hover,
+.hero-photo:hover,
+.game-icon:hover {
+  transform: translateY(-3px) scale(1.015);
+  box-shadow: 0 10px 24px rgba(21, 32, 43, 0.14);
+  border-color: var(--color-accent);
+}
 
 article.page-content h2 {
   font-family: "Syne", sans-serif;
@@ -198,14 +280,13 @@ article.page-content h2 {
 }
 article.page-content section { margin-bottom: 0.5rem; }
 article.page-content img:not(.game-icon) {
-  margin: 1.1rem 0;
-  border: 1px solid var(--color-border);
+  max-width: 100%;
 }
 
 .games-grid {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 1rem;
+  gap: 1.15rem;
   margin: 1.25rem 0 1.5rem;
 }
 @media (max-width: 900px) {
@@ -218,14 +299,20 @@ article.page-content img:not(.game-icon) {
   display: flex;
   flex-direction: column;
   gap: 0.45rem;
-  padding: 1rem;
-  border: 1px solid var(--color-border);
+  padding: 0.85rem;
+  border: 2px solid var(--color-border);
   background: var(--color-surface);
   min-height: 100%;
   animation: rise 0.55s ease both;
+  transition: transform 0.22s ease, box-shadow 0.22s ease, border-color 0.22s ease;
+}
+.game-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 28px rgba(21, 32, 43, 0.12);
+  border-color: var(--color-accent);
 }
 .game-card h3 {
-  margin: 0;
+  margin: 0.15rem 0 0;
   font-family: "Syne", sans-serif;
   font-size: 1.05rem;
 }
@@ -236,11 +323,30 @@ article.page-content img:not(.game-icon) {
   line-height: 1.5;
 }
 .game-icon {
-  width: 72px;
-  height: 72px;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 3 / 2;
+  object-fit: cover;
   margin: 0 !important;
-  border: 0 !important;
-  border-radius: 16px;
+  border-radius: 4px;
+}
+.game-card-cta {
+  display: inline-flex;
+  align-self: flex-start;
+  margin: 0.15rem 0 0.25rem;
+  padding: 0.35rem 0.7rem;
+  font-size: 0.82rem;
+  font-weight: 700;
+  text-decoration: none;
+  color: #042014;
+  background: var(--color-accent);
+  border: 1px solid #00a844;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.game-card-cta:hover {
+  transform: translateY(-1px) scale(1.03);
+  box-shadow: 0 4px 12px rgba(0, 160, 70, 0.25);
+  color: #042014;
 }
 .game-card--aviator { background: #eaf4ff; }
 .game-card--lucky-jet { background: #fff1e8; }

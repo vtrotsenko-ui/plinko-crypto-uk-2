@@ -178,6 +178,13 @@ export function renderPage(page: PageInput, chrome: SiteChrome): string {
       ? `<p class="affiliate-disclosure review-rating-line">Editorial review rating: <strong>4.2</strong> / 5 (bestRating 5, worstRating 1). Some links may be partner links (<span>sponsored disclosure within the first screen of this review block</span>). See <a href="${toRelativeHref(page.slug, "/about-us/")}">About Us</a>.</p>`
       : "";
 
+  const ctaBlock = `
+  <div class="hero-cta" data-testid="hero-cta">
+    <a class="btn btn-primary" href="https://1win.com/" rel="sponsored nofollow noopener" target="_blank">Play on 1win</a>
+    <a class="btn btn-secondary" href="https://1win.com/" rel="sponsored nofollow noopener" target="_blank">Visit 1win.com</a>
+    <p class="cta-note">18+. Partner link. Gambling can be addictive. <a href="https://www.begambleaware.org" rel="noopener" target="_blank">BeGambleAware</a>. Always read the operator T&amp;Cs (wagering, min deposit, expiry, game weighting) before opting into any offer.</p>
+  </div>`;
+
   return `<!doctype html>
 <html lang="en-GB">
 <head>
@@ -214,6 +221,7 @@ export function renderPage(page: PageInput, chrome: SiteChrome): string {
     </a>
     <nav class="site-nav" aria-label="Primary">
       ${renderNav(chrome.headerNav, page.slug)}
+      <a class="nav-cta" href="https://1win.com/" rel="sponsored nofollow noopener" target="_blank">1win</a>
       <span class="age-badge">18+</span>
     </nav>
   </div>
@@ -224,9 +232,10 @@ export function renderPage(page: PageInput, chrome: SiteChrome): string {
       <p class="brand-kicker">${escapeHtml(chrome.siteName)}</p>
       <h1>${escapeHtml(page.h1)}</h1>
       <p class="lede">${escapeHtml(page.metaDescription)}</p>
+      ${ctaBlock}
       ${ratingVisible}
     </div>
-    <img class="hero-photo" src="${heroImagePath}" alt="${escapeHtml(page.images[0]?.alt ?? page.h1)}" loading="eager" width="640" height="360" />
+    <img class="hero-photo site-media" src="${heroImagePath}" alt="${escapeHtml(page.images[0]?.alt ?? page.h1)}" loading="eager" width="640" height="360" />
   </div>
   <article class="page-content">
     ${sectionsHtml}

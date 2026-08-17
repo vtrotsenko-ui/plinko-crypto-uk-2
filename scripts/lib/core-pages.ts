@@ -24,7 +24,7 @@ export const CORE_PAGES: Record<string, CorePage> = {
       {
         h2: "What 1win is and how this guide approaches it",
         html: `<p>1win is an online entertainment brand that typically combines sports betting, casino-style games, live tables, and fast-paced crash titles in one account. This English-language guide for readers looking at Argentina-facing availability explains how to evaluate the product calmly, what to check before depositing, and where to find deeper pages on casino play, the mobile app, login hygiene, bonus codes, Aviator-style games, and local legality questions. Nothing here is financial advice, and nothing promises a favourable betting result.</p>
-<img src="/assets/images/hero-1win-overview.png" alt="1win overview illustration for Argentina English guide readers">
+<img class="site-media" src="/assets/images/hero-1win-overview.png" alt="1win overview illustration for Argentina English guide readers">
 <p>Affiliate disclosure: some outbound links on this site may be partner links. If you register through them, we may earn a commission at no extra cost to you. That relationship does not change our editorial standards; we still describe risks, verification steps, and responsible-play habits plainly. Always read the operator terms on the official site before you act.</p>
 <p>Readers often arrive with one product question and leave without a framework for judging the whole platform. Our approach maps product areas, lists evaluation criteria you can apply yourself, and points you to specialised articles. For casino categories see <a href="/1win-casino/">1win casino</a>; for mobile use see the <a href="/1win-app/">1win app</a> page; for account access see <a href="/1win-login/">1win login</a>.</p>
 <p>Because offerings, payment rails, and promotional rules change, treat marketing banners as provisional until confirmed in the cashier and terms. Licensing claims, game catalogues, and country availability should be verified on the operator site and against local rules that apply to you in Argentina. We do not invent licence numbers, RTP percentages, or provider rosters.</p>`,
@@ -61,63 +61,75 @@ export const CORE_PAGES: Record<string, CorePage> = {
         html: `<p>Below is a quick map of titles and formats readers often look up around 1win. Icons are illustrative; lobby catalogues change, so always confirm the live game list, rules panel and stake limits in your own account before you play. 18+ only.</p>
 <div class="games-grid" aria-label="Popular 1win games">
   <article class="game-card game-card--aviator">
-    <img class="game-icon" src="/assets/images/games/aviator.png" width="96" height="96" alt="1win Aviator crash game icon" loading="lazy">
+    <img class="game-icon site-media" src="/assets/images/games/aviator.png" width="96" height="96" alt="1win Aviator crash game icon" loading="lazy">
     <h3>Aviator</h3>
+    <a class="game-card-cta" href="https://1win.com/" rel="sponsored nofollow noopener" target="_blank">Open on 1win</a>
     <p>A rising-multiplier round where you choose when to cash out before the flight ends. Fast sessions reward pre-set stake limits more than gut timing.</p>
   </article>
   <article class="game-card game-card--lucky-jet">
-    <img class="game-icon" src="/assets/images/games/lucky-jet.png" width="96" height="96" alt="1win Lucky Jet game icon" loading="lazy">
+    <img class="game-icon site-media" src="/assets/images/games/lucky-jet.png" width="96" height="96" alt="1win Lucky Jet game icon" loading="lazy">
     <h3>Lucky Jet</h3>
+    <a class="game-card-cta" href="https://1win.com/" rel="sponsored nofollow noopener" target="_blank">Open on 1win</a>
     <p>Another short crash-style format with a climbing multiplier and an exit button. Treat streak screenshots as highlights, not evidence of a repeatable pattern.</p>
   </article>
   <article class="game-card game-card--mines">
-    <img class="game-icon" src="/assets/images/games/mines.png" width="96" height="96" alt="1win Mines grid game icon" loading="lazy">
+    <img class="game-icon site-media" src="/assets/images/games/mines.png" width="96" height="96" alt="1win Mines grid game icon" loading="lazy">
     <h3>Mines</h3>
+    <a class="game-card-cta" href="https://1win.com/" rel="sponsored nofollow noopener" target="_blank">Open on 1win</a>
     <p>Grid reveals where each safe tile raises the multiplier and a mine ends the round. Fewer mines look calmer but still sit inside a house-edged math model.</p>
   </article>
   <article class="game-card game-card--plinko">
-    <img class="game-icon" src="/assets/images/games/plinko.png" width="96" height="96" alt="1win Plinko peg board game icon" loading="lazy">
+    <img class="game-icon site-media" src="/assets/images/games/plinko.png" width="96" height="96" alt="1win Plinko peg board game icon" loading="lazy">
     <h3>Plinko</h3>
+    <a class="game-card-cta" href="https://1win.com/" rel="sponsored nofollow noopener" target="_blank">Open on 1win</a>
     <p>A ball drops through pegs into multiplier slots. Row count and risk setting reshape the paytable; they do not let you steer individual bounces.</p>
   </article>
   <article class="game-card game-card--balloon">
-    <img class="game-icon" src="/assets/images/games/balloon.png" width="96" height="96" alt="1win Balloon inflate game icon" loading="lazy">
+    <img class="game-icon site-media" src="/assets/images/games/balloon.png" width="96" height="96" alt="1win Balloon inflate game icon" loading="lazy">
     <h3>Balloon</h3>
+    <a class="game-card-cta" href="https://1win.com/" rel="sponsored nofollow noopener" target="_blank">Open on 1win</a>
     <p>Inflate for a higher multiplier or cash out before a pop ends the try. One more pump is a volatility choice, not a skill guarantee.</p>
   </article>
   <article class="game-card game-card--penalty">
-    <img class="game-icon" src="/assets/images/games/penalty.png" width="96" height="96" alt="1win Penalty Shoot Out game icon" loading="lazy">
+    <img class="game-icon site-media" src="/assets/images/games/penalty.png" width="96" height="96" alt="1win Penalty Shoot Out game icon" loading="lazy">
     <h3>Penalty Shoot Out</h3>
+    <a class="game-card-cta" href="https://1win.com/" rel="sponsored nofollow noopener" target="_blank">Open on 1win</a>
     <p>Quick football-themed rounds that settle on a shot outcome. Read the on-screen rules for how kicks are scored before raising stakes.</p>
   </article>
   <article class="game-card game-card--jetx">
-    <img class="game-icon" src="/assets/images/games/jetx.png" width="96" height="96" alt="1win JetX crash title icon" loading="lazy">
+    <img class="game-icon site-media" src="/assets/images/games/jetx.png" width="96" height="96" alt="1win JetX crash title icon" loading="lazy">
     <h3>JetX</h3>
+    <a class="game-card-cta" href="https://1win.com/" rel="sponsored nofollow noopener" target="_blank">Open on 1win</a>
     <p>Crash-family gameplay with a jet theme and cash-out control. Connection quality matters because delayed taps can miss your intended exit.</p>
   </article>
   <article class="game-card game-card--poker">
-    <img class="game-icon" src="/assets/images/games/poker.png" width="96" height="96" alt="1win Poker tables icon" loading="lazy">
+    <img class="game-icon site-media" src="/assets/images/games/poker.png" width="96" height="96" alt="1win Poker tables icon" loading="lazy">
     <h3>Poker</h3>
+    <a class="game-card-cta" href="https://1win.com/" rel="sponsored nofollow noopener" target="_blank">Open on 1win</a>
     <p>Lobby poker variants with fixed table rules and blinds. Check game type, rake disclosure if shown, and whether you are in cash or tournament mode.</p>
   </article>
   <article class="game-card game-card--roulette">
-    <img class="game-icon" src="/assets/images/games/roulette.png" width="96" height="96" alt="1win Live Roulette icon" loading="lazy">
+    <img class="game-icon site-media" src="/assets/images/games/roulette.png" width="96" height="96" alt="1win Live Roulette icon" loading="lazy">
     <h3>Live Roulette</h3>
+    <a class="game-card-cta" href="https://1win.com/" rel="sponsored nofollow noopener" target="_blank">Open on 1win</a>
     <p>Dealer-hosted wheel rounds streamed in real time. Outside bets usually swing less than single-number wagers; table limits still apply either way.</p>
   </article>
   <article class="game-card game-card--blackjack">
-    <img class="game-icon" src="/assets/images/games/blackjack.png" width="96" height="96" alt="1win Blackjack table icon" loading="lazy">
+    <img class="game-icon site-media" src="/assets/images/games/blackjack.png" width="96" height="96" alt="1win Blackjack table icon" loading="lazy">
     <h3>Blackjack</h3>
+    <a class="game-card-cta" href="https://1win.com/" rel="sponsored nofollow noopener" target="_blank">Open on 1win</a>
     <p>Card totals versus the dealer under published table rules. Side bets change volatility; open the rules panel before assuming classic payouts.</p>
   </article>
   <article class="game-card game-card--slots">
-    <img class="game-icon" src="/assets/images/games/slots.png" width="96" height="96" alt="1win Slots lobby icon" loading="lazy">
+    <img class="game-icon site-media" src="/assets/images/games/slots.png" width="96" height="96" alt="1win Slots lobby icon" loading="lazy">
     <h3>Slots</h3>
+    <a class="game-card-cta" href="https://1win.com/" rel="sponsored nofollow noopener" target="_blank">Open on 1win</a>
     <p>Reel games filtered by theme, features and stake size in the casino lobby. Use the info screen for paylines and features instead of artwork alone.</p>
   </article>
   <article class="game-card game-card--football">
-    <img class="game-icon" src="/assets/images/games/football.png" width="96" height="96" alt="1win Football sports betting icon" loading="lazy">
+    <img class="game-icon site-media" src="/assets/images/games/football.png" width="96" height="96" alt="1win Football sports betting icon" loading="lazy">
     <h3>Football betting</h3>
+    <a class="game-card-cta" href="https://1win.com/" rel="sponsored nofollow noopener" target="_blank">Open on 1win</a>
     <p>Pre-match and in-play football markets inside the sportsbook. Settlement depends on each market’s rules—read them before same-game parlays.</p>
   </article>
 </div>
@@ -136,7 +148,7 @@ export const CORE_PAGES: Record<string, CorePage> = {
           "Keep records of deposits, bets, and support tickets for your own clarity.",
         ]) +
         `
-<img src="/assets/images/1win-responsible.png" alt="1win responsible play checklist illustration">
+<img class="site-media" src="/assets/images/1win-responsible.png" alt="1win responsible play checklist illustration">
 <p>Separate marketing language from operational facts. Marketing highlights entertainment and promotions; operational facts live in the cashier, KYC flows, and written terms. When those disagree, the written terms and the on-screen cashier usually govern.</p>
 <p>Ratings on review sites—including any ratings we display—are opinions built from clarity of information, tool availability, and ease of finding help. They are not predictions of personal results. Affiliate disclosure applies wherever partner links appear near ratings or product mentions.</p>`,
       },
@@ -193,7 +205,7 @@ export const CORE_PAGES: Record<string, CorePage> = {
           "Return to this homepage when you need the product map again.",
         ]) +
         `
-<img src="/assets/images/1win-argentina-guide.png" alt="1win Argentina English guide navigation visual">
+<img class="site-media" src="/assets/images/1win-argentina-guide.png" alt="1win Argentina English guide navigation visual">
 <p>Each specialist page covers one job. The homepage’s job is orientation while reminding you that entertainment spending should stay within means and that adults only may participate.</p>`,
       },
       {
@@ -255,7 +267,7 @@ export const CORE_PAGES: Record<string, CorePage> = {
       {
         h2: "1win casino lobby: how to read categories",
         html: `<p>1win casino pages are easiest to navigate when you treat the lobby as a library rather than a single game. Categories usually group slots, table games, live dealer rooms, jackpots if offered, and instant or crash titles. Filters and search boxes matter more than banners: they help you open information screens, compare stake limits shown for your account, and avoid depositing into a title you have not inspected.</p>
-<img src="/assets/images/hero-1win-casino.png" alt="1win casino lobby categories overview illustration">
+<img class="site-media" src="/assets/images/hero-1win-casino.png" alt="1win casino lobby categories overview illustration">
 <p>Affiliate disclosure: partner links may appear near product mentions or ratings on this page. Commissions never justify inventing providers, RTP figures, or licence numbers. Verify studio names and paytable details inside each game’s information panel on the live operator site.</p>
 <p>A calm first session looks like this: browse categories, open two or three information panels, note minimum stakes, and only then decide whether a small deposit fits your entertainment budget. If a demo mode is available for a title, use it to learn controls without pressure. If demo is not available, read the rules text carefully before staking.</p>
 <p>Internal links worth keeping open while you read: return to the <a href="/">1win</a> homepage for the product map, review <a href="/1win-app/">1win app</a> notes if you play on mobile, and skim <a href="/1win-bonus-code/">bonus code 1win</a> before opting into any casino promotion. Also compare geo notes on <a href="/1win-argentina/">1win argentina</a> when payment methods look region-specific.</p>
@@ -313,7 +325,7 @@ export const CORE_PAGES: Record<string, CorePage> = {
           "Record anything unclear and ask support rather than guessing.",
         ]) +
         `
-<img src="/assets/images/1win-aviator-game.png" alt="1win casino crash-style game context image">
+<img class="site-media" src="/assets/images/1win-aviator-game.png" alt="1win casino crash-style game context image">
 <p>We intentionally avoid listing unverified studio names or RTP percentages. If a percentage appears in a game help screen, that figure belongs to that title’s disclosed documentation—not to a global promise about the whole 1win casino lobby.</p>`,
       },
       {
@@ -354,7 +366,7 @@ export const CORE_PAGES: Record<string, CorePage> = {
           "Do not send documents through informal chat apps suggested by strangers.",
         ]) +
         `
-<img src="/assets/images/1win-responsible.png" alt="1win casino responsible play and KYC awareness visual">
+<img class="site-media" src="/assets/images/1win-responsible.png" alt="1win casino responsible play and KYC awareness visual">
 <p>Responsible habits for 1win casino sessions include time caps, deposit caps, and refusing to chase losses after volatile slots or crash rounds. If play stops feeling optional, use the operator’s limit or exclusion tools and seek independent support resources appropriate to your country. Adults aged 18+ only may hold accounts.</p>
 ` +
         ul([
@@ -417,7 +429,7 @@ export const CORE_PAGES: Record<string, CorePage> = {
       {
         h2: "1win app versus mobile browser",
         html: `<p>The 1win app conversation usually starts with a practical choice: install a dedicated application, or use the mobile browser site. Both paths can work for sports, casino, and account management, but they differ in update habits, permission prompts, storage use, and how easy it is to confirm you are on a genuine distribution channel.</p>
-<img src="/assets/images/1win-app-mobile.png" alt="1win app mobile interface illustration for English readers">
+<img class="site-media" src="/assets/images/1win-app-mobile.png" alt="1win app mobile interface illustration for English readers">
 <p>Affiliate disclosure: if partner links appear near download mentions or ratings, commissions do not change the advice to verify installers on the official operator site. Unofficial APKs from random blogs are a common security problem.</p>
 <p>Browser play needs no sideloading. You bookmark the official domain, keep the browser updated, and rely on the site’s responsive layout. An app may add home-screen convenience, push notifications if you enable them, and sometimes faster relaunch—but only if the package is authentic and kept current.</p>
 <p>Compare experiences yourself: log into the same account via browser and via any official app path the operator publishes, then note whether markets, cashier methods, and responsible-gambling tools appear with similar clarity. Feature parity is not something third parties can certify forever; releases change. See also the main <a href="/">1win</a> overview and <a href="/1win-login/">1win login</a> security notes.</p>
@@ -474,7 +486,7 @@ export const CORE_PAGES: Record<string, CorePage> = {
           "Reinstall from the official path if the app starts requesting odd new permissions.",
         ]) +
         `
-<img src="/assets/images/1win-login-secure.png" alt="1win app secure access and permission awareness visual">
+<img class="site-media" src="/assets/images/1win-login-secure.png" alt="1win app secure access and permission awareness visual">
 <p>Update hygiene also means watching for fake update pop-ups inside other apps or browsers. Genuine updates should follow the same distribution path you originally verified. If a pop-up demands urgent payment details to unlock an update, stop and navigate manually to the official site.</p>`,
       },
       {
@@ -515,7 +527,7 @@ export const CORE_PAGES: Record<string, CorePage> = {
           "Keep exploring promotions only after reading full T&Cs on the <a href=\"/1win-bonus-code/\">bonus code</a> page concepts.",
         ]) +
         `
-<img src="/assets/images/1win-responsible.png" alt="1win app responsible mobile play habits image">
+<img class="site-media" src="/assets/images/1win-responsible.png" alt="1win app responsible mobile play habits image">
 <p>Mobile convenience should never outrank account security. The 1win app is a delivery channel for the same underlying entertainment products, with the same need for budgets, breaks, and adult-only access. Prefer verified channels, review permissions, and treat update prompts with healthy scepticism unless they come from the path you already trust.</p>
 <p>Before you travel or change SIM cards, confirm that login alerts still reach a channel you control. Phone-number changes can interrupt one-time codes. Update contact details inside the official account settings rather than through informal chat contacts who offer to “help restore” access. That habit protects both browser and app users.</p>
 <p>Finally, keep storage tidy: uninstall abandoned betting apps you no longer use, revoke their permissions, and remove leftover installers from downloads folders. A clean device makes it easier to notice when a new lookalike icon appears. Pair that hygiene with the evaluation mindset on the homepage and you reduce a large share of mobile-specific account risk around the 1win app experience. When something feels off, pause deposits first and verify the channel second—order matters.</p>`,
@@ -569,7 +581,7 @@ export const CORE_PAGES: Record<string, CorePage> = {
       {
         h2: "1win login basics: reaching your account safely",
         html: `<p>1win login starts with a simple goal: reach your own account on a genuine site or app without exposing credentials to impostors. The steps look ordinary—open the official domain or verified app, enter your email or phone identifier, enter your password, and complete any extra check if enabled—but the surrounding habits determine whether that routine stays safe.</p>
-<img src="/assets/images/1win-login-secure.png" alt="1win login secure access illustration">
+<img class="site-media" src="/assets/images/1win-login-secure.png" alt="1win login secure access illustration">
 <p>Affiliate disclosure: partner links elsewhere on this site do not change login security advice. Nobody legitimate will ask you to “verify winnings” by sending your password. If a message creates urgency around withdrawals or bonuses, slow down and navigate to the site yourself instead of tapping embedded links.</p>
 <p>Bookmark the address you have already verified. Prefer typing a known domain over search-ad shortcuts when you are unsure. On mobile, confirm you are opening the same bookmark or the official <a href="/1win-app/">1win app</a> path rather than a lookalike icon. After login, glance at the account email or ID shown in the profile so you know you landed in the correct wallet.</p>
 <p>If you are new to the brand overall, the <a href="/">1win</a> homepage map and the <a href="/1win-argentina/">1win argentina</a> geo notes provide context before you deposit. Login itself should be boring: quiet, repeatable, and protected.</p>`,
@@ -633,7 +645,7 @@ export const CORE_PAGES: Record<string, CorePage> = {
           "Avoid third-party “account recovery” services.",
         ]) +
         `
-<img src="/assets/images/1win-app-mobile.png" alt="1win login on mobile app troubleshooting visual">
+<img class="site-media" src="/assets/images/1win-app-mobile.png" alt="1win login on mobile app troubleshooting visual">
 <p>Password reset emails and SMS messages should arrive from channels consistent with prior operator communications. If a reset message asks you to install software or pay a fee, it is fraudulent. Navigate to the site manually and start the reset from the login screen instead.</p>`,
       },
       {
@@ -674,7 +686,7 @@ export const CORE_PAGES: Record<string, CorePage> = {
           "Log out when finished, especially on mobile if notifications tempt return visits.",
         ]) +
         `
-<img src="/assets/images/1win-responsible.png" alt="1win login session limits and responsible exit visual">
+<img class="site-media" src="/assets/images/1win-responsible.png" alt="1win login session limits and responsible exit visual">
 <p>Adults aged 18+ only may hold real-money accounts. Keep login details inaccessible to minors in the household. If gambling stops feeling optional, use time-outs or self-exclusion tools and seek appropriate local support. For legality questions that sit beside access rights, read <a href="/is-1win-legal-in-argentina/">is 1win legal in argentina</a> as an informational checklist, not as advice.</p>
 ` +
         ul([
@@ -738,7 +750,7 @@ export const CORE_PAGES: Record<string, CorePage> = {
       {
         h2: "How a bonus code 1win promotion usually works",
         html: `<p>A bonus code 1win field is simply a promotional identifier you enter during registration or in a cashier/promotions form so the operator can attach an offer to your account. The code itself is not cash. Value—if any—appears only after the operator accepts the code and after you meet the written conditions attached to that offer.</p>
-<img src="/assets/images/1win-bonus-code.png" alt="bonus code 1win promotional field illustration">
+<img class="site-media" src="/assets/images/1win-bonus-code.png" alt="bonus code 1win promotional field illustration">
 <p>Affiliate disclosure: some pages that mention codes may include partner links. A commission does not create a special code with hidden perks beyond what the operator publishes. If a stranger sells “VIP codes” that bypass terms, treat that as a scam risk.</p>
 <p>General flow: find an offer on the official promotions area, read the full terms, enter the code where the form allows, opt in if required, make any qualifying deposit described in those terms, and track wagering progress in the account. Exact minimum deposits, expiry timers, and game weighting differ by campaign—check the operator T&Cs rather than trusting screenshots from social media.</p>
 <p>For product context around where bonuses might apply, see <a href="/1win-casino/">1win casino</a>, the <a href="/">1win</a> overview, and geo notes on <a href="/1win-argentina/">1win argentina</a>. Secure the account first via <a href="/1win-login/">1win login</a> hygiene before chasing promotions.</p>`,
@@ -795,7 +807,7 @@ export const CORE_PAGES: Record<string, CorePage> = {
           ]
         ) +
         `
-<img src="/assets/images/hero-1win-casino.png" alt="bonus code 1win casino offer context image">
+<img class="site-media" src="/assets/images/hero-1win-casino.png" alt="bonus code 1win casino offer context image">
 <p>If any clause is ambiguous, ask support in writing before depositing. Verbal chat summaries are easier to misunderstand than a ticket reply you can keep. Remember that promotions are optional; declining a bonus can be the clearer financial choice when terms feel too tight for your style of play.</p>`,
       },
       {
@@ -845,7 +857,7 @@ export const CORE_PAGES: Record<string, CorePage> = {
           "Review <a href=\"/is-1win-legal-in-argentina/\">is 1win legal in argentina</a> if eligibility in your location is unclear.",
         ]) +
         `
-<img src="/assets/images/1win-responsible.png" alt="bonus code 1win responsible promotion habits visual">
+<img class="site-media" src="/assets/images/1win-responsible.png" alt="bonus code 1win responsible promotion habits visual">
 <p>When a campaign ends, check whether leftover bonus balances expire and whether real-money balances remain withdrawable under ordinary cashier rules. Then return to ordinary play—or take a break—without hunting for the next code out of compulsion. For mobile claim flows, the <a href="/1win-app/">1win app</a> page covers safer install practices so promotional landing pages do not push untrusted packages.</p>
 ` +
         ol([
@@ -909,7 +921,7 @@ export const CORE_PAGES: Record<string, CorePage> = {
       {
         h2: "What 1win aviator-style crash games are",
         html: `<p>1win aviator pages attract readers who want a clear explanation of crash-game behaviour without mythology. In conceptual terms, a crash round places a stake, starts a rising multiplier from a baseline, and ends when the round “crashes”. If you cash out before the crash, your stake is multiplied by the value shown at cash-out. If the crash happens first, the stake for that round is lost.</p>
-<img src="/assets/images/1win-aviator-game.png" alt="1win aviator crash game multiplier concept illustration">
+<img class="site-media" src="/assets/images/1win-aviator-game.png" alt="1win aviator crash game multiplier concept illustration">
 <p>Affiliate disclosure: partner links may appear near product mentions. They do not change the maths: cash-out timing is a player choice inside a chance-based round, not a technique that removes the house edge. Anyone selling predictors that claim otherwise is marketing a fantasy and often a malware risk.</p>
 <p>Crash titles can appear inside instant sections near the wider <a href="/1win-casino/">1win casino</a> lobby. Interfaces differ, auto cash-out options may exist, and provenance of a specific studio should be read in the live client—not invented here. Return to the <a href="/">1win</a> overview when you need the multi-vertical map again.</p>
 <p>British English spelling applies throughout this guide (behaviour, organise, favour). We describe volatility and responsible limits so you can decide whether the pace suits your budget.</p>`,
@@ -964,7 +976,7 @@ export const CORE_PAGES: Record<string, CorePage> = {
           "Skip unofficial predictors entirely.",
         ]) +
         `
-<img src="/assets/images/1win-responsible.png" alt="1win aviator responsible limits and session planning visual">
+<img class="site-media" src="/assets/images/1win-responsible.png" alt="1win aviator responsible limits and session planning visual">
 <p>Bankroll framing means the money in play is already categorised as entertainment spend. It is not rent, not savings, and not a recovery plan for earlier losses on sports or slots. Mixing goals is how crash volatility becomes harmful.</p>`,
       },
       {
@@ -1005,7 +1017,7 @@ export const CORE_PAGES: Record<string, CorePage> = {
           "Re-read <a href=\"/is-1win-legal-in-argentina/\">is 1win legal in argentina</a> if your eligibility is uncertain.",
         ]) +
         `
-<img src="/assets/images/hero-1win-casino.png" alt="1win aviator within wider casino entertainment context">
+<img class="site-media" src="/assets/images/hero-1win-casino.png" alt="1win aviator within wider casino entertainment context">
 ` +
         ul([
           "Do not install signal bots that demand account access.",
@@ -1070,7 +1082,7 @@ export const CORE_PAGES: Record<string, CorePage> = {
       {
         h2: "1win argentina: English guidance for a local geo",
         html: `<p>1win argentina searches often mix Spanish-language operator pages with English queries from bilingual readers. This page is an English geo landing: it explains how to think about language settings, payments mindset, responsible-gambling habits, and verification of local legality without pretending to be a regulator or a law firm.</p>
-<img src="/assets/images/1win-argentina-guide.png" alt="1win argentina English geo guide illustration">
+<img class="site-media" src="/assets/images/1win-argentina-guide.png" alt="1win argentina English geo guide illustration">
 <p>Affiliate disclosure: partner links may appear near ratings or product modules. Commissions do not alter the advice to verify acceptance of customers from your location, to read cashier methods yourself, and to confirm any licensing claims on primary sources. We do not claim that 1win holds a UK Gambling Commission licence.</p>
 <p>Start from the general <a href="/">1win</a> overview if you need the multi-vertical map, then return here for Argentina-facing practical notes. Deep links that pair well with this landing include <a href="/1win-casino/">1win casino</a>, <a href="/1win-app/">1win app</a>, <a href="/1win-login/">1win login</a>, and the informational checklist <a href="/is-1win-legal-in-argentina/">is 1win legal in argentina</a>.</p>
 <p>Geo pages go stale when they invent fixed payment lists or legal conclusions. Ours stays useful by teaching checks you can repeat whenever rules or cashiers change.</p>`,
@@ -1125,7 +1137,7 @@ export const CORE_PAGES: Record<string, CorePage> = {
           "Ask support when a familiar method vanishes instead of using unofficial workarounds.",
         ]) +
         `
-<img src="/assets/images/hero-1win-overview.png" alt="1win argentina payments and account overview visual">
+<img class="site-media" src="/assets/images/hero-1win-overview.png" alt="1win argentina payments and account overview visual">
 <p>Crypto or local rails—if shown—still require the same discipline: correct addresses, awareness of irreversible transfers, and refusal of “support” scripts that ask you to share seed phrases. Seed phrases are never needed for ordinary casino cashier use.</p>`,
       },
       {
@@ -1152,7 +1164,7 @@ export const CORE_PAGES: Record<string, CorePage> = {
           "Talk to someone you trust if secrecy around play is growing.",
         ]) +
         `
-<img src="/assets/images/1win-responsible.png" alt="1win argentina responsible gambling mindset illustration">
+<img class="site-media" src="/assets/images/1win-responsible.png" alt="1win argentina responsible gambling mindset illustration">
 <p>Crash titles and fast slots can compress a lot of decisions into a few minutes. If that pace harms your judgement, switch to slower products—or stop entirely. Product education on <a href="/1win-aviator/">1win aviator</a> and lobby literacy on <a href="/1win-casino/">1win casino</a> exist to inform, not to push volume.</p>`,
       },
       {
@@ -1247,7 +1259,7 @@ export const CORE_PAGES: Record<string, CorePage> = {
       {
         h2: "Is 1win legal in argentina? Scope of this checklist",
         html: `<p>Is 1win legal in argentina is a question that deserves a careful, non-alarmist, non-promotional answer. This page is an informational checklist for adults who want to verify eligibility and licensing claims themselves. It is not legal advice, not a court ruling, and not a guarantee of future regulatory outcomes. Laws and enforcement priorities can change.</p>
-<img src="/assets/images/1win-legal-check.png" alt="is 1win legal in argentina checklist illustration">
+<img class="site-media" src="/assets/images/1win-legal-check.png" alt="is 1win legal in argentina checklist illustration">
 <p>Affiliate disclosure: even if partner links appear elsewhere on the site, they do not purchase a legal conclusion. We will not invent licence numbers, and we do not claim that 1win holds a UK Gambling Commission licence. Always verify operator disclosures and local rules that apply to you.</p>
 <p>Use this checklist beside the geo landing <a href="/1win-argentina/">1win argentina</a> and the brand overview on the <a href="/">1win</a> homepage. If you are not eligible to play, do not deposit. Educational reading is still fine; real-money activity is not.</p>
 <p>Age is non-negotiable on this site’s framing: real-money gambling products are for adults aged 18 and over only. Do not facilitate access for minors.</p>`,
@@ -1309,7 +1321,7 @@ export const CORE_PAGES: Record<string, CorePage> = {
           "We do separate “licensed somewhere” from “lawful for me here”.",
         ]) +
         `
-<img src="/assets/images/1win-argentina-guide.png" alt="is 1win legal in argentina geo verification context image">
+<img class="site-media" src="/assets/images/1win-argentina-guide.png" alt="is 1win legal in argentina geo verification context image">
 <p>If registers are unavailable or unclear, that uncertainty itself is information. Some readers will wait; some will abstain. Both are responsible responses compared with forging ahead on rumour.</p>`,
       },
       {
@@ -1336,7 +1348,7 @@ export const CORE_PAGES: Record<string, CorePage> = {
           ]
         ) +
         `
-<img src="/assets/images/1win-responsible.png" alt="is 1win legal in argentina responsible adult-only play visual">
+<img class="site-media" src="/assets/images/1win-responsible.png" alt="is 1win legal in argentina responsible adult-only play visual">
 <p>Consumer forums can share useful technical tips, but they are poor sources of legal conclusions. When in doubt, prioritise official texts and qualified local advice over anonymous certainty.</p>`,
       },
       {

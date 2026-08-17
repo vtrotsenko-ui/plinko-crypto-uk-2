@@ -198,6 +198,9 @@ async function checkAffiliateLinks(
   const lines: string[] = [];
   const failures: string[] = [];
   const operatorDomains = new Set(operators.map((o) => domainOf(o.affiliateUrl)).filter((d): d is string => !!d));
+  // Also treat whitelisted partner domains as affiliate destinations even when
+  // no data/casinos/*.json operator row is configured yet.
+  for (const domain of whitelist) operatorDomains.add(domain);
 
   if (operatorDomains.size === 0) {
     lines.push("No operator affiliate URLs configured - no partner links to check yet.");
