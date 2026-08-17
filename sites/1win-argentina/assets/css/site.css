@@ -172,7 +172,24 @@ main {
 .hero h1 { font-family: "Fraunces", Georgia, serif; font-size: 1.75rem; margin: 0 0 0.6rem; line-height: 1.25; }
 .hero .lede { color: var(--color-muted); font-size: 1.02rem; }
 .hero-cta-group { display: flex; flex-wrap: wrap; gap: 0.6rem; margin-top: 1rem; }
-.hero-media { width: 100%; }
+.hero-media {
+  width: 100%;
+  max-height: 420px;
+  object-fit: cover;
+  object-position: top center;
+}
+.game-card img {
+  aspect-ratio: 16 / 10;
+  object-fit: cover;
+  width: 100%;
+  height: auto;
+}
+.content-image img {
+  width: 100%;
+  max-height: 480px;
+  object-fit: cover;
+  object-position: top center;
+}
 
 article.page-content h2 {
   margin-top: 2.4rem;
