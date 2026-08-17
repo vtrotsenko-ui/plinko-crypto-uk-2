@@ -1,0 +1,31 @@
+{
+  "briefId": "editorial-privacy-and-cookie-policy",
+  "clusterId": null,
+  "primaryKeyword": "privacy and cookie policy",
+  "intent": "informational",
+  "pageType": "trust",
+  "supportingKeywords": [
+    "privacy and cookie policy"
+  ],
+  "knownSearchVolume": null,
+  "targets": {
+    "wordCount": {
+      "median": 900,
+      "min": 765,
+      "max": 1035
+    },
+    "h2": 5,
+    "tables": 3,
+    "lists": 4
+  },
+  "lsiTerms": [],
+  "faqQuestions": [
+    "What is privacy and cookie policy?",
+    "Is privacy and cookie policy available in the UK?",
+    "How do I try privacy and cookie policy for free before playing for real money?"
+  ],
+  "competitorAnalysis": {
+    "available": false,
+    "note": "No SERP_API_KEY configured - targets are fixed defaults per page type, not measured from the live top 10. Re-run with SERP_API_KEY set to replace these with observed competitor word/heading/table counts."
+  }
+}

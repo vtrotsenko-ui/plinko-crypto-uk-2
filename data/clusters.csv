@@ -1,0 +1,1084 @@
+cluster_id,cluster_name,keyword,volume,kd,intent,serp_overlap_score
+c1,1win,1win,122000,9,informational_heuristic,0
+c2,1win casino,1win casino,16000,0,commercial_heuristic,10
+c2,1win casino,1win casino online,1100,44,commercial_heuristic,5
+c2,1win casino,casino 1win,1100,65,commercial_heuristic,10
+c2,1win casino,1win casino app,700,50,commercial_heuristic,5
+c2,1win casino,1win casino argentina,700,60,commercial_heuristic,5
+c2,1win casino,1win casino online argentina,300,,commercial_heuristic,3
+c2,1win casino,1win app casino,200,,commercial_heuristic,5
+c2,1win casino,casino 1win argentina,200,,commercial_heuristic,5
+c2,1win casino,casino online 1win,200,,commercial_heuristic,5
+c2,1win casino,1win casino latinoamerica,150,,commercial_heuristic,5
+c2,1win casino,bonus casino 1win,150,56,commercial_heuristic,5
+c2,1win casino,1win online casino,100,,commercial_heuristic,5
+c2,1win casino,1win casino login,80,,commercial_heuristic,5
+c2,1win casino,1win casino gratis,60,,commercial_heuristic,5
+c2,1win casino,1win argentina casino,50,,commercial_heuristic,5
+c2,1win casino,1win bonus casino,40,,commercial_heuristic,5
+c2,1win casino,1win casino aviator,40,,commercial_heuristic,5
+c2,1win casino,1win casino chile,40,,commercial_heuristic,5
+c2,1win casino,1win casino colombia,30,,commercial_heuristic,5
+c2,1win casino,1win casino download,30,,commercial_heuristic,5
+c2,1win casino,1win chile casino,30,,commercial_heuristic,5
+c2,1win casino,casino 1win chile,30,,commercial_heuristic,5
+c2,1win casino,chicken cross casino 1win,30,,commercial_heuristic,3
+c2,1win casino,1win crypto casino,20,,commercial_heuristic,5
+c2,1win casino,1 win casino app,,,commercial_heuristic,3
+c2,1win casino,1 win casino argentina,,,commercial_heuristic,3
+c2,1win casino,1 win casino games,,,commercial_heuristic,3
+c2,1win casino,1 win casino is legit,,,commercial_heuristic,3
+c2,1win casino,1 win casino online,,,commercial_heuristic,3
+c2,1win casino,1 win casino registration,,,commercial_heuristic,3
+c2,1win casino,10 best casino sites,,,commercial_heuristic,3
+c2,1win casino,10 best casinos,,,commercial_heuristic,3
+c2,1win casino,10 bet casino review,,,commercial_heuristic,3
+c2,1win casino,1win best online casino,,,commercial_heuristic,3
+c2,1win casino,1win bet casino game,,,commercial_heuristic,3
+c2,1win casino,1win bet casino login,,,commercial_heuristic,3
+c2,1win casino,1win bonus casino games,,,commercial_heuristic,3
+c2,1win casino,1win bonus casino how to use in india,,,commercial_heuristic,3
+c2,1win casino,1win bonus casino how to use in nigeria,,,commercial_heuristic,3
+c2,1win casino,1win bonus casino ishlatish,,,commercial_heuristic,3
+c2,1win casino,1win bonus casino login,,,commercial_heuristic,3
+c2,1win casino,1win bonus casino money,,,commercial_heuristic,3
+c2,1win casino,1win bonus casino withdrawal,,,commercial_heuristic,3
+c2,1win casino,1win casino & sports betting app,,,commercial_heuristic,3
+c2,1win casino,1win casino & sports betting login,,,commercial_heuristic,3
+c2,1win casino,1win casino apk download,,,commercial_heuristic,3
+c2,1win casino,1win casino app apk,,,commercial_heuristic,3
+c2,1win casino,1win casino app descargar,,,commercial_heuristic,3
+c2,1win casino,1win casino app download apk,,,commercial_heuristic,3
+c2,1win casino,1win casino app login,,,commercial_heuristic,3
+c2,1win casino,1win casino argentino,,,commercial_heuristic,5
+c2,1win casino,1win casino bet,,,commercial_heuristic,5
+c2,1win casino,1win casino betting app,,,commercial_heuristic,3
+c2,1win casino,1win casino bonus account how to use,,,commercial_heuristic,3
+c2,1win casino,1win casino bonus account withdrawal,,,commercial_heuristic,3
+c2,1win casino,1win casino bonus games,,,commercial_heuristic,3
+c2,1win casino,1win casino bonus games download,,,commercial_heuristic,3
+c2,1win casino,1win casino casino,,,commercial_heuristic,10
+c2,1win casino,1win casino es legal,,,commercial_heuristic,3
+c2,1win casino,1win casino game download,,,commercial_heuristic,3
+c2,1win casino,1win casino legal,,,commercial_heuristic,5
+c2,1win casino,1win casino login app,,,commercial_heuristic,3
+c2,1win casino,1win casino login australia,,,commercial_heuristic,3
+c2,1win casino,1win casino login download,,,commercial_heuristic,3
+c2,1win casino,1win casino login india,,,commercial_heuristic,3
+c2,1win casino,1win casino login password,,,commercial_heuristic,3
+c2,1win casino,1win casino login register,,,commercial_heuristic,3
+c2,1win casino,1win casino login registration,,,commercial_heuristic,3
+c2,1win casino,1win casino login registration download,,,commercial_heuristic,3
+c2,1win casino,1win casino mines,,,commercial_heuristic,5
+c2,1win casino,1win casino official,,,commercial_heuristic,5
+c2,1win casino,1win casino online login,,,commercial_heuristic,3
+c2,1win casino,1win casino online registration,,,commercial_heuristic,3
+c2,1win casino,1win casino review complaints,,,commercial_heuristic,3
+c2,1win casino,1win casino token,,,commercial_heuristic,5
+c2,1win casino,1win casino usa,,,commercial_heuristic,5
+c2,1win casino,1win crypto casino review,,,commercial_heuristic,3
+c2,1win casino,1win how to use bonus casino money,,,commercial_heuristic,3
+c2,1win casino,1win in casino play,,,commercial_heuristic,5
+c2,1win casino,1win login casino,,,commercial_heuristic,5
+c2,1win casino,1win official casino,,,commercial_heuristic,5
+c2,1win casino,1win online casino app,,,commercial_heuristic,3
+c2,1win casino,1win online casino app download,,,commercial_heuristic,3
+c2,1win casino,1win online casino bangladesh login,,,commercial_heuristic,3
+c2,1win casino,1win online casino betting,,,commercial_heuristic,3
+c2,1win casino,1win online casino download,,,commercial_heuristic,3
+c2,1win casino,1win online casino game,,,commercial_heuristic,3
+c2,1win casino,1win online casino online casino online slots,,,commercial_heuristic,3
+c2,1win casino,1win online casino review,,,commercial_heuristic,3
+c2,1win casino,88 casino review,,,commercial_heuristic,3
+c2,1win casino,apps for casino games,,,commercial_heuristic,3
+c2,1win casino,are there any good online casinos,,,commercial_heuristic,3
+c2,1win casino,are there casinos in argentina,,,commercial_heuristic,5
+c2,1win casino,avi casino movies,,,commercial_heuristic,3
+c2,1win casino,aviator 1win casino app download,,,commercial_heuristic,3
+c2,1win casino,bono de casino 1win argentina,,,commercial_heuristic,3
+c2,1win casino,bonus 1win casino,,,commercial_heuristic,5
+c2,1win casino,bonus casino 1win real money,,,commercial_heuristic,3
+c2,1win casino,can you be on the casino floor under 21,,,commercial_heuristic,3
+c2,1win casino,can you bet your house in a casino,,,commercial_heuristic,3
+c2,1win casino,casino 1win 500,,,commercial_heuristic,5
+c2,1win casino,casino 1win app download,,,commercial_heuristic,3
+c2,1win casino,casino 1win login,,,commercial_heuristic,5
+c2,1win casino,casino 1win no deposit bonus,,,commercial_heuristic,3
+c2,1win casino,casino 1win online,,,commercial_heuristic,5
+c2,1win casino,casino 1win register,,,commercial_heuristic,5
+c2,1win casino,casino 1win withdrawal,,,commercial_heuristic,5
+c2,1win casino,casino apps for money,,,commercial_heuristic,3
+c2,1win casino,casino apps for real money,,,commercial_heuristic,3
+c2,1win casino,casino casinos near me,,,commercial_heuristic,5
+c2,1win casino,casino explained,,,commercial_heuristic,5
+c2,1win casino,casino games for free,,,commercial_heuristic,3
+c2,1win casino,casino games for fun,,,commercial_heuristic,3
+c2,1win casino,casino guru best casinos,,,commercial_heuristic,3
+c2,1win casino,casino in review,,,commercial_heuristic,5
+c2,1win casino,casino mine jobs,,,commercial_heuristic,3
+c2,1win casino,casino online 1win argentina,,,commercial_heuristic,3
+c2,1win casino,casino slot games for fun,,,commercial_heuristic,3
+c2,1win casino,do casinos give free money,,,commercial_heuristic,3
+c2,1win casino,do casinos have online gambling,,,commercial_heuristic,3
+c2,1win casino,does florida have online casino,,,commercial_heuristic,3
+c2,1win casino,does savannah have casinos,,,commercial_heuristic,5
+c2,1win casino,download 1win casino,,,commercial_heuristic,5
+c2,1win casino,highest rated casino app,,,commercial_heuristic,3
+c2,1win casino,how do online casino bonuses work,,,commercial_heuristic,3
+c2,1win casino,how old do you have to be to gamble in a casino in michigan,,,commercial_heuristic,3
+c2,1win casino,how old to bet at casino,,,commercial_heuristic,3
+c2,1win casino,how old to play online casino,,,commercial_heuristic,3
+c2,1win casino,how to claim 1win casino bonus,,,commercial_heuristic,3
+c2,1win casino,how to play 1win casino bonus,,,commercial_heuristic,3
+c2,1win casino,how to play live casino online,,,commercial_heuristic,3
+c2,1win casino,how to play real casino online,,,commercial_heuristic,3
+c2,1win casino,how to register casino,,,commercial_heuristic,5
+c2,1win casino,how to sign up for online casino,,,commercial_heuristic,3
+c2,1win casino,how to start an online casino free,,,commercial_heuristic,3
+c2,1win casino,how to use 1win casino bonus in kenya,,,commercial_heuristic,3
+c2,1win casino,how to use 1win casino bonus in nigeria,,,commercial_heuristic,3
+c2,1win casino,how to use 1win casino bonus money,,,commercial_heuristic,3
+c2,1win casino,is 1win casino legit or not,,,commercial_heuristic,3
+c2,1win casino,is 1win casino real,,,commercial_heuristic,5
+c2,1win casino,is 1win casino safe,,,commercial_heuristic,5
+c2,1win casino,is 1win online casino legit,,,commercial_heuristic,3
+c2,1win casino,legal casino near me,,,commercial_heuristic,3
+c2,1win casino,live casino rules,,,commercial_heuristic,3
+c2,1win casino,log in 1win casino,,,commercial_heuristic,5
+c2,1win casino,login 1win casino login,,,commercial_heuristic,5
+c2,1win casino,lucky land casino review,,,commercial_heuristic,3
+c2,1win casino,no rules bonus casinos,,,commercial_heuristic,3
+c2,1win casino,online casino best reviews,,,commercial_heuristic,3
+c2,1win casino,online casino meaning,,,commercial_heuristic,3
+c2,1win casino,online casinos best payout,,,commercial_heuristic,3
+c2,1win casino,plinko 1win casino,,,commercial_heuristic,5
+c2,1win casino,states with legal gambling casinos,,,commercial_heuristic,3
+c2,1win casino,what are the best free casino games,,,commercial_heuristic,3
+c2,1win casino,what are the most reputable online casinos,,,commercial_heuristic,3
+c2,1win casino,what is a casino bonus,,,commercial_heuristic,5
+c2,1win casino,what is silver mining in a casino,,,commercial_heuristic,3
+c2,1win casino,what is the safest bet in a casino,,,commercial_heuristic,3
+c2,1win casino,where is grand mondial casino located,,,commercial_heuristic,3
+c3,1win argentina,1win argentina,5400,33,informational_heuristic,10
+c3,1win argentina,balloon 1win argentina,200,,informational_heuristic,5
+c3,1win argentina,1win app argentina,150,,transactional_heuristic,5
+c3,1win argentina,1win balloon argentina,60,,informational_heuristic,5
+c3,1win argentina,1win login argentina,60,,informational_heuristic,5
+c3,1win argentina,1win mines argentina,50,,informational_heuristic,5
+c3,1win argentina,1win apk argentina,40,,informational_heuristic,5
+c3,1win argentina,1win argentina apk,40,,informational_heuristic,5
+c3,1win argentina,1win aviator argentina,40,,informational_heuristic,5
+c3,1win argentina,aviator juego 1win argentina,40,,informational_heuristic,3
+c3,1win argentina,1win argentina app,20,,transactional_heuristic,5
+c3,1win argentina,1win argentina porno,20,,informational_heuristic,5
+c3,1win argentina,1win argentina xxx,20,,informational_heuristic,5
+c3,1win argentina,1win bloqueado argentina,20,,informational_heuristic,5
+c3,1win argentina,codigo 1win argentina,20,,informational_heuristic,5
+c3,1win argentina,top 10 juegos 1win argentina,20,,commercial_heuristic,3
+c3,1win argentina,1win app argentina descargar,,,transactional_heuristic,3
+c3,1win argentina,1win argentina descargar,,,informational_heuristic,5
+c3,1win argentina,1win argentina es confiable,,,informational_heuristic,3
+c3,1win argentina,1win argentina es legal,,,informational_heuristic,3
+c3,1win argentina,1win argentina iniciar sesión,,,informational_heuristic,3
+c3,1win argentina,1win argentina oficial,,,informational_heuristic,5
+c3,1win argentina,argentina country rating,,,informational_heuristic,3
+c3,1win argentina,argentina literacy rate,,,informational_heuristic,3
+c3,1win argentina,can us citizens own property in argentina,,,informational_heuristic,3
+c3,1win argentina,interesting things about argentina,,,informational_heuristic,3
+c3,1win argentina,is 100 dollars a lot in argentina,,,informational_heuristic,3
+c3,1win argentina,is amazon available in argentina,,,informational_heuristic,3
+c3,1win argentina,is argentina a low income country,,,informational_heuristic,3
+c3,1win argentina,laws in argentina,,,informational_heuristic,5
+c3,1win argentina,sites in argentina,,,commercial_heuristic,5
+c4,1win app,1win app,2000,64,transactional_heuristic,10
+c4,1win app,1win app download,150,63,transactional_heuristic,5
+c4,1win app,1win app android,100,,transactional_heuristic,5
+c4,1win app,1win app ios,100,,transactional_heuristic,5
+c4,1win app,app 1win,100,,transactional_heuristic,10
+c4,1win app,1win app apk,60,,transactional_heuristic,5
+c4,1win app,1win app store,60,,transactional_heuristic,5
+c4,1win app,1win chile app,60,,transactional_heuristic,5
+c4,1win app,1win android app,50,,transactional_heuristic,5
+c4,1win app,1win app iphone,50,,transactional_heuristic,5
+c4,1win app,1win affiliate app download,40,,transactional_heuristic,3
+c4,1win app,1win app login,40,,transactional_heuristic,5
+c4,1win app,1win bet app,40,,transactional_heuristic,5
+c4,1win app,1win partner app,40,,transactional_heuristic,5
+c4,1win app,1win partners app download,40,,transactional_heuristic,3
+c4,1win app,balloon app 1win,40,,transactional_heuristic,5
+c4,1win app,1win app chile,30,,transactional_heuristic,5
+c4,1win app,1win app colombia,30,,transactional_heuristic,5
+c4,1win app,1win app for pc,30,,transactional_heuristic,5
+c4,1win app,1win app play store,30,,transactional_heuristic,3
+c4,1win app,1win colombia app,30,,transactional_heuristic,5
+c4,1win app,1win app aviator,20,,transactional_heuristic,5
+c4,1win app,1win aviator app download,20,,transactional_heuristic,3
+c4,1win app,1win official app,20,,transactional_heuristic,5
+c4,1win app,app 1win dinheiro real,20,,transactional_heuristic,3
+c4,1win app,aviator app 1win,20,,transactional_heuristic,5
+c4,1win app,1 win app best games,,,commercial_heuristic,3
+c4,1win app,1 win app login register,,,transactional_heuristic,3
+c4,1win app,1 win official app,,,transactional_heuristic,3
+c4,1win app,1win app 500 bonus,,,transactional_heuristic,3
+c4,1win app,1win app app store,,,transactional_heuristic,5
+c4,1win app,1win app apple,,,transactional_heuristic,5
+c4,1win app,1win app apple store,,,transactional_heuristic,3
+c4,1win app,1win app bet,,,transactional_heuristic,5
+c4,1win app,1win app bonus,,,transactional_heuristic,5
+c4,1win app,1win app download apkpure,,,transactional_heuristic,3
+c4,1win app,1win app download app,,,transactional_heuristic,5
+c4,1win app,1win app download apple store,,,transactional_heuristic,3
+c4,1win app,1win app download official,,,transactional_heuristic,3
+c4,1win app,1win app download pakistan,,,transactional_heuristic,3
+c4,1win app,1win app download play store,,,transactional_heuristic,3
+c4,1win app,1win app gambling,,,transactional_heuristic,5
+c4,1win app,1win app game download,,,transactional_heuristic,3
+c4,1win app,1win app games,,,transactional_heuristic,5
+c4,1win app,1win app how to withdraw money,,,informational_heuristic,3
+c4,1win app,1win app install,,,transactional_heuristic,5
+c4,1win app,1win app install bonus,,,transactional_heuristic,3
+c4,1win app,1win app is banned in india,,,informational_heuristic,3
+c4,1win app,1win app is legal,,,informational_heuristic,5
+c4,1win app,1win app is legit,,,informational_heuristic,5
+c4,1win app,1win app is real or fake in hindi,,,informational_heuristic,3
+c4,1win app,1win app is real or fake in india,,,informational_heuristic,3
+c4,1win app,1win app is trusted or not,,,informational_heuristic,3
+c4,1win app,1win app legal or illegal,,,transactional_heuristic,3
+c4,1win app,1win app legal or illegal in india,,,transactional_heuristic,3
+c4,1win app,1win app login apk,,,transactional_heuristic,3
+c4,1win app,1win app login download,,,transactional_heuristic,3
+c4,1win app,1win app login for android,,,transactional_heuristic,3
+c4,1win app,1win app login in india,,,transactional_heuristic,3
+c4,1win app,1win app login in nigeria,,,transactional_heuristic,3
+c4,1win app,1win app login password,,,transactional_heuristic,3
+c4,1win app,1win app mines,,,transactional_heuristic,5
+c4,1win app,1win app official website login,,,transactional_heuristic,3
+c4,1win app,1win app register,,,transactional_heuristic,5
+c4,1win app,1win app registration download,,,transactional_heuristic,3
+c4,1win app,1win app registration login,,,transactional_heuristic,3
+c4,1win app,1win app registration online,,,transactional_heuristic,3
+c4,1win app,1win app review india,,,informational_heuristic,3
+c4,1win app,1win app safe or not,,,informational_heuristic,3
+c4,1win app,1win bet app download apk,,,transactional_heuristic,3
+c4,1win app,1win bet app login registration,,,transactional_heuristic,3
+c4,1win app,1win bet download app,,,transactional_heuristic,3
+c4,1win app,1win bet online app,,,transactional_heuristic,3
+c4,1win app,1win bet online app download,,,transactional_heuristic,3
+c4,1win app,1win bet registration app,,,transactional_heuristic,3
+c4,1win app,1win betting app is legal in india,,,informational_heuristic,3
+c4,1win app,1win betting app review,,,informational_heuristic,3
+c4,1win app,1win bonus app,,,transactional_heuristic,5
+c4,1win app,1win download app apk,,,transactional_heuristic,3
+c4,1win app,1win download app download apk,,,transactional_heuristic,3
+c4,1win app,1win download app install,,,transactional_heuristic,3
+c4,1win app,1win download app install free,,,transactional_heuristic,3
+c4,1win app,1win download app south africa,,,transactional_heuristic,3
+c4,1win app,1win download app store,,,transactional_heuristic,3
+c4,1win app,1win gambling app,,,transactional_heuristic,5
+c4,1win app,1win game app download apk,,,transactional_heuristic,3
+c4,1win app,1win games app download,,,transactional_heuristic,3
+c4,1win app,1win games app login,,,transactional_heuristic,3
+c4,1win app,1win games login app,,,transactional_heuristic,3
+c4,1win app,1win login app apk,,,transactional_heuristic,3
+c4,1win app,1win login app download,,,transactional_heuristic,3
+c4,1win app,1win login app download apk,,,transactional_heuristic,3
+c4,1win app,1win login ghana app,,,transactional_heuristic,3
+c4,1win app,1win login india app,,,transactional_heuristic,3
+c4,1win app,1win login nigeria app,,,transactional_heuristic,3
+c4,1win app,1win malawi registration online app,,,transactional_heuristic,3
+c4,1win app,1win mines app,,,transactional_heuristic,5
+c4,1win app,1win mines app download,,,transactional_heuristic,3
+c4,1win app,1win mobile app download,,,transactional_heuristic,3
+c4,1win app,1win official app download apk,,,transactional_heuristic,3
+c4,1win app,1win official app for android,,,transactional_heuristic,3
+c4,1win app,1win official app login,,,transactional_heuristic,3
+c4,1win app,1win official website app,,,transactional_heuristic,3
+c4,1win app,1win official website app download,,,transactional_heuristic,3
+c4,1win app,1win official website login app,,,transactional_heuristic,3
+c4,1win app,1win online app,,,transactional_heuristic,5
+c4,1win app,1win online game app download,,,transactional_heuristic,3
+c4,1win app,1win plinko app,,,transactional_heuristic,5
+c4,1win app,1win register app,,,transactional_heuristic,5
+c4,1win app,1win register number app,,,transactional_heuristic,3
+c4,1win app,1win registration online app,,,transactional_heuristic,3
+c4,1win app,1win sign in app,,,transactional_heuristic,5
+c4,1win app,1win sign in app download free,,,transactional_heuristic,3
+c4,1win app,align27 app review,,,informational_heuristic,3
+c4,1win app,app 1win download,,,transactional_heuristic,5
+c4,1win app,apps for legal advice,,,informational_heuristic,3
+c4,1win app,apps for studying law,,,informational_heuristic,3
+c4,1win app,apps to fill out applications,,,informational_heuristic,3
+c4,1win app,apps used in creating games,,,informational_heuristic,3
+c4,1win app,apps with referral bonus,,,transactional_heuristic,3
+c4,1win app,are betting apps legal,,,informational_heuristic,3
+c4,1win app,are there any legal gambling apps,,,informational_heuristic,3
+c4,1win app,betting apps under 18,,,informational_heuristic,3
+c4,1win app,betting apps with sign up bonus,,,transactional_heuristic,3
+c4,1win app,can i log into my cash app online,,,transactional_heuristic,3
+c4,1win app,does bet have an app,,,transactional_heuristic,5
+c4,1win app,download 1win app apk,,,transactional_heuristic,3
+c4,1win app,download 1win app for pc,,,transactional_heuristic,3
+c4,1win app,download 1win app ios,,,transactional_heuristic,3
+c4,1win app,download 1win official app,,,transactional_heuristic,3
+c4,1win app,easy money app review,,,informational_heuristic,3
+c4,1win app,how to download 1win app in iphone,,,informational_heuristic,3
+c4,1win app,how to install 1win app,,,informational_heuristic,5
+c4,1win app,how to install 1win app on iphone,,,informational_heuristic,3
+c4,1win app,how to login yes app,,,informational_heuristic,3
+c4,1win app,how to play 1win app,,,informational_heuristic,5
+c4,1win app,how to register on 1win app,,,informational_heuristic,5
+c4,1win app,how to update 1win app,,,informational_heuristic,5
+c4,1win app,how to use 1win app,,,informational_heuristic,5
+c4,1win app,how to use mipermit app,,,informational_heuristic,3
+c4,1win app,how to withdraw 1win app,,,informational_heuristic,5
+c4,1win app,how to withdraw from 1win bet app,,,informational_heuristic,3
+c4,1win app,is 1win app legit in south africa,,,informational_heuristic,3
+c4,1win app,is 1win app real,,,informational_heuristic,5
+c4,1win app,is 1win betting app legit,,,informational_heuristic,3
+c4,1win app,is 1win trusted app,,,informational_heuristic,5
+c4,1win app,is plinko app legit,,,informational_heuristic,3
+c4,1win app,is there a lottery app,,,informational_heuristic,5
+c4,1win app,is yes app free,,,informational_heuristic,3
+c4,1win app,kid friendly game apps,,,informational_heuristic,3
+c4,1win app,legal betting apps in india,,,informational_heuristic,3
+c4,1win app,legit mining apps,,,informational_heuristic,3
+c4,1win app,legitimate lottery apps,,,informational_heuristic,3
+c4,1win app,login 1win app,,,transactional_heuristic,5
+c4,1win app,login 1win app download,,,transactional_heuristic,3
+c4,1win app,official 1win app,,,transactional_heuristic,5
+c4,1win app,plinko app review,,,informational_heuristic,3
+c4,1win app,review of 1win app,,,informational_heuristic,5
+c4,1win app,safe scanner apps,,,informational_heuristic,3
+c4,1win app,safest game apps,,,informational_heuristic,3
+c4,1win app,welche app,,,transactional_heuristic,5
+c4,1win app,what betting apps give free bets,,,informational_heuristic,3
+c4,1win app,what is 1win app id,,,informational_heuristic,5
+c4,1win app,what is an app registration,,,informational_heuristic,5
+c4,1win app,what is im app,,,informational_heuristic,5
+c4,1win app,what is plinko app,,,informational_heuristic,5
+c4,1win app,what is the best app for downloading,,,commercial_heuristic,3
+c4,1win app,what is the best online learning app,,,commercial_heuristic,3
+c4,1win app,what is the safest app,,,informational_heuristic,5
+c4,1win app,what is u app,,,informational_heuristic,10
+c4,1win app,what is user login app,,,informational_heuristic,3
+c4,1win app,what is yp app,,,informational_heuristic,5
+c4,1win app,which app is good for teaching online,,,informational_heuristic,3
+c4,1win app,which bet app is the best,,,commercial_heuristic,3
+c4,1win app,which money app is safest,,,informational_heuristic,3
+c4,1win app,which online app is best,,,commercial_heuristic,3
+c4,1win app,why can't i log into lottery app,,,transactional_heuristic,3
+c5,1win login,1win login,1800,82,informational_heuristic,10
+c5,1win login,1win aviator login,80,,informational_heuristic,5
+c5,1win login,1win affiliate login,40,,informational_heuristic,5
+c5,1win login,1win bet login,40,,informational_heuristic,5
+c5,1win login,1win partner login,40,,informational_heuristic,5
+c5,1win login,1win login colombia,30,,informational_heuristic,5
+c5,1win login,1win bet game login,,,informational_heuristic,3
+c5,1win login,1win bet kenya login account login,,,informational_heuristic,3
+c5,1win login,1win bet login mobile,,,informational_heuristic,3
+c5,1win login,1win bet login mobile download,,,transactional_heuristic,3
+c5,1win login,1win bet login mobile login password,,,informational_heuristic,3
+c5,1win login,1win bet login mobile number,,,informational_heuristic,3
+c5,1win login,1win bet login mobile registration,,,informational_heuristic,3
+c5,1win login,1win bet login nigeria,,,informational_heuristic,3
+c5,1win login,1win bet login register mobile,,,informational_heuristic,3
+c5,1win login,1win bet login register nigeria,,,informational_heuristic,3
+c5,1win login,1win bet online login,,,informational_heuristic,3
+c5,1win login,1win bet online login in tanzania,,,informational_heuristic,3
+c5,1win login,1win bet online login sign up,,,informational_heuristic,3
+c5,1win login,1win bet online registration login,,,informational_heuristic,3
+c5,1win login,1win bet today login,,,informational_heuristic,3
+c5,1win login,1win crash game login,,,informational_heuristic,3
+c5,1win login,1win game login in india,,,informational_heuristic,3
+c5,1win login,1win games login password,,,informational_heuristic,3
+c5,1win login,1win in login password,,,informational_heuristic,5
+c5,1win login,1win login bonus,,,transactional_heuristic,5
+c5,1win login,1win login download apk,,,transactional_heuristic,3
+c5,1win login,1win login download apk for android,,,transactional_heuristic,3
+c5,1win login,1win login download for android,,,transactional_heuristic,3
+c5,1win login,1win login download for android free,,,transactional_heuristic,3
+c5,1win login,1win login download ios,,,transactional_heuristic,3
+c5,1win login,1win login download old version,,,transactional_heuristic,3
+c5,1win login,1win login game,,,informational_heuristic,5
+c5,1win login,1win login gh,,,informational_heuristic,5
+c5,1win login,1win login ghana register,,,informational_heuristic,3
+c5,1win login,1win login kenya login,,,informational_heuristic,5
+c5,1win login,1win login login,,,informational_heuristic,10
+c5,1win login,1win login login india,,,informational_heuristic,5
+c5,1win login,1win login malawi,,,informational_heuristic,5
+c5,1win login,1win login malawi register,,,informational_heuristic,3
+c5,1win login,1win login malawi register mobile,,,informational_heuristic,3
+c5,1win login,1win login malawi sign up,,,informational_heuristic,3
+c5,1win login,1win login malawi sign up bonus,,,transactional_heuristic,3
+c5,1win login,1win login mines,,,informational_heuristic,5
+c5,1win login,1win login official,,,informational_heuristic,5
+c5,1win login,1win login official website,,,informational_heuristic,3
+c5,1win login,1win login official website india,,,informational_heuristic,3
+c5,1win login,1win login official website sign up,,,informational_heuristic,3
+c5,1win login,1win login online india,,,informational_heuristic,3
+c5,1win login,1win login online sign up free,,,informational_heuristic,3
+c5,1win login,1win login online sign up in nigeria,,,informational_heuristic,3
+c5,1win login,1win login online sign up india,,,informational_heuristic,3
+c5,1win login,1win login online sign up with email,,,informational_heuristic,3
+c5,1win login,1win login promo code,,,informational_heuristic,3
+c5,1win login,1win login register,,,informational_heuristic,5
+c5,1win login,1win login register mobile,,,informational_heuristic,3
+c5,1win login,1win login togo,,,informational_heuristic,5
+c5,1win login,1win login zambia login password,,,informational_heuristic,3
+c5,1win login,1win login zambia sign up bonus,,,transactional_heuristic,3
+c5,1win login,1win mines login password,,,informational_heuristic,3
+c5,1win login,1win official login,,,informational_heuristic,5
+c5,1win login,1win official website login,,,informational_heuristic,3
+c5,1win login,1win official website login india,,,informational_heuristic,3
+c5,1win login,1win official website login password,,,informational_heuristic,3
+c5,1win login,1win online betting login,,,informational_heuristic,3
+c5,1win login,1win online game login,,,informational_heuristic,3
+c5,1win login,1win online login download,,,transactional_heuristic,3
+c5,1win login,1win online login india,,,informational_heuristic,3
+c5,1win login,1win online login password,,,informational_heuristic,3
+c5,1win login,1win plinko login,,,informational_heuristic,5
+c5,1win login,1win register login bonus,,,transactional_heuristic,3
+c5,1win login,1win register login download free,,,transactional_heuristic,3
+c5,1win login,1win register login free,,,informational_heuristic,3
+c5,1win login,1win register login india,,,informational_heuristic,3
+c5,1win login,1win register login mobile download,,,transactional_heuristic,3
+c5,1win login,1win register login mobile free,,,informational_heuristic,3
+c5,1win login,1win register login mobile number,,,informational_heuristic,3
+c5,1win login,1win register login password,,,informational_heuristic,3
+c5,1win login,1win register login password free,,,informational_heuristic,3
+c5,1win login,1win web login,,,informational_heuristic,5
+c5,1win login,aviamasters 1win login register,,,informational_heuristic,3
+c5,1win login,difference between login and logon,,,informational_heuristic,3
+c5,1win login,how to login old line account,,,informational_heuristic,3
+c5,1win login,how to login to usi,,,informational_heuristic,5
+c5,1win login,is it log-in or login,,,informational_heuristic,5
+c5,1win login,login 1win account,,,informational_heuristic,5
+c5,1win login,login 1win account sign up,,,informational_heuristic,3
+c5,1win login,login 1win register,,,informational_heuristic,5
+c5,1win login,login 1win sign up,,,informational_heuristic,5
+c5,1win login,login user id example,,,informational_heuristic,3
+c5,1win login,login with mobile number facebook,,,informational_heuristic,3
+c5,1win login,online 1win login,,,informational_heuristic,5
+c5,1win login,what is login account,,,informational_heuristic,5
+c5,1win login,what is the difference between log in and login,,,informational_heuristic,3
+c6,1win bet,1win bet,1400,76,informational_heuristic,10
+c6,1win bet,www.1win bet.com,50,,informational_heuristic,3
+c6,1win bet,1win bet apk,40,,informational_heuristic,5
+c6,1win bet,1win bet aviator,30,,informational_heuristic,5
+c6,1win bet,10 bet review,,,informational_heuristic,3
+c6,1win bet,1win bet bonus,,,transactional_heuristic,5
+c6,1win bet,1win bet code today,,,informational_heuristic,3
+c6,1win bet,1win bet como usar o bonus,,,transactional_heuristic,3
+c6,1win bet,1win bet download apk,,,transactional_heuristic,3
+c6,1win bet,1win bet download apk for android,,,transactional_heuristic,3
+c6,1win bet,1win bet download for android,,,transactional_heuristic,3
+c6,1win bet,1win bet download ios,,,transactional_heuristic,3
+c6,1win bet,1win bet download old version,,,transactional_heuristic,3
+c6,1win bet,1win bet é legalizada,,,informational_heuristic,3
+c6,1win bet,1win bet e legalizado no brasil,,,informational_heuristic,3
+c6,1win bet,1win bet how to withdraw money,,,informational_heuristic,3
+c6,1win bet,1win bet is from which country,,,informational_heuristic,5
+c6,1win bet,1win bet is legit,,,informational_heuristic,5
+c6,1win bet,1win bet is real or fake,,,informational_heuristic,3
+c6,1win bet,1win bet malawi,,,informational_heuristic,5
+c6,1win bet,1win bet official,,,informational_heuristic,5
+c6,1win bet,1win bet official website,,,informational_heuristic,3
+c6,1win bet,1win bet online,,,informational_heuristic,5
+c6,1win bet,1win bet online registration,,,informational_heuristic,3
+c6,1win bet,1win bet prediction today football,,,informational_heuristic,3
+c6,1win bet,1win bet today,,,informational_heuristic,5
+c6,1win bet,1win bet today sign up,,,informational_heuristic,3
+c6,1win bet,1win bet today withdrawal,,,informational_heuristic,3
+c6,1win bet,1win bet togo,,,informational_heuristic,5
+c6,1win bet,1win bet welcome bonus,,,transactional_heuristic,3
+c6,1win bet,1win betting site review,,,commercial_heuristic,3
+c6,1win bet,1win free bet bonus,,,transactional_heuristic,3
+c6,1win bet,1win online betting,,,informational_heuristic,5
+c6,1win bet,are bets legally binding,,,informational_heuristic,3
+c6,1win bet,are bonus bets worth it,,,transactional_heuristic,3
+c6,1win bet,bet no draw meaning,,,informational_heuristic,3
+c6,1win bet,bet numbers meaning,,,informational_heuristic,3
+c6,1win bet,bet suggestions,,,informational_heuristic,5
+c6,1win bet,betting games with free bonus,,,transactional_heuristic,3
+c6,1win bet,bonus bets explained,,,transactional_heuristic,3
+c6,1win bet,bonus bets for signing up,,,transactional_heuristic,3
+c6,1win bet,difference between gamble and bet,,,informational_heuristic,3
+c6,1win bet,does it matter how much you bet on a slot machine,,,informational_heuristic,3
+c6,1win bet,download 1win bet apk,,,transactional_heuristic,3
+c6,1win bet,download 1win bet apk for android,,,transactional_heuristic,3
+c6,1win bet,how does bet analysis work,,,informational_heuristic,3
+c6,1win bet,how to bet with bonus on gbets,,,informational_heuristic,3
+c6,1win bet,how to check 1win bet history,,,informational_heuristic,3
+c6,1win bet,how to check 1win bet slip,,,informational_heuristic,3
+c6,1win bet,how to deposit 1win bet,,,informational_heuristic,5
+c6,1win bet,how to load 1win bet code,,,informational_heuristic,3
+c6,1win bet,how to play 1win bet,,,informational_heuristic,5
+c6,1win bet,how to register 1win bet,,,informational_heuristic,5
+c6,1win bet,how to withdraw 1win bet,,,informational_heuristic,5
+c6,1win bet,is 10 bet legit,,,informational_heuristic,3
+c6,1win bet,is 1win a good betting site,,,commercial_heuristic,3
+c6,1win bet,is 1win a legit betting site,,,commercial_heuristic,3
+c6,1win bet,is 1win bet real,,,informational_heuristic,5
+c6,1win bet,types of gambling bets,,,informational_heuristic,3
+c6,1win bet,what are bets,,,informational_heuristic,10
+c6,1win bet,what is bet analysis,,,informational_heuristic,5
+c6,1win bet,what is bonus bets,,,informational_heuristic,5
+c6,1win bet,what is series bet in 1win,,,informational_heuristic,5
+c6,1win bet,what is the bet of the day,,,informational_heuristic,5
+c6,1win bet,which bet is the best,,,commercial_heuristic,5
+c7,1win apk,1win apk,800,68,informational_heuristic,10
+c7,1win apk,1win apk android,150,,informational_heuristic,5
+c7,1win apk,1win apk download,150,,transactional_heuristic,5
+c7,1win apk,apk 1win,100,,informational_heuristic,10
+c7,1win apk,1win aviator apk,90,,informational_heuristic,5
+c7,1win apk,1win games apk,50,,informational_heuristic,5
+c7,1win apk,1win partner apk,40,,informational_heuristic,5
+c7,1win apk,1win partners apk download,40,,transactional_heuristic,3
+c7,1win apk,aviator 1win apk,30,,informational_heuristic,5
+c7,1win apk,baixar 1win apk,30,,informational_heuristic,5
+c7,1win apk,balloon 1win apk,30,,informational_heuristic,5
+c7,1win apk,1win aviator apk download,20,,transactional_heuristic,3
+c7,1win apk,1win balloon apk,20,,informational_heuristic,5
+c7,1win apk,aviator game 1win apk,20,,informational_heuristic,3
+c7,1win apk,1 win apk download official,,,transactional_heuristic,3
+c7,1win apk,1win aviator signal apk,,,informational_heuristic,3
+c7,1win apk,1win com download apk,,,transactional_heuristic,3
+c7,1win apk,1win download apk for android,,,transactional_heuristic,3
+c7,1win apk,1win free download apk,,,transactional_heuristic,3
+c7,1win apk,1win game download apk,,,transactional_heuristic,3
+c7,1win apk,1win game download apk for android,,,transactional_heuristic,3
+c7,1win apk,1win mines download apk,,,transactional_heuristic,3
+c7,1win apk,1win mines predictor bot apk,,,informational_heuristic,3
+c7,1win apk,1win official apk,,,informational_heuristic,5
+c7,1win apk,1win official apk download,,,transactional_heuristic,3
+c7,1win apk,1win register download apk,,,transactional_heuristic,3
+c7,1win apk,download official 1win apk,,,transactional_heuristic,3
+c7,1win apk,plinko 1win download apk,,,transactional_heuristic,3
+c8,1win lat,1win lat,700,40,informational_heuristic,10
+c9,1win online,1win online,450,77,informational_heuristic,10
+c9,1win online,1win aviator online,30,,informational_heuristic,5
+c9,1win online,10 examples of online games,,,informational_heuristic,3
+c9,1win online,1win game online play,,,transactional_heuristic,3
+c9,1win online,1win game register online,,,informational_heuristic,3
+c9,1win online,1win online download,,,transactional_heuristic,5
+c9,1win online,1win online game download,,,transactional_heuristic,3
+c9,1win online,1win online game real money,,,transactional_heuristic,3
+c9,1win online,1win register online mobile,,,informational_heuristic,3
+c9,1win online,can you gamble slots online,,,informational_heuristic,3
+c9,1win online,how to activate withdrawal in 1win online,,,informational_heuristic,3
+c9,1win online,how to buy 1win voucher online,,,informational_heuristic,3
+c9,1win online,how to change language in 1win online,,,informational_heuristic,3
+c9,1win online,how to check betslip on 1win online,,,informational_heuristic,3
+c9,1win online,how to deposit on 1win online,,,informational_heuristic,5
+c9,1win online,how to play plinko online,,,informational_heuristic,3
+c9,1win online,how to register 1win online,,,informational_heuristic,5
+c9,1win online,how to register for online,,,informational_heuristic,5
+c9,1win online,how to register for teaching online,,,informational_heuristic,3
+c9,1win online,how to register on 1win online in south africa,,,informational_heuristic,3
+c9,1win online,how to withdraw on 1win online,,,informational_heuristic,5
+c9,1win online,is online lottery down,,,informational_heuristic,3
+c9,1win online,meaning games online,,,informational_heuristic,3
+c9,1win online,online application instructions,,,informational_heuristic,3
+c9,1win online,online review examples,,,informational_heuristic,3
+c9,1win online,online word games for free,,,informational_heuristic,3
+c10,bonus code 1win,bonus code 1win,450,46,transactional_heuristic,10
+c10,bonus code 1win,1win bonus code,150,70,transactional_heuristic,10
+c10,bonus code 1win,1win promo code,150,,informational_heuristic,3
+c10,bonus code 1win,bonus code 1win argentina,150,33,transactional_heuristic,7
+c10,bonus code 1win,1win bonus,100,,transactional_heuristic,5
+c10,bonus code 1win,codigo bonus 1win,70,50,transactional_heuristic,3
+c10,bonus code 1win,bonus code 1win giros gratis,60,,transactional_heuristic,5
+c10,bonus code 1win,bonus code 1win gratis,60,43,transactional_heuristic,7
+c10,bonus code 1win,bonus 1win,50,,transactional_heuristic,5
+c10,bonus code 1win,1win bonus code argentina,40,,transactional_heuristic,7
+c10,bonus code 1win,1win bonus code no deposit,40,,transactional_heuristic,5
+c10,bonus code 1win,code bonus 1win,40,,transactional_heuristic,10
+c10,bonus code 1win,code bonus 1win lucky jet,40,,transactional_heuristic,5
+c10,bonus code 1win,bonus code 1win 2024,30,59,transactional_heuristic,7
+c10,bonus code 1win,bonus code 1win 2026 argentina,30,,transactional_heuristic,5
+c10,bonus code 1win,bonus code 1win giros gratis 2026,30,,transactional_heuristic,4
+c10,bonus code 1win,1win codigo bonus,20,,transactional_heuristic,3
+c10,bonus code 1win,bonus 1win codigo,20,,transactional_heuristic,3
+c10,bonus code 1win,bonus code 1win 2025,20,,transactional_heuristic,7
+c10,bonus code 1win,bonus code 1win 2025 argentina,20,,transactional_heuristic,5
+c10,bonus code 1win,bonus code 1win 2026,20,,transactional_heuristic,7
+c10,bonus code 1win,bonus code 1win telegram,20,,transactional_heuristic,7
+c10,bonus code 1win,bonus code 1win ya registrado,20,,transactional_heuristic,5
+c10,bonus code 1win,codigo 1win bonus,20,,transactional_heuristic,3
+c10,bonus code 1win,1win best promo code,,,commercial_heuristic,3
+c10,bonus code 1win,1win bonus code 2026 no deposit bonus,,,transactional_heuristic,4
+c10,bonus code 1win,1win bonus code free money today,,,transactional_heuristic,4
+c10,bonus code 1win,1win bonus code today for existing players,,,transactional_heuristic,4
+c10,bonus code 1win,1win bonus code today india,,,transactional_heuristic,5
+c10,bonus code 1win,1win bonus code today india free,,,transactional_heuristic,4
+c10,bonus code 1win,1win bonus code today no deposit south africa,,,transactional_heuristic,3
+c10,bonus code 1win,1win bonus code today pakistan,,,transactional_heuristic,5
+c10,bonus code 1win,1win bonus code today philippines,,,transactional_heuristic,5
+c10,bonus code 1win,1win bonus code today south africa,,,transactional_heuristic,4
+c10,bonus code 1win,1win bonus promo code,,,transactional_heuristic,7
+c10,bonus code 1win,1win bonus wagering requirements,,,transactional_heuristic,3
+c10,bonus code 1win,1win casino bonus promo code,,,commercial_heuristic,5
+c10,bonus code 1win,1win daily bonus code,,,transactional_heuristic,7
+c10,bonus code 1win,1win game bonus code,,,transactional_heuristic,7
+c10,bonus code 1win,1win login bonus code,,,transactional_heuristic,7
+c10,bonus code 1win,1win login online sign up bonus codes,,,transactional_heuristic,4
+c10,bonus code 1win,1win official promo code,,,informational_heuristic,3
+c10,bonus code 1win,1win promo code for bonus,,,transactional_heuristic,7
+c10,bonus code 1win,1win sign up bonus codes,,,transactional_heuristic,7
+c10,bonus code 1win,1win sign up bonus codes no deposit,,,transactional_heuristic,4
+c10,bonus code 1win,1win sign up bonus codes south africa,,,transactional_heuristic,4
+c10,bonus code 1win,7bit casino sign up bonus code,,,commercial_heuristic,4
+c10,bonus code 1win,b bets bonus code,,,transactional_heuristic,7
+c10,bonus code 1win,best 1win promo code,,,commercial_heuristic,3
+c10,bonus code 1win,bonus casino codes,,,commercial_heuristic,7
+c10,bonus code 1win,bonus code 1win bet,,,transactional_heuristic,7
+c10,bonus code 1win,bonus example,,,transactional_heuristic,3
+c10,bonus code 1win,bonus how did you get a bonus,,,transactional_heuristic,5
+c10,bonus code 1win,bonus programs,,,transactional_heuristic,3
+c10,bonus code 1win,bonus promo codes,,,transactional_heuristic,7
+c10,bonus code 1win,bonus s application instructions,,,transactional_heuristic,3
+c10,bonus code 1win,bonus s instructions,,,transactional_heuristic,3
+c10,bonus code 1win,casino rewards bonus codes,,,commercial_heuristic,5
+c10,bonus code 1win,how to activate 1win bonus code,,,informational_heuristic,7
+c10,bonus code 1win,how to check 1win promo code,,,informational_heuristic,3
+c10,bonus code 1win,how to create 1win promo code,,,informational_heuristic,3
+c10,bonus code 1win,how to get bonus code,,,informational_heuristic,10
+c10,bonus code 1win,how to use 1win bonus code,,,informational_heuristic,7
+c10,bonus code 1win,how to use 1win promo code,,,informational_heuristic,3
+c10,bonus code 1win,level up casino bonus code,,,commercial_heuristic,5
+c10,bonus code 1win,live casino bonus code,,,commercial_heuristic,5
+c10,bonus code 1win,lottery bonus code,,,transactional_heuristic,7
+c10,bonus code 1win,lottery bonus number,,,transactional_heuristic,3
+c10,bonus code 1win,lottery code on phone,,,informational_heuristic,3
+c10,bonus code 1win,sign up bonus codes,,,transactional_heuristic,7
+c10,bonus code 1win,what is bonus.ly,,,informational_heuristic,3
+c11,1win latinoamerica,1win latinoamerica,400,,informational_heuristic,10
+c12,1win original,1win original,350,,informational_heuristic,10
+c13,1win aviator,1win aviator,300,52,informational_heuristic,10
+c13,1win aviator,aviator 1win,150,57,informational_heuristic,10
+c13,1win aviator,aviator game 1win,150,48,informational_heuristic,5
+c13,1win aviator,aviator juego 1win,150,34,informational_heuristic,5
+c13,1win aviator,1win aviator demo,30,,transactional_heuristic,5
+c13,1win aviator,aviator predictor 1win,30,,informational_heuristic,5
+c13,1win aviator,1win aviator download,20,,transactional_heuristic,5
+c13,1win aviator,1win aviator game,20,,informational_heuristic,5
+c13,1win aviator,1win aviator prediction,20,,informational_heuristic,5
+c13,1win aviator,1win aviator predictor,20,,informational_heuristic,5
+c13,1win aviator,1win aviator review,20,,informational_heuristic,5
+c13,1win aviator,1win aviator strategy,20,,informational_heuristic,5
+c13,1win aviator,aviator 1win bot,20,,informational_heuristic,5
+c13,1win aviator,aviator 1win game,20,,informational_heuristic,5
+c13,1win aviator,aviator game 1win download,20,,transactional_heuristic,3
+c13,1win aviator,bot 1win aviator,20,,informational_heuristic,5
+c13,1win aviator,bot aviator 1win,20,43,informational_heuristic,5
+c13,1win aviator,estrategia aviator 1win,20,,informational_heuristic,5
+c13,1win aviator,jogo aviator 1win,20,,informational_heuristic,5
+c13,1win aviator,robot aviator 1win,20,,informational_heuristic,5
+c14,1win latam,1win latam,300,,informational_heuristic,10
+c15,1win videos,1win videos,250,,informational_heuristic,10
+c15,1win videos,how to register on 1win youtube video,,,informational_heuristic,3
+c16,1win balloon,1win balloon,200,,informational_heuristic,10
+c16,1win balloon,balloon 1win,200,,informational_heuristic,10
+c17,1win download,1win download,200,,transactional_heuristic,10
+c17,1win download,1win download iphone,50,,transactional_heuristic,5
+c17,1win download,1win bonus download,,,transactional_heuristic,5
+c17,1win download,1win com download,,,transactional_heuristic,5
+c17,1win download,1win com download for android,,,transactional_heuristic,3
+c17,1win download,1win download bonus,,,transactional_heuristic,5
+c17,1win download,1win download free,,,transactional_heuristic,5
+c17,1win download,1win download official,,,transactional_heuristic,5
+c17,1win download,1win download official website,,,transactional_heuristic,3
+c17,1win download,1win free download,,,transactional_heuristic,5
+c17,1win download,1win game download for android,,,transactional_heuristic,3
+c17,1win download,1win game download ios,,,transactional_heuristic,3
+c17,1win download,1win game download play store,,,transactional_heuristic,3
+c17,1win download,1win official download,,,transactional_heuristic,5
+c17,1win download,1win official website download,,,transactional_heuristic,3
+c17,1win download,1win register download,,,transactional_heuristic,5
+c17,1win download,1win register download for android,,,transactional_heuristic,3
+c17,1win download,1win register download free,,,transactional_heuristic,3
+c17,1win download,1win register download south africa,,,transactional_heuristic,3
+c17,1win download,application 1win download,,,transactional_heuristic,5
+c17,1win download,difference between installing and downloading,,,informational_heuristic,3
+c17,1win download,download 1win game,,,transactional_heuristic,5
+c17,1win download,download and install meaning,,,transactional_heuristic,3
+c17,1win download,download vs install,,,transactional_heuristic,3
+c17,1win download,how to download 1win in ios,,,informational_heuristic,5
+c17,1win download,how to use download them all,,,informational_heuristic,5
+c17,1win download,what games can i download free,,,transactional_heuristic,3
+c18,1win latino,1win latino,200,,informational_heuristic,10
+c19,1win token,1win token,200,,informational_heuristic,10
+c19,1win token,1win token precio,40,,informational_heuristic,5
+c19,1win token,1win token cuando sale,20,,informational_heuristic,3
+c19,1win token,1win token telegram,20,,informational_heuristic,5
+c19,1win token,1win token web2,20,,informational_heuristic,5
+c19,1win token,airdrop 1win token,20,,informational_heuristic,5
+c19,1win token,how to withdraw 1win token from telegram,,,informational_heuristic,3
+c20,codigo promocional 1win,codigo promocional 1win,200,56,informational_heuristic,10
+c20,codigo promocional 1win,1win codigo promocional,150,,informational_heuristic,10
+c20,codigo promocional 1win,codigo 1win,90,35,informational_heuristic,5
+c20,codigo promocional 1win,1win codigo,30,,informational_heuristic,5
+c20,codigo promocional 1win,codigos promocionales 1win,30,,informational_heuristic,3
+c20,codigo promocional 1win,1win argentina codigo promocional,,,informational_heuristic,7
+c21,1win ar,1win ar,150,,informational_heuristic,10
+c22,1win games,1win games,150,71,informational_heuristic,10
+c22,1win games,1win game how to withdraw money,,,informational_heuristic,3
+c22,1win games,1win game is legal in india,,,informational_heuristic,3
+c22,1win games,1win game is real,,,informational_heuristic,5
+c22,1win games,1win game is safe or not,,,informational_heuristic,3
+c22,1win games,1win game legal,,,informational_heuristic,5
+c22,1win games,1win game official website,,,informational_heuristic,3
+c22,1win games,1win game review,,,informational_heuristic,5
+c22,1win games,1win game tournaments,,,informational_heuristic,5
+c22,1win games,1win game tower,,,informational_heuristic,5
+c22,1win games,1win games to play,,,transactional_heuristic,5
+c22,1win games,1win official game,,,informational_heuristic,5
+c22,1win games,best time to play 1win games,,,commercial_heuristic,3
+c22,1win games,favorite tales of game,,,informational_heuristic,3
+c22,1win games,fun ranked games,,,informational_heuristic,3
+c22,1win games,fun review games,,,informational_heuristic,3
+c22,1win games,games that are banned,,,informational_heuristic,5
+c22,1win games,how to 100 a game,,,informational_heuristic,5
+c22,1win games,how to withdraw from 1win games,,,informational_heuristic,5
+c22,1win games,is 1win games legit,,,informational_heuristic,5
+c22,1win games,latest beat em up games,,,informational_heuristic,3
+c22,1win games,my top 10 games,,,commercial_heuristic,3
+c22,1win games,name game activities,,,informational_heuristic,3
+c22,1win games,what does 4x mean in games,,,informational_heuristic,3
+c22,1win games,what games can i play in real life,,,transactional_heuristic,3
+c22,1win games,what games shall we play today,,,transactional_heuristic,3
+c22,1win games,what is the rule game,,,informational_heuristic,5
+c22,1win games,will day games played,,,informational_heuristic,3
+c23,1win global,1win global,150,69,informational_heuristic,10
+c24,1win ios,1win ios,150,,informational_heuristic,10
+c24,1win ios,ios 1win,30,,informational_heuristic,10
+c25,1win iphone,1win iphone,150,,informational_heuristic,10
+c26,1win lucky jet,1win lucky jet,150,52,informational_heuristic,10
+c26,1win lucky jet,lucky jet 1win,80,44,informational_heuristic,10
+c26,1win lucky jet,1win jet x,50,,informational_heuristic,5
+c26,1win lucky jet,lucky jet predictor 1win,40,,informational_heuristic,7
+c26,1win lucky jet,1win app lucky jet,20,,transactional_heuristic,7
+c27,1win mines,1win mines,150,36,informational_heuristic,10
+c27,1win mines,mines 1win,100,40,informational_heuristic,10
+c27,1win mines,juego mines 1win,30,,informational_heuristic,5
+c27,1win mines,mines pro 1win,30,44,informational_heuristic,5
+c27,1win mines,1win mines demo,20,,transactional_heuristic,5
+c27,1win mines,1win mines prediction,,,informational_heuristic,5
+c27,1win mines,1win mines signal bot,,,informational_heuristic,3
+c27,1win mines,1win mines strategy,,,informational_heuristic,5
+c27,1win mines,appin mine address,,,informational_heuristic,3
+c27,1win mines,how does 1win mines work,,,informational_heuristic,5
+c27,1win mines,how to play 1win mines,,,informational_heuristic,5
+c27,1win mines,how to play mine finder,,,informational_heuristic,3
+c27,1win mines,how to win 1win mines,,,informational_heuristic,5
+c27,1win mines,mines in up,,,informational_heuristic,10
+c27,1win mines,mines track schedule,,,informational_heuristic,3
+c28,penalty shoot out 1win,penalty shoot out 1win,150,15,informational_heuristic,10
+c28,penalty shoot out 1win,1win penalty shoot out,50,,informational_heuristic,10
+c28,penalty shoot out 1win,penalty shoot out 1win argentina,50,,informational_heuristic,7
+c28,penalty shoot out 1win,penalty shoot out 1win hack,20,,informational_heuristic,7
+c29,plinko 1win,plinko 1win,150,,informational_heuristic,10
+c29,plinko 1win,1win plinko,100,,informational_heuristic,10
+c29,plinko 1win,does plinko really pay out,,,informational_heuristic,3
+c29,plinko 1win,how much does plinko cost,,,informational_heuristic,5
+c29,plinko 1win,how to play plinko on 1win,,,informational_heuristic,5
+c29,plinko 1win,how to win plinko,,,informational_heuristic,5
+c29,plinko 1win,how to.play plinko,,,informational_heuristic,5
+c29,plinko 1win,is plinko legit,,,informational_heuristic,5
+c30,1win android,1win android,100,,informational_heuristic,10
+c31,1win chile,1win chile,100,,informational_heuristic,10
+c32,1win com,1win com,100,,informational_heuristic,10
+c32,1win com,1win com review,,,informational_heuristic,5
+c33,1win partner,1win partner,100,53,informational_heuristic,10
+c33,1win partner,1win partner program,40,,informational_heuristic,5
+c33,1win partner,1win partners affiliate,40,,informational_heuristic,5
+c33,1win partner,partner 1win,40,,informational_heuristic,10
+c34,1win poker,1win poker,100,,informational_heuristic,10
+c34,1win poker,1win poker review,,,informational_heuristic,5
+c35,1win affiliate,1win affiliate,90,,informational_heuristic,10
+c35,1win affiliate,1win affiliate commission,40,,informational_heuristic,5
+c35,1win affiliate,1win affiliate program,40,,informational_heuristic,5
+c35,1win affiliate,1win affiliate program review,40,,informational_heuristic,3
+c35,1win affiliate,affiliate 1win,40,,informational_heuristic,10
+c36,1win official,1win official,90,,informational_heuristic,10
+c36,1win official,1win official site,60,,commercial_heuristic,5
+c36,1win official,1win official website,30,,informational_heuristic,5
+c36,1win official,1win official site india,,,commercial_heuristic,3
+c36,1win official,1win official web,,,informational_heuristic,5
+c36,1win official,1win official website india,,,informational_heuristic,3
+c36,1win official,1win official website link,,,informational_heuristic,3
+c36,1win official,1win official website sign up,,,informational_heuristic,3
+c36,1win official,official 1win website,,,informational_heuristic,5
+c36,1win official,official gambling sites,,,commercial_heuristic,3
+c37,1win register,1win register,90,,informational_heuristic,10
+c37,1win register,1win register bonus,,,transactional_heuristic,5
+c37,1win register,1win register number,,,informational_heuristic,5
+c37,1win register,1win register south africa,,,informational_heuristic,3
+c37,1win register,have you register or registered,,,informational_heuristic,10
+c37,1win register,how to get a register,,,informational_heuristic,10
+c37,1win register,how to register 1win account,,,informational_heuristic,5
+c37,1win register,how to register 1win in ghana,,,informational_heuristic,5
+c37,1win register,how to register 1win in south africa,,,informational_heuristic,3
+c37,1win register,how to register 1win on phone,,,informational_heuristic,5
+c37,1win register,how to register plot,,,informational_heuristic,5
+c37,1win register,how to use a register,,,informational_heuristic,5
+c37,1win register,is 1win registered in india,,,informational_heuristic,5
+c37,1win register,what does y mean on electoral register,,,informational_heuristic,3
+c38,1win arg,1win arg,80,,informational_heuristic,10
+c39,1win no funciona,1win no funciona,80,,informational_heuristic,10
+c40,1win play,1win play,80,,transactional_heuristic,10
+c40,1win play,is 1win safe to play,,,informational_heuristic,5
+c41,mystake 1win,mystake 1win,80,,informational_heuristic,10
+c42,1win colombia,1win colombia,70,,informational_heuristic,10
+c43,1win instalar,1win instalar,70,,informational_heuristic,10
+c44,1win jetx,1win jetx,70,,informational_heuristic,10
+c44,1win jetx,jetx 1win,20,,informational_heuristic,10
+c45,1win latinoamericana,1win latinoamericana,70,,informational_heuristic,10
+c46,1win pro,1win pro,70,,informational_heuristic,10
+c47,1win registration,1win registration,70,,informational_heuristic,10
+c48,1win xxx,1win xxx,70,,informational_heuristic,10
+c49,1win demo,1win demo,60,,transactional_heuristic,10
+c50,1win futbol,1win futbol,60,,informational_heuristic,10
+c51,1win latina,1win latina,60,,informational_heuristic,10
+c52,1win peru,1win peru,60,,informational_heuristic,10
+c53,1win retirar dinero,1win retirar dinero,60,,informational_heuristic,10
+c53,1win retirar dinero,1win retirar dinero argentina,40,,informational_heuristic,7
+c53,1win retirar dinero,dinero gratis 1win,40,,informational_heuristic,3
+c54,juego 1win,juego 1win,60,,informational_heuristic,10
+c54,juego 1win,1win juegos,40,46,informational_heuristic,10
+c55,1win co,1win co,50,,informational_heuristic,10
+c56,1win for pc,1win for pc,50,,informational_heuristic,10
+c57,1win iniciar sesion,1win iniciar sesion,50,,informational_heuristic,10
+c58,1win run,1win run,50,,informational_heuristic,10
+c59,1win website,1win website,50,,informational_heuristic,10
+c59,1win website,1win website is safe and real,,,informational_heuristic,3
+c60,afiliado 1win,afiliado 1win,50,,informational_heuristic,10
+c60,afiliado 1win,1win afiliado,40,,informational_heuristic,10
+c61,aplicacion 1win,aplicacion 1win,50,,informational_heuristic,10
+c62,tower rush 1win,tower rush 1win,50,,informational_heuristic,10
+c62,tower rush 1win,1win bet tower rush,,,informational_heuristic,7
+c62,tower rush 1win,1win casino tower rush,,,commercial_heuristic,7
+c62,tower rush 1win,1win login tower rush,,,informational_heuristic,7
+c62,tower rush 1win,tower rush app 1win login,,,transactional_heuristic,5
+c63,1win argentino,1win argentino,40,,informational_heuristic,10
+c64,1win brasil,1win brasil,40,,informational_heuristic,10
+c65,1win eliminar cuenta,1win eliminar cuenta,40,,informational_heuristic,10
+c66,1win life,1win life,40,,informational_heuristic,10
+c67,1win logo,1win logo,40,24,informational_heuristic,10
+c68,1win luckyjet,1win luckyjet,40,,informational_heuristic,10
+c69,1win mirror,1win mirror,40,,informational_heuristic,10
+c70,1win opiniones,1win opiniones,40,30,informational_heuristic,10
+c71,1win registrar,1win registrar,40,,informational_heuristic,10
+c72,1win slots,1win slots,40,,informational_heuristic,10
+c72,1win slots,1win best slots,,,commercial_heuristic,5
+c73,1win telegram,1win telegram,40,,informational_heuristic,10
+c74,1win venezuela,1win venezuela,40,,informational_heuristic,10
+c75,1win vip,1win vip,40,,informational_heuristic,10
+c76,70 free spins 1win,70 free spins 1win,40,,informational_heuristic,10
+c77,application 1win,application 1win,40,,informational_heuristic,10
+c77,application 1win,legal application meaning,,,informational_heuristic,3
+c78,ariadna leyes 1win,ariadna leyes 1win,40,,informational_heuristic,10
+c79,ice fishing 1win,ice fishing 1win,40,,informational_heuristic,10
+c80,rocket queen 1win,rocket queen 1win,40,,informational_heuristic,10
+c81,1win 1win,1win 1win,30,,informational_heuristic,0
+c82,1win camnair,1win camnair,30,,informational_heuristic,10
+c83,1win yukle,1win yukle,30,,informational_heuristic,10
+c84,speedy cash 1win,speedy cash 1win,30,0,informational_heuristic,10
+c85,1win chicken cross,1win chicken cross,20,,informational_heuristic,10
+c85,1win chicken cross,chicken cross 1win,20,,informational_heuristic,10
+c86,1win coins,1win coins,20,,informational_heuristic,10
+c87,1win company,1win company,20,,informational_heuristic,10
+c88,1win deposit,1win deposit,20,,informational_heuristic,10
+c88,1win deposit,1win how to deposit without card,,,informational_heuristic,3
+c89,1win ecuador,1win ecuador,20,,informational_heuristic,10
+c90,1win joker jewels,1win joker jewels,20,,informational_heuristic,10
+c91,1win mexico,1win mexico,20,,informational_heuristic,10
+c92,1win net,1win net,20,,informational_heuristic,10
+c93,1win new version,1win new version,20,,informational_heuristic,10
+c94,1win paga,1win paga,20,,informational_heuristic,10
+c95,1win peliculas,1win peliculas,20,,informational_heuristic,10
+c96,1win porno,1win porno,20,,informational_heuristic,10
+c97,1win predictor,1win predictor,20,,informational_heuristic,10
+c98,1win registrarse,1win registrarse,20,,informational_heuristic,10
+c99,1win sign in,1win sign in,20,,informational_heuristic,10
+c99,1win sign in,how to sign in 1win,,,informational_heuristic,10
+c100,1win soporte,1win soporte,20,,informational_heuristic,10
+c100,1win soporte,soporte 1win,20,,informational_heuristic,10
+c101,1win sport,1win sport,20,,informational_heuristic,10
+c101,1win sport,bonus sport 1win,20,,transactional_heuristic,5
+c102,1win uganda,1win uganda,20,,informational_heuristic,10
+c103,1win voucher,1win voucher,20,,informational_heuristic,10
+c104,1win web2,1win web2,20,,informational_heuristic,10
+c105,1win xx,1win xx,20,,informational_heuristic,10
+c106,aviador 1win,aviador 1win,20,,informational_heuristic,10
+c107,casa 1win,casa 1win,20,,informational_heuristic,10
+c108,cashback 1win,cashback 1win,20,,informational_heuristic,10
+c109,deposito minimo 1win,deposito minimo 1win,20,,informational_heuristic,10
+c110,giros gratis 1win,giros gratis 1win,20,,informational_heuristic,10
+c111,www 1win,www 1win,20,,informational_heuristic,10
+c112,1 win app register online login,1 win app register online login,,,transactional_heuristic,10
+c112,1 win app register online login,1 win login app download for android,,,transactional_heuristic,4
+c112,1 win app register online login,1win app online login,,,transactional_heuristic,6
+c112,1 win app register online login,1win bet app login registration online,,,transactional_heuristic,4
+c112,1 win app register online login,1win bet login register app,,,transactional_heuristic,5
+c112,1 win app register online login,1win bet login register mobile number,,,informational_heuristic,3
+c112,1 win app register online login,1win bet login register online download,,,transactional_heuristic,4
+c112,1 win app register online login,1win bet login register online free,,,informational_heuristic,4
+c112,1 win app register online login,1win bet online login app download,,,transactional_heuristic,4
+c112,1 win app register online login,1win bet online registration login app,,,transactional_heuristic,4
+c112,1 win app register online login,1win casino app login register,,,commercial_heuristic,5
+c112,1 win app register online login,1win casino login register online login,,,commercial_heuristic,5
+c112,1 win app register online login,1win login malawi register online,,,informational_heuristic,5
+c112,1 win app register online login,1win login online sign up app,,,transactional_heuristic,5
+c112,1 win app register online login,1win login register online,,,informational_heuristic,6
+c112,1 win app register online login,1win login register online login,,,informational_heuristic,6
+c112,1 win app register online login,1win online login app,,,transactional_heuristic,6
+c112,1 win app register online login,1win online login india app,,,transactional_heuristic,5
+c112,1 win app register online login,1win online login register,,,informational_heuristic,6
+c112,1 win app register online login,1win register login app download,,,transactional_heuristic,5
+c112,1 win app register online login,1win register login mobile number download,,,transactional_heuristic,3
+c112,1 win app register online login,1win register login password free apk,,,informational_heuristic,3
+c112,1 win app register online login,casino 1win register online login,,,commercial_heuristic,5
+c112,1 win app register online login,do online casinos report winnings to irs,,,commercial_heuristic,3
+c112,1 win app register online login,online casinos that use cash app,,,commercial_heuristic,3
+c112,1 win app register online login,what online casino accepts cash app,,,commercial_heuristic,3
+c112,1 win app register online login,what online casino takes cash app,,,commercial_heuristic,3
+c113,1 win casino games login south africa,1 win casino games login south africa,,,commercial_heuristic,10
+c113,1 win casino games login south africa,1 win casino games no deposit bonus,,,commercial_heuristic,3
+c113,1 win casino games login south africa,1win app login south africa,,,transactional_heuristic,4
+c113,1 win casino games login south africa,1win bet app login south africa,,,transactional_heuristic,4
+c113,1 win casino games login south africa,1win bet login mobile number south africa,,,informational_heuristic,3
+c113,1 win casino games login south africa,1win bet login south africa,,,informational_heuristic,4
+c113,1 win casino games login south africa,1win bet login south africa registration,,,informational_heuristic,4
+c113,1 win casino games login south africa,1win bet login south africa sign up,,,informational_heuristic,4
+c113,1 win casino games login south africa,1win bonus casino how to use in south africa,,,commercial_heuristic,4
+c113,1 win casino games login south africa,1win bonus casino how to use in south africa login,,,commercial_heuristic,5
+c113,1 win casino games login south africa,1win bonus casino how to use in south africa withdrawal,,,commercial_heuristic,3
+c113,1 win casino games login south africa,1win casino app login south africa,,,commercial_heuristic,6
+c113,1 win casino games login south africa,1win casino games login,,,commercial_heuristic,5
+c113,1 win casino games login south africa,1win casino login register online south africa,,,commercial_heuristic,5
+c113,1 win casino games login south africa,1win casino login south africa,,,commercial_heuristic,7
+c113,1 win casino games login south africa,1win casino login south africa app download,,,commercial_heuristic,5
+c113,1 win casino games login south africa,1win casino login south africa sign up,,,commercial_heuristic,6
+c113,1 win casino games login south africa,1win casino online login south africa,,,commercial_heuristic,6
+c113,1 win casino games login south africa,1win game login in south africa,,,informational_heuristic,7
+c113,1 win casino games login south africa,1win login online sign up south africa,,,informational_heuristic,4
+c113,1 win casino games login south africa,1win login online south africa,,,informational_heuristic,4
+c113,1 win casino games login south africa,1win login south africa login password,,,informational_heuristic,4
+c113,1 win casino games login south africa,1win online casino & sports betting login south africa,,,commercial_heuristic,4
+c113,1 win casino games login south africa,1win online login south africa login,,,informational_heuristic,4
+c113,1 win casino games login south africa,1win register login mobile free south africa,,,informational_heuristic,3
+c113,1 win casino games login south africa,1win register login mobile number south africa,,,informational_heuristic,3
+c113,1 win casino games login south africa,1win review south africa,,,informational_heuristic,3
+c113,1 win casino games login south africa,casino 1win login south africa,,,commercial_heuristic,7
+c113,1 win casino games login south africa,download 1 win app south africa,,,transactional_heuristic,4
+c113,1 win casino games login south africa,is 1win casino legit in south africa,,,commercial_heuristic,4
+c113,1 win casino games login south africa,is 1win legit in south africa,,,informational_heuristic,3
+c114,1win app download android latest version,1win app download android latest version,,,transactional_heuristic,10
+c114,1win app download android latest version,1win app download android play store,,,transactional_heuristic,4
+c114,1win app download android latest version,1win app download apk for android,,,transactional_heuristic,5
+c114,1win app download android latest version,1win app login download latest version,,,transactional_heuristic,7
+c114,1win app download android latest version,1win bet app download for android,,,transactional_heuristic,5
+c114,1win app download android latest version,1win bet app download for android latest version,,,transactional_heuristic,8
+c114,1win app download android latest version,1win bet app download latest version,,,transactional_heuristic,7
+c114,1win app download android latest version,1win bet app download south africa,,,transactional_heuristic,3
+c114,1win app download android latest version,1win bet download apk latest version,,,transactional_heuristic,4
+c114,1win app download android latest version,1win bet download for android latest version,,,transactional_heuristic,7
+c114,1win app download android latest version,1win bet download latest version,,,transactional_heuristic,5
+c114,1win app download android latest version,1win casino & sports betting app download,,,commercial_heuristic,3
+c114,1win app download android latest version,1win casino app download for android,,,commercial_heuristic,5
+c114,1win app download android latest version,1win casino app download for android latest version,,,commercial_heuristic,8
+c114,1win app download android latest version,1win casino app download latest version,,,commercial_heuristic,7
+c114,1win app download android latest version,1win download apk latest version,,,transactional_heuristic,5
+c114,1win app download android latest version,1win download app for android,,,transactional_heuristic,6
+c114,1win app download android latest version,1win download app install for android,,,transactional_heuristic,5
+c114,1win app download android latest version,1win download app latest version,,,transactional_heuristic,8
+c114,1win app download android latest version,1win download for android latest version,,,transactional_heuristic,8
+c114,1win app download android latest version,1win game app download for android,,,transactional_heuristic,5
+c114,1win app download android latest version,1win game download apk latest version,,,transactional_heuristic,4
+c114,1win app download android latest version,1win game download apk old version,,,transactional_heuristic,3
+c114,1win app download android latest version,1win game download latest version,,,transactional_heuristic,5
+c114,1win app download android latest version,1win login download apk latest version,,,transactional_heuristic,4
+c114,1win app download android latest version,1win login download for android latest version,,,transactional_heuristic,7
+c114,1win app download android latest version,1win login download for android latest version apk,,,transactional_heuristic,6
+c114,1win app download android latest version,1win login download latest version,,,transactional_heuristic,5
+c114,1win app download android latest version,1win official app download latest version,,,transactional_heuristic,7
+c114,1win app download android latest version,download 1win app for android apk,,,transactional_heuristic,5
+c114,1win app download android latest version,download 1win app for android latest version,,,transactional_heuristic,10
+c114,1win app download android latest version,download 1win app latest version,,,transactional_heuristic,8
+c114,1win app download android latest version,download 1win bet apk latest version,,,transactional_heuristic,4
+c114,1win app download android latest version,download 1win bet apk latest version ios,,,transactional_heuristic,4
+c114,1win app download android latest version,download 1win bet apk latest version uptodown,,,transactional_heuristic,4
+c114,1win app download android latest version,download 1win bet apk old version,,,transactional_heuristic,3
+c114,1win app download android latest version,download 1win betting app for android,,,transactional_heuristic,5
+c114,1win app download android latest version,download 1win betting app latest version,,,transactional_heuristic,7
+c115,1win best bookmaker,1win best bookmaker,,,commercial_heuristic,10
+c115,1win best bookmaker,1win best bookmaker download,,,commercial_heuristic,7
+c115,1win best bookmaker,1win best bookmaker login,,,commercial_heuristic,7
+c115,1win best bookmaker,1win best odds,,,commercial_heuristic,3
+c116,1win bet promo code no deposit,1win bet promo code no deposit,,,transactional_heuristic,10
+c116,1win bet promo code no deposit,1win bonus code today no deposit in nigeria,,,transactional_heuristic,4
+c116,1win bet promo code no deposit,1win casino promo code no deposit,,,commercial_heuristic,7
+c117,1win casino & sports betting official website,1win casino & sports betting official website,,,commercial_heuristic,10
+c117,1win casino & sports betting official website,1win online betting and casino official site in india login,,,commercial_heuristic,3
+c117,1win casino & sports betting official website,1win online casino & sports betting app,,,commercial_heuristic,4
+c117,1win casino & sports betting official website,1win online casino & sports betting download,,,commercial_heuristic,4
+c117,1win casino & sports betting official website,1win online casino & sports betting login,,,commercial_heuristic,4
+c117,1win casino & sports betting official website,1win online casino & sports betting official website,,,commercial_heuristic,8
+c117,1win casino & sports betting official website,1win online casino & sports betting sign up,,,commercial_heuristic,4
+c117,1win casino & sports betting official website,1win online casino & sports betting sign up bonus,,,commercial_heuristic,4
+c117,1win casino & sports betting official website,1win online casino & sports betting sign up login,,,commercial_heuristic,4
+c118,1win casino bonus account withdrawal online,1win casino bonus account withdrawal online,,,commercial_heuristic,10
+c118,1win casino bonus account withdrawal online,1win casino bonus withdrawal,,,commercial_heuristic,6
+c118,1win casino bonus account withdrawal online,biggest bonus online casino,,,commercial_heuristic,5
+c118,1win casino bonus account withdrawal online,how to use 1win casino bonus account,,,commercial_heuristic,5
+c118,1win casino bonus account withdrawal online,how to use 1win casino bonus online,,,commercial_heuristic,5
+c118,1win casino bonus account withdrawal online,how to use bonus casino in 1win online,,,commercial_heuristic,5
+c118,1win casino bonus account withdrawal online,how to withdraw 1win casino bonus online,,,commercial_heuristic,8
+c118,1win casino bonus account withdrawal online,how to withdraw bonus from 1win online,,,informational_heuristic,6
+c118,1win casino bonus account withdrawal online,list of online casinos real money,,,commercial_heuristic,3
+c119,1win is real or not,1win is real or not,,,informational_heuristic,10
+c119,1win is real or not,1win is safe or not,,,informational_heuristic,3
+c119,1win is real or not,1win is trusted or not,,,informational_heuristic,3
+c119,1win is real or not,1win legal or not,,,informational_heuristic,3
+c119,1win is real or not,1win safe or not in india,,,informational_heuristic,3
+c120,1win legal countries,1win legal countries,,,informational_heuristic,10
+c120,1win legal countries,1win legal in india hindi,,,informational_heuristic,3
+c120,1win legal countries,1win legal in pakistan,,,informational_heuristic,3
+c120,1win legal countries,1win legal or illegal,,,informational_heuristic,3
+c120,1win legal countries,are facebook lotteries legal,,,informational_heuristic,3
+c120,1win legal countries,are lotteries legal,,,informational_heuristic,3
+c120,1win legal countries,is 1win legal in us,,,informational_heuristic,3
+c120,1win legal countries,legal gambling near me,,,informational_heuristic,3
+c121,1win legal in india is real or fake,1win legal in india is real or fake,,,informational_heuristic,10
+c121,1win legal in india is real or fake,1win legal or illegal in india,,,informational_heuristic,4
+c121,1win legal in india is real or fake,1win legal or illegal in india in hindi,,,informational_heuristic,3
+c121,1win legal in india is real or fake,is 1win betting legal in india,,,informational_heuristic,4
+c122,1win review 2025,1win review 2025,,,informational_heuristic,10
+c122,1win review 2025,1win review complaints,,,informational_heuristic,3
+c122,1win review 2025,1win review quora,,,informational_heuristic,3
+c122,1win review 2025,abt review,,,informational_heuristic,3
+c122,1win review 2025,review 1win,,,informational_heuristic,5
+c123,bet companies that give bonus on registration,bet companies that give bonus on registration,,,transactional_heuristic,10
+c123,bet companies that give bonus on registration,betting apps that give sign up bonus,,,transactional_heuristic,4
+c124,betway under 0.5 means,betway under 0.5 means,,,informational_heuristic,10
+c124,betway under 0.5 means,under 0.5 goals meaning betway,,,informational_heuristic,7
+c127,feel the beat plot,feel the beat plot,,,informational_heuristic,10
+c127,feel the beat plot,feel the beat rated,,,informational_heuristic,5
+c128,gambling age in aruba,gambling age in aruba,,,informational_heuristic,10
+c128,gambling age in aruba,how does gambling work,,,informational_heuristic,3
+c129,gambling games for 17 year olds,gambling games for 17 year olds,,,informational_heuristic,10
+c129,gambling games for 17 year olds,online educational games for 10 year olds,,,informational_heuristic,4
+c129,gambling games for 17 year olds,safe game apps for 10 year olds,,,informational_heuristic,4
+c130,how do i log into my lms account,how do i log into my lms account,,,informational_heuristic,10
+c130,how do i log into my lms account,how to deactivate 1win account,,,informational_heuristic,3
+c130,how do i log into my lms account,how to log in line,,,informational_heuristic,3
+c130,how do i log into my lms account,how to login in lms account,,,informational_heuristic,5
+c130,how do i log into my lms account,what is e log,,,informational_heuristic,3
+c132,is 1win legit reddit,is 1win legit reddit,,,informational_heuristic,10
+c132,is 1win legit reddit,is 1win safe reddit,,,informational_heuristic,3
+c133,is 1win safe for withdrawal,is 1win safe for withdrawal,,,informational_heuristic,10
+c133,is 1win safe for withdrawal,safe requirements,,,informational_heuristic,3
+c133,is 1win safe for withdrawal,safe rule,,,informational_heuristic,3
+c136,what are the best free casino games to play,what are the best free casino games to play,,,commercial_heuristic,10
+c136,what are the best free casino games to play,what is the best free online casino,,,commercial_heuristic,5

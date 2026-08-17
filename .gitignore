@@ -1,0 +1,11 @@
+node_modules/
+*.log
+.env
+.env.local
+!.env.example
+
+# Intermediate pipeline caches - regenerate via `npm run build`.
+# sites/, dist/, zip, clusters and generated content ARE committed so the
+# host-ready artifact is reviewable without re-running paid APIs.
+.cache/
+
