@@ -1,6 +1,6 @@
 # Compliance report
 
-Generated 2026-08-17T10:13:28.424Z against 12 built pages under `sites/`.
+Generated 2026-08-17T10:38:01.253Z against 12 built pages under `sites/`.
 
 ## 1. Operator UKGC licence status
 

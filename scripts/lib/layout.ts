@@ -156,6 +156,10 @@ export function renderPage(page: PageInput, chrome: SiteChrome): string {
   const heroImagePath = `${assets}assets/images/${chrome.heroImage}`;
   const homeHref = toRelativeHref(page.slug, "/");
   const privacyHref = toRelativeHref(page.slug, "/privacy-cookie-policy/");
+  const bodyClass =
+    page.slug === "/"
+      ? "page-home"
+      : `page-${page.slug.replace(/^\/|\/$/g, "").replace(/\//g, "-")}`;
 
   const sectionsHtml = page.sections
     .map((s) => `<section><h2>${escapeHtml(s.h2)}</h2>${rewriteInternalLinks(s.html, page.slug)}</section>`)
@@ -200,7 +204,7 @@ export function renderPage(page: PageInput, chrome: SiteChrome): string {
 <style>:root{--color-accent:${chrome.accentColor};--color-accent-dark:${chrome.accentDark};}</style>
 <script type="application/ld+json">${JSON.stringify(schema)}</script>
 </head>
-<body>
+<body class="${bodyClass}">
 <a class="skip-link" href="#main-content">Skip to content</a>
 <header class="site-header">
   <div class="header-inner">

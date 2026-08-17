@@ -57,6 +57,73 @@ export const CORE_PAGES: Record<string, CorePage> = {
 <p>For a deeper casino walkthrough, continue to <a href="/1win-casino/">1win casino</a>. For crash mechanics, read <a href="/1win-aviator/">1win aviator</a>. For Argentina-specific framing, see <a href="/1win-argentina/">1win argentina</a> and <a href="/is-1win-legal-in-argentina/">is 1win legal in argentina</a>.</p>`,
       },
       {
+        h2: "12 popular 1win games at a glance",
+        html: `<p>Below is a quick map of titles and formats readers often look up around 1win. Icons are illustrative; lobby catalogues change, so always confirm the live game list, rules panel and stake limits in your own account before you play. 18+ only.</p>
+<div class="games-grid" aria-label="Popular 1win games">
+  <article class="game-card game-card--aviator">
+    <img class="game-icon" src="/assets/images/games/aviator.png" width="96" height="96" alt="1win Aviator crash game icon" loading="lazy">
+    <h3>Aviator</h3>
+    <p>A rising-multiplier round where you choose when to cash out before the flight ends. Fast sessions reward pre-set stake limits more than gut timing.</p>
+  </article>
+  <article class="game-card game-card--lucky-jet">
+    <img class="game-icon" src="/assets/images/games/lucky-jet.png" width="96" height="96" alt="1win Lucky Jet game icon" loading="lazy">
+    <h3>Lucky Jet</h3>
+    <p>Another short crash-style format with a climbing multiplier and an exit button. Treat streak screenshots as highlights, not evidence of a repeatable pattern.</p>
+  </article>
+  <article class="game-card game-card--mines">
+    <img class="game-icon" src="/assets/images/games/mines.png" width="96" height="96" alt="1win Mines grid game icon" loading="lazy">
+    <h3>Mines</h3>
+    <p>Grid reveals where each safe tile raises the multiplier and a mine ends the round. Fewer mines look calmer but still sit inside a house-edged math model.</p>
+  </article>
+  <article class="game-card game-card--plinko">
+    <img class="game-icon" src="/assets/images/games/plinko.png" width="96" height="96" alt="1win Plinko peg board game icon" loading="lazy">
+    <h3>Plinko</h3>
+    <p>A ball drops through pegs into multiplier slots. Row count and risk setting reshape the paytable; they do not let you steer individual bounces.</p>
+  </article>
+  <article class="game-card game-card--balloon">
+    <img class="game-icon" src="/assets/images/games/balloon.png" width="96" height="96" alt="1win Balloon inflate game icon" loading="lazy">
+    <h3>Balloon</h3>
+    <p>Inflate for a higher multiplier or cash out before a pop ends the try. One more pump is a volatility choice, not a skill guarantee.</p>
+  </article>
+  <article class="game-card game-card--penalty">
+    <img class="game-icon" src="/assets/images/games/penalty.png" width="96" height="96" alt="1win Penalty Shoot Out game icon" loading="lazy">
+    <h3>Penalty Shoot Out</h3>
+    <p>Quick football-themed rounds that settle on a shot outcome. Read the on-screen rules for how kicks are scored before raising stakes.</p>
+  </article>
+  <article class="game-card game-card--jetx">
+    <img class="game-icon" src="/assets/images/games/jetx.png" width="96" height="96" alt="1win JetX crash title icon" loading="lazy">
+    <h3>JetX</h3>
+    <p>Crash-family gameplay with a jet theme and cash-out control. Connection quality matters because delayed taps can miss your intended exit.</p>
+  </article>
+  <article class="game-card game-card--poker">
+    <img class="game-icon" src="/assets/images/games/poker.png" width="96" height="96" alt="1win Poker tables icon" loading="lazy">
+    <h3>Poker</h3>
+    <p>Lobby poker variants with fixed table rules and blinds. Check game type, rake disclosure if shown, and whether you are in cash or tournament mode.</p>
+  </article>
+  <article class="game-card game-card--roulette">
+    <img class="game-icon" src="/assets/images/games/roulette.png" width="96" height="96" alt="1win Live Roulette icon" loading="lazy">
+    <h3>Live Roulette</h3>
+    <p>Dealer-hosted wheel rounds streamed in real time. Outside bets usually swing less than single-number wagers; table limits still apply either way.</p>
+  </article>
+  <article class="game-card game-card--blackjack">
+    <img class="game-icon" src="/assets/images/games/blackjack.png" width="96" height="96" alt="1win Blackjack table icon" loading="lazy">
+    <h3>Blackjack</h3>
+    <p>Card totals versus the dealer under published table rules. Side bets change volatility; open the rules panel before assuming classic payouts.</p>
+  </article>
+  <article class="game-card game-card--slots">
+    <img class="game-icon" src="/assets/images/games/slots.png" width="96" height="96" alt="1win Slots lobby icon" loading="lazy">
+    <h3>Slots</h3>
+    <p>Reel games filtered by theme, features and stake size in the casino lobby. Use the info screen for paylines and features instead of artwork alone.</p>
+  </article>
+  <article class="game-card game-card--football">
+    <img class="game-icon" src="/assets/images/games/football.png" width="96" height="96" alt="1win Football sports betting icon" loading="lazy">
+    <h3>Football betting</h3>
+    <p>Pre-match and in-play football markets inside the sportsbook. Settlement depends on each market’s rules—read them before same-game parlays.</p>
+  </article>
+</div>
+<p>Want depth on crash titles? Continue to <a href="/1win-aviator/">1win aviator</a>. For lobby navigation overall, see <a href="/1win-casino/">1win casino</a>.</p>`,
+      },
+      {
         h2: "How to evaluate an operator calmly",
         html: `<p>Evaluation is a process, not a slogan. Start with identity and access: confirm you are on a genuine domain and that login pages are not mirrored by phishing copies. Next, confirm age gates and eligibility where you live. Then inspect payments at a high level without assuming speeds or fees until the cashier displays them for your account.</p>
 ` +

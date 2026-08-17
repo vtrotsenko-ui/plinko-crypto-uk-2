@@ -56,7 +56,7 @@ const CONTENT_OUT_DIR = path.join(ROOT_DIR, "content", "generated");
 const SITEMAP_PLAN_PATH = path.join(DATA_DIR, "sitemap-plan.json");
 const SITES_YAML_PATH = path.join(DATA_DIR, "sites.yaml");
 
-const CONTENT_SOURCE_VERSION = "1win-core-pages-v1"; // bump when core-pages.ts/trust-pages.ts content changes materially
+const CONTENT_SOURCE_VERSION = "1win-core-pages-v2-games"; // bump when core-pages.ts/trust-pages.ts content changes materially
 const MAX_CROSS_SITE_SIMILARITY = 0.75;
 const MIN_WORD_COUNT_BY_PAGE_TYPE: Record<string, number> = { home: 1200, landing: 1200, trust: 550 };
 
