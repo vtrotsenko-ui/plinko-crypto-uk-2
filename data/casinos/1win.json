@@ -1,0 +1,20 @@
+{
+  "id": "1win",
+  "name": "1win",
+  "website": "https://1win.com/",
+  "affiliate_url": "https://1win.com/",
+  "markets": ["AR", "LATAM", "INTL"],
+  "licence_notes": "International online operator. Not presented as a UKGC-licensed Great Britain operator on this site. Always verify current licensing and local legality before depositing.",
+  "ukgc_account_number": null,
+  "skip_ukgc_check": true,
+  "offers": [
+    {
+      "label": "Welcome offer (check live T&Cs)",
+      "url": "https://1win.com/",
+      "wagering": "See operator T&Cs at signup",
+      "min_deposit": "See operator T&Cs",
+      "expiry": "See operator T&Cs",
+      "game_contribution": "See operator T&Cs - contribution rates vary by product"
+    }
+  ]
+}

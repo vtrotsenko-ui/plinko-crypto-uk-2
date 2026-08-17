@@ -1,0 +1,54 @@
+name: Compliance gate
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  compliance-check:
+    name: Build site and run compliance checks
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: "npm"
+      - name: Install dependencies
+        run: npm ci
+      - name: Type-check
+        run: npx tsc --noEmit
+      - name: Cluster keywords
+        run: npm run cluster
+        env:
+          SERP_API_KEY: ${{ secrets.SERP_API_KEY }}
+      - name: Assign clusters to site
+        run: npm run assign-clusters
+      - name: Validate generated content
+        run: npm run generate-content
+      - name: Build static site
+        run: npm run build-sites
+      - name: Run compliance gate
+        run: npm run compliance-check
+        env:
+          UKGC_REGISTER_LOOKUP_URL: ${{ secrets.UKGC_REGISTER_LOOKUP_URL }}
+      - name: Validate JSON-LD schema
+        run: npm run validate-schema
+        env:
+          SCHEMA_VALIDATOR_URL: ${{ secrets.SCHEMA_VALIDATOR_URL }}
+      - name: Upload compliance report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: compliance-report
+          path: compliance-report.md
+      - name: Upload site zip
+        if: success()
+        uses: actions/upload-artifact@v4
+        with:
+          name: 1win-argentina-site
+          path: |
+            sites/1win-argentina/
+            1win-argentina-site.zip
