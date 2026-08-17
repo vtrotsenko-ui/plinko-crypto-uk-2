@@ -5,7 +5,7 @@
   "sections": [
     {
       "h2": "Responsible gambling principles",
-      "html": "\n<p>Responsible gambling means treating betting and casino play as paid entertainment with a clear cost, not as a way to solve money problems. Adults set limits first, keep honest records, and take breaks without needing a dramatic reason.</p>\n<figure class=\"content-image\"><img src=\"assets/images/img-rg.png\" alt=\"responsible gambling tools and support resources illustration\" loading=\"lazy\" /></figure>\n<p>This page collects practical habits for readers of our 1win Argentina hub. If you are in crisis, contact professional support immediately rather than browsing affiliate articles.</p>\n"
+      "html": "\n<p>Responsible gambling means treating betting and casino play as paid entertainment with a clear cost, not as a way to solve money problems. Adults set limits first, keep honest records, and take breaks without needing a dramatic reason.</p>\n<figure class=\"content-image\"><img src=\"assets/images/img-rg.png\" alt=\"responsible gambling tools and support resources screenshot\" loading=\"lazy\" /></figure>\n<p>This page collects practical habits for readers of our 1win Argentina hub. If you are in crisis, contact professional support immediately rather than browsing affiliate articles.</p>\n"
     },
     {
       "h2": "Warning signs to take seriously",
@@ -126,7 +126,7 @@
   "images": [
     {
       "filename": "img-rg.png",
-      "alt": "responsible gambling tools and support resources illustration",
+      "alt": "1win screenshot — responsible gambling tools and support resources illustration",
       "prompt": "Calm teal scene with clock, limit slider, and support handshake icons"
     }
   ]

@@ -17,7 +17,7 @@
     },
     {
       "h2": "Cashback and ongoing promos",
-      "html": "\n<figure class=\"content-image\"><img src=\"assets/images/art-bonus-cashback.png\" alt=\"bonus code 1win cashback style promotion illustration\" loading=\"lazy\" /></figure>\n<p>Cashback styles differ: some return a percentage of net losses as bonus money with fresh wagering. That is not the same as withdrawing cash immediately. Stacking a bonus code 1win welcome offer with cashback may be restricted.</p>\n<table border=\"1\"><caption>Promotion types readers confuse</caption><thead><tr><th scope=\"col\">Type</th><th scope=\"col\">Usually withdrawable immediately?</th><th scope=\"col\">Common catch</th></tr></thead><tbody><tr><td>Deposit match bonus</td><td>No — after wagering</td><td>High multiplier</td></tr><tr><td>Free spins</td><td>Often capped</td><td>Low-value spin stake</td></tr><tr><td>Cashback credit</td><td>Sometimes still bonus funds</td><td>New playthrough</td></tr><tr><td>Reload code</td><td>Depends</td><td>One-account rules</td></tr></tbody></table>\n"
+      "html": "\n<figure class=\"content-image\"><img src=\"assets/images/art-bonus-cashback.png\" alt=\"bonus code 1win cashback style promotion screenshot\" loading=\"lazy\" /></figure>\n<p>Cashback styles differ: some return a percentage of net losses as bonus money with fresh wagering. That is not the same as withdrawing cash immediately. Stacking a bonus code 1win welcome offer with cashback may be restricted.</p>\n<table border=\"1\"><caption>Promotion types readers confuse</caption><thead><tr><th scope=\"col\">Type</th><th scope=\"col\">Usually withdrawable immediately?</th><th scope=\"col\">Common catch</th></tr></thead><tbody><tr><td>Deposit match bonus</td><td>No — after wagering</td><td>High multiplier</td></tr><tr><td>Free spins</td><td>Often capped</td><td>Low-value spin stake</td></tr><tr><td>Cashback credit</td><td>Sometimes still bonus funds</td><td>New playthrough</td></tr><tr><td>Reload code</td><td>Depends</td><td>One-account rules</td></tr></tbody></table>\n"
     },
     {
       "h2": "Worked reasoning without invented percentages",
@@ -138,7 +138,7 @@
   "images": [
     {
       "filename": "img-bonus-code.png",
-      "alt": "bonus code 1win welcome offer explainer graphic",
+      "alt": "bonus code 1win welcome offer explainer photo",
       "prompt": "Coupon ticket illustration with percentage motif, restrained colours"
     },
     {
@@ -153,7 +153,7 @@
     },
     {
       "filename": "art-bonus-cashback.png",
-      "alt": "bonus code 1win cashback style promotion illustration",
+      "alt": "bonus code 1win cashback style promotion screenshot",
       "prompt": "Circular arrows returning a portion of stakes as abstract art"
     }
   ]

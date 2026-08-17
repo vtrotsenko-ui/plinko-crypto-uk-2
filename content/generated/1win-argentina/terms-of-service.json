@@ -5,7 +5,7 @@
   "sections": [
     {
       "h2": "Terms of service — agreement to browse",
-      "html": "\n<p>These terms of service govern use of this informational affiliate website. If you disagree, please leave the site. Accessing pages constitutes acceptance of these terms to the extent permitted by law.</p>\n<figure class=\"content-image\"><img src=\"assets/images/img-terms.png\" alt=\"terms of service summary illustration for site visitors\" loading=\"lazy\" /></figure>\n<p>We publish guides about 1win for adults. We do not operate games of chance on this domain. Betting contracts, if any, are between you and the operator you choose.</p>\n"
+      "html": "\n<p>These terms of service govern use of this informational affiliate website. If you disagree, please leave the site. Accessing pages constitutes acceptance of these terms to the extent permitted by law.</p>\n<figure class=\"content-image\"><img src=\"assets/images/img-terms.png\" alt=\"terms of service summary screenshot for site visitors\" loading=\"lazy\" /></figure>\n<p>We publish guides about 1win for adults. We do not operate games of chance on this domain. Betting contracts, if any, are between you and the operator you choose.</p>\n"
     },
     {
       "h2": "Acceptable use",
@@ -118,7 +118,7 @@
   "images": [
     {
       "filename": "img-terms.png",
-      "alt": "terms of service summary illustration for site visitors",
+      "alt": "1win screenshot — terms of service summary illustration for site visitors",
       "prompt": "Document and fountain pen on desk, neutral professional illustration"
     }
   ]

@@ -21,7 +21,7 @@
     },
     {
       "h2": "Payments, currency, and withdrawals",
-      "html": "\n<p>Payment options available to Argentine users can include cards, e-wallets, and other local or international rails depending on the current operator configuration. Always confirm minimum deposit, processing times, and any identity checks before you move funds.</p>\n<figure class=\"content-image\"><img src=\"assets/images/art-home-payments.png\" alt=\"1win payment methods illustration for deposits in Argentina\" loading=\"lazy\" /></figure>\n<table border=\"1\"><caption>Payment checklist before depositing with 1win</caption><thead><tr><th scope=\"col\">Check</th><th scope=\"col\">Why it matters</th><th scope=\"col\">Where to verify</th></tr></thead><tbody><tr><td>Minimum deposit</td><td>Avoid failed top-ups</td><td>Cashier on operator site</td></tr><tr><td>Withdrawal method match</td><td>Some rails require same-method payouts</td><td>Cashier FAQ</td></tr><tr><td>KYC readiness</td><td>Documents speed first cash-outs</td><td>Account verification page</td></tr><tr><td>Currency display</td><td>See fees and FX clearly</td><td>Wallet / balance screen</td></tr></tbody></table>\n<ol><li>Open the cashier only after you have set a session budget.</li><li>Take a screenshot of any pending withdrawal reference numbers.</li><li>Complete verification early rather than waiting until the first cash-out.</li><li>Read fee and FX notes if you fund in a currency other than your bank default.</li></ol>\n"
+      "html": "\n<p>Payment options available to Argentine users can include cards, e-wallets, and other local or international rails depending on the current operator configuration. Always confirm minimum deposit, processing times, and any identity checks before you move funds.</p>\n<figure class=\"content-image\"><img src=\"assets/images/art-home-payments.png\" alt=\"1win payment methods screenshot for deposits in Argentina\" loading=\"lazy\" /></figure>\n<table border=\"1\"><caption>Payment checklist before depositing with 1win</caption><thead><tr><th scope=\"col\">Check</th><th scope=\"col\">Why it matters</th><th scope=\"col\">Where to verify</th></tr></thead><tbody><tr><td>Minimum deposit</td><td>Avoid failed top-ups</td><td>Cashier on operator site</td></tr><tr><td>Withdrawal method match</td><td>Some rails require same-method payouts</td><td>Cashier FAQ</td></tr><tr><td>KYC readiness</td><td>Documents speed first cash-outs</td><td>Account verification page</td></tr><tr><td>Currency display</td><td>See fees and FX clearly</td><td>Wallet / balance screen</td></tr></tbody></table>\n<ol><li>Open the cashier only after you have set a session budget.</li><li>Take a screenshot of any pending withdrawal reference numbers.</li><li>Complete verification early rather than waiting until the first cash-out.</li><li>Read fee and FX notes if you fund in a currency other than your bank default.</li></ol>\n"
     },
     {
       "h2": "Support quality and account hygiene",
@@ -145,7 +145,7 @@
     },
     {
       "filename": "art-home-payments.png",
-      "alt": "1win payment methods illustration for deposits in Argentina",
+      "alt": "1win payment methods screenshot for deposits in Argentina",
       "prompt": "Clean illustration of cards, bank transfer, and wallet icons arranged on a desk, soft daylight"
     },
     {

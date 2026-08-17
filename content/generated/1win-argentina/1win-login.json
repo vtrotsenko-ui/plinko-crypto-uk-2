@@ -9,7 +9,7 @@
     },
     {
       "h2": "Password reset without panic",
-      "html": "\n<figure class=\"content-image\"><img src=\"assets/images/art-login-reset.png\" alt=\"1win login password reset flow illustration\" loading=\"lazy\" /></figure>\n<ol><li>Use the on-site forgot-password link, not a link from a random message.</li><li>Check spam folders for the reset email or SMS code.</li><li>Create a long unique password; avoid recycling banking passwords.</li><li>Sign out other devices if you suspect a compromise.</li></ol>\n<ul><li>Support will not ask for your full password in chat.</li><li>One-time codes expire — request a fresh code rather than reusing screenshots.</li><li>If phone number access was lost, prepare KYC documents before contacting support.</li></ul>\n"
+      "html": "\n<figure class=\"content-image\"><img src=\"assets/images/art-login-reset.png\" alt=\"1win login password reset flow screenshot\" loading=\"lazy\" /></figure>\n<ol><li>Use the on-site forgot-password link, not a link from a random message.</li><li>Check spam folders for the reset email or SMS code.</li><li>Create a long unique password; avoid recycling banking passwords.</li><li>Sign out other devices if you suspect a compromise.</li></ol>\n<ul><li>Support will not ask for your full password in chat.</li><li>One-time codes expire — request a fresh code rather than reusing screenshots.</li><li>If phone number access was lost, prepare KYC documents before contacting support.</li></ul>\n"
     },
     {
       "h2": "Two-factor and device hygiene",
@@ -131,7 +131,7 @@
     },
     {
       "filename": "art-login-reset.png",
-      "alt": "1win login password reset flow illustration",
+      "alt": "1win login password reset flow screenshot",
       "prompt": "Email and SMS reset icons connected by arrows"
     },
     {
