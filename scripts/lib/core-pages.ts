@@ -35,7 +35,7 @@ export const CORE_PAGES: Record<string, CorePage> = {
 ` +
         table(
           "Typical 1win product areas at a glance",
-          ["<tr><th scope=\"col\">Area", "What it usually covers", "What to check yourself"],
+          ["Area", "What it usually covers", "What to check yourself"],
           [
             ["Sports", "Pre-match and in-play markets on football and other sports", "Market rules, settlement timing, and cash-out availability if offered"],
             ["Casino", "Slots and other RNG titles in a searchable lobby", "Game information screens, stake limits, and demo availability if present"],
@@ -79,7 +79,7 @@ export const CORE_PAGES: Record<string, CorePage> = {
 ` +
         table(
           "Pre-deposit safety checklist",
-          ["<tr><th scope=\"col\">Check", "Why it matters", "Where to look"],
+          ["Check", "Why it matters", "Where to look"],
           [
             ["Official access path", "Reduces phishing risk", "Bookmarked URL or operator communications you already trust"],
             ["Age 18+ confirmation", "Legal and ethical minimum", "Registration and account settings"],
@@ -106,7 +106,7 @@ export const CORE_PAGES: Record<string, CorePage> = {
 ` +
         table(
           "How this English guide is organised",
-          ["<tr><th scope=\"col\">Page", "Primary focus", "Start here if you need"],
+          ["Page", "Primary focus", "Start here if you need"],
           [
             ["Home", "Brand overview and evaluation framework", "A map of the whole site"],
             ["Casino", "Lobby categories, live play, KYC overview", "Game types and payments at a high level"],
@@ -200,7 +200,7 @@ export const CORE_PAGES: Record<string, CorePage> = {
 ` +
         table(
           "Live casino and RNG comparison for 1win casino readers",
-          ["<tr><th scope=\"col\">Aspect", "Live casino", "RNG casino titles"],
+          ["Aspect", "Live casino", "RNG casino titles"],
           [
             ["Presentation", "Video stream with dealer or host", "Animated or video-slot style client"],
             ["Pace", "Tied to table rhythm and dealing speed", "Often faster rounds under player control"],
@@ -228,7 +228,7 @@ export const CORE_PAGES: Record<string, CorePage> = {
 ` +
         table(
           "Category reading guide inside 1win casino",
-          ["<tr><th scope=\"col\">Category", "What to inspect", "Common caution"],
+          ["Category", "What to inspect", "Common caution"],
           [
             ["Slots", "Stake steps, feature triggers described in help", "Headline multipliers are rare outcomes, not typical results"],
             ["Table games", "Rule variant, side bets, table limits", "Side bets can carry different edges—read before enabling"],
@@ -255,7 +255,7 @@ export const CORE_PAGES: Record<string, CorePage> = {
 ` +
         table(
           "Cashier checks before funding 1win casino play",
-          ["<tr><th scope=\"col\">Check", "Why", "Practical tip"],
+          ["Check", "Why", "Practical tip"],
           [
             ["Method ownership", "Third-party deposits cause disputes", "Use accounts in your own name"],
             ["Minimum amounts", "Offers and withdrawals may reference mins", "Read on-screen values; check T&Cs for offers"],
@@ -362,7 +362,7 @@ export const CORE_PAGES: Record<string, CorePage> = {
 ` +
         table(
           "Mobile access paths for 1win app readers",
-          ["<tr><th scope=\"col\">Path", "Typical upside", "Typical caution"],
+          ["Path", "Typical upside", "Typical caution"],
           [
             ["Mobile browser", "No installer; easy to bookmark official URL", "Session cookies and phishing pages still matter"],
             ["Official Android package if offered", "Home-screen icon and possibly richer prompts", "Only install from operator-documented sources"],
@@ -388,7 +388,7 @@ export const CORE_PAGES: Record<string, CorePage> = {
 ` +
         table(
           "Permission and hygiene checklist for the 1win app",
-          ["<tr><th scope=\"col\">Item", "Why it matters", "Suggested habit"],
+          ["Item", "Why it matters", "Suggested habit"],
           [
             ["Storage / files", "Needed for some document uploads", "Grant temporarily during KYC if required"],
             ["Camera", "Sometimes used for document capture", "Disable afterwards in system settings if unused"],
@@ -416,7 +416,7 @@ export const CORE_PAGES: Record<string, CorePage> = {
 ` +
         table(
           "Parity checks between 1win app and desktop",
-          ["<tr><th scope=\"col\">Feature area", "What to compare", "If something is missing"],
+          ["Feature area", "What to compare", "If something is missing"],
           [
             ["Sports markets", "Same events and rule links", "Refresh or try browser; ask support if persistent"],
             ["Casino lobby", "Search, filters, game info access", "Confirm region settings and app version"],
@@ -523,7 +523,7 @@ export const CORE_PAGES: Record<string, CorePage> = {
 ` +
         table(
           "1win login factors and what they protect",
-          ["<tr><th scope=\"col\">Factor", "What it is", "Practical note"],
+          ["Factor", "What it is", "Practical note"],
           [
             ["Password", "Secret you create at registration", "Unique and stored in a password manager"],
             ["Email or SMS code", "One-time challenge if offered", "Never forward codes to callers or chat contacts"],
@@ -547,7 +547,7 @@ export const CORE_PAGES: Record<string, CorePage> = {
 ` +
         table(
           "Common 1win login issues and first responses",
-          ["<tr><th scope=\"col\">Symptom", "Likely cause", "First response"],
+          ["Symptom", "Likely cause", "First response"],
           [
             ["Password rejected", "Typo or outdated saved password", "Reset via official forgot-password flow"],
             ["Code not arriving", "Delay, filter, or wrong phone/email", "Wait, check spam, confirm contact details"],
@@ -575,7 +575,7 @@ export const CORE_PAGES: Record<string, CorePage> = {
 ` +
         table(
           "Phishing patterns around 1win login pages",
-          ["<tr><th scope=\"col\">Pattern", "What you see", "What you should do"],
+          ["Pattern", "What you see", "What you should do"],
           [
             ["Lookalike domain", "Extra characters or odd top-level domain", "Leave immediately; use your bookmark"],
             ["Urgent support chat", "Threats of account closure unless you “verify”", "Hang up; contact support via official site"],
@@ -682,7 +682,7 @@ export const CORE_PAGES: Record<string, CorePage> = {
 ` +
         table(
           "Core bonus concepts for bonus code 1win readers",
-          ["<tr><th scope=\"col\">Concept", "Plain meaning", "What to verify in T&Cs"],
+          ["Concept", "Plain meaning", "What to verify in T&Cs"],
           [
             ["Wagering multiple", "How many times funds must be staked", "Whether it applies to bonus only or deposit + bonus"],
             ["Game weighting", "How much each game type contributes", "Slots vs tables vs sports contributions"],
@@ -719,7 +719,7 @@ export const CORE_PAGES: Record<string, CorePage> = {
 ` +
         table(
           "T&Cs reading checklist for bonus code 1win offers",
-          ["<tr><th scope=\"col\">Clause", "Why it matters", "Player action"],
+          ["Clause", "Why it matters", "Player action"],
           [
             ["Max bet while wagering", "Breaking it can void the bonus", "Stay under the stated stake cap"],
             ["Payment method exclusions", "Some methods may not qualify", "Confirm before depositing"],
@@ -746,7 +746,7 @@ export const CORE_PAGES: Record<string, CorePage> = {
 ` +
         table(
           "Mistake versus safer habit for bonus code 1win use",
-          ["<tr><th scope=\"col\">Mistake", "Safer habit"],
+          ["Mistake", "Safer habit"],
           [
             ["Screenshot-only research", "Open live T&Cs on the official site"],
             ["Reusing passwords on promo microsites", "Keep login on the main official domain"],
@@ -853,7 +853,7 @@ export const CORE_PAGES: Record<string, CorePage> = {
 ` +
         table(
           "Cash-out timing perspectives for 1win aviator play",
-          ["<tr><th scope=\"col\">Approach", "What you are choosing", "Honest limitation"],
+          ["Approach", "What you are choosing", "Honest limitation"],
           [
             ["Earlier cash-out", "Smaller multipliers more often when rounds survive", "Still lose whenever crash comes first"],
             ["Later cash-out", "Larger multipliers when rounds survive longer", "More rounds end with a full stake loss"],
@@ -878,7 +878,7 @@ export const CORE_PAGES: Record<string, CorePage> = {
 ` +
         table(
           "Session design checklist for 1win aviator",
-          ["<tr><th scope=\"col\">Parameter", "Example habit", "Purpose"],
+          ["Parameter", "Example habit", "Purpose"],
           [
             ["Round cap", "Stop after a set number of rounds", "Prevents endless tap loops"],
             ["Loss cap", "Stop after a fixed cash loss", "Protects the wider budget"],
@@ -915,7 +915,7 @@ export const CORE_PAGES: Record<string, CorePage> = {
 ` +
         table(
           "Interface elements often seen near 1win aviator clients",
-          ["<tr><th scope=\"col\">Element", "Role", "Player tip"],
+          ["Element", "Role", "Player tip"],
           [
             ["Stake control", "Sets amount at risk each round", "Change stakes deliberately, not mid-tilt"],
             ["Cash-out control", "Ends your participation at current multiplier", "Know where it sits on mobile screens"],
@@ -1014,7 +1014,7 @@ export const CORE_PAGES: Record<string, CorePage> = {
 ` +
         table(
           "Language handling tips for 1win argentina readers",
-          ["<tr><th scope=\"col\">Situation", "Risk", "Habit"],
+          ["Situation", "Risk", "Habit"],
           [
             ["English blog vs Spanish UI", "Misreading a clause", "Translate carefully or switch UI language if available"],
             ["Auto-translate tools", "Garbled legal wording", "Prefer official language toggles when present"],
@@ -1039,7 +1039,7 @@ export const CORE_PAGES: Record<string, CorePage> = {
 ` +
         table(
           "Cashier mindset checklist for 1win argentina",
-          ["<tr><th scope=\"col\">Check", "Why", "Action"],
+          ["Check", "Why", "Action"],
           [
             ["Method list in your account", "Region-specific", "Open cashier while logged in"],
             ["Identity verification", "May gate withdrawals", "Complete KYC through official upload flows"],
@@ -1067,7 +1067,7 @@ export const CORE_PAGES: Record<string, CorePage> = {
 ` +
         table(
           "Everyday responsible habits",
-          ["<tr><th scope=\"col\">Habit", "Detail", "Benefit"],
+          ["Habit", "Detail", "Benefit"],
           [
             ["Prepaid entertainment budget", "Money set aside before login", "Removes pressure mid-session"],
             ["Scheduled breaks", "Alarms between short sessions", "Counters trance-like tapping"],
@@ -1112,7 +1112,7 @@ export const CORE_PAGES: Record<string, CorePage> = {
 ` +
         table(
           "Verification sources to prefer",
-          ["<tr><th scope=\"col\">Source type", "Use for", "Avoid"],
+          ["Source type", "Use for", "Avoid"],
           [
             ["Official government publications", "Lawful activity boundaries", "Anonymous forum legal takes"],
             ["Operator terms and footers", "Eligibility and disclosures", "Edited screenshots on social media"],
@@ -1201,7 +1201,7 @@ export const CORE_PAGES: Record<string, CorePage> = {
 ` +
         table(
           "Checklist themes for is 1win legal in argentina readers",
-          ["<tr><th scope=\"col\">Theme", "Where to look", "Healthy outcome"],
+          ["Theme", "Where to look", "Healthy outcome"],
           [
             ["Local law", "Official publications and competent summaries", "Clear personal understanding—or a decision to abstain"],
             ["Operator eligibility", "Registration and terms pages", "Explicit acceptance or an honest stop"],
@@ -1225,7 +1225,7 @@ export const CORE_PAGES: Record<string, CorePage> = {
 ` +
         table(
           "Verification habits for licence-related statements",
-          ["<tr><th scope=\"col\">Step", "Detail", "Pitfall to avoid"],
+          ["Step", "Detail", "Pitfall to avoid"],
           [
             ["Collect the claim", "Copy exact wording from the operator", "Relying on a third-party paraphrase"],
             ["Find a register", "Use the regulator’s official website", "Random SEO blogs reprinting seals"],
@@ -1260,7 +1260,7 @@ export const CORE_PAGES: Record<string, CorePage> = {
 ` +
         table(
           "Practical boundaries beside the legal question",
-          ["<tr><th scope=\"col\">Boundary", "Why it helps", "Related page"],
+          ["Boundary", "Why it helps", "Related page"],
           [
             ["Adult-only access", "Legal and ethical baseline", "This checklist"],
             ["Budget caps", "Reduces harm even when play is lawful", "Responsible tools in account"],
@@ -1294,7 +1294,7 @@ export const CORE_PAGES: Record<string, CorePage> = {
 ` +
         table(
           "Change triggers that should prompt a new check",
-          ["<tr><th scope=\"col\">Trigger", "Action"],
+          ["Trigger", "Action"],
           [
             ["House move or travel relocation", "Re-read local rules and operator eligibility"],
             ["New operator terms version", "Skim restricted territories and KYC sections"],

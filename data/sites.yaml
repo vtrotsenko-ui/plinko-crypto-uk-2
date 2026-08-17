@@ -1,0 +1,57 @@
+# Single-site portfolio: 1win Argentina English informational guide.
+#
+# K7 (legality) and K10 (responsible gambling) are added automatically by
+# assign-clusters.ts. Trust pages About / Privacy / Terms are also injected.
+
+sites:
+  - id: 1win-argentina
+    domain: 1win-argentina-guide.com
+    name: "1win Argentina Guide"
+    positioning: >
+      English-language informational hub helping Argentina-facing readers
+      evaluate 1win calmly: product areas, app and login hygiene, bonus-code
+      mechanics, Aviator-style crash games, and legality checklists - without
+      inventing licences, providers, or outcome promises.
+    pages:
+      - slug: "/"
+        page_type: home
+        intent: commercial
+        cluster_match: "^1win$"
+        primary_keyword: "1win"
+        priority: 1.0
+      - slug: "/1win-casino/"
+        page_type: landing
+        intent: commercial
+        cluster_match: "1win casino"
+        primary_keyword: "1win casino"
+        priority: 0.9
+      - slug: "/1win-app/"
+        page_type: landing
+        intent: commercial
+        cluster_match: "1win app"
+        primary_keyword: "1win app"
+        priority: 0.85
+      - slug: "/1win-login/"
+        page_type: landing
+        intent: transactional
+        cluster_match: "1win login"
+        primary_keyword: "1win login"
+        priority: 0.8
+      - slug: "/1win-bonus-code/"
+        page_type: landing
+        intent: transactional
+        cluster_match: "bonus code 1win|1win bonus code|1win promo code|1win bonus"
+        primary_keyword: "bonus code 1win"
+        priority: 0.8
+      - slug: "/1win-aviator/"
+        page_type: landing
+        intent: informational
+        cluster_match: "1win aviator|aviator 1win|aviator game 1win"
+        primary_keyword: "1win aviator"
+        priority: 0.75
+      - slug: "/1win-argentina/"
+        page_type: landing
+        intent: commercial
+        cluster_match: "1win argentina"
+        primary_keyword: "1win argentina"
+        priority: 0.9
