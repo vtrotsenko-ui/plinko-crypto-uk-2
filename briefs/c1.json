@@ -1,0 +1,31 @@
+{
+  "briefId": "c1",
+  "clusterId": "c1",
+  "primaryKeyword": "1win",
+  "intent": "informational",
+  "pageType": "home",
+  "supportingKeywords": [
+    "1win"
+  ],
+  "knownSearchVolume": 122000,
+  "targets": {
+    "wordCount": {
+      "median": 1400,
+      "min": 1190,
+      "max": 1610
+    },
+    "h2": 9,
+    "tables": 3,
+    "lists": 5
+  },
+  "lsiTerms": [],
+  "faqQuestions": [
+    "What is 1win?",
+    "Is 1win available in the UK?",
+    "How do I try 1win for free before playing for real money?"
+  ],
+  "competitorAnalysis": {
+    "available": false,
+    "note": "No SERP_API_KEY configured - targets are fixed defaults per page type, not measured from the live top 10. Re-run with SERP_API_KEY set to replace these with observed competitor word/heading/table counts."
+  }
+}

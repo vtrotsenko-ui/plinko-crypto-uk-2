@@ -55,7 +55,7 @@ ${table(
   [
     ["Editorial", "Explain products and risks in plain English", "Promise winnings or invent licences"],
     ["Commercial", "Disclose partner links when used", "Hide T&C caveats beside offers"],
-    ["Safety", "Point to BeGambleAware / GamCare and local help", "Encourage under-18 play"],
+    ["Safety", "Point to BeGambleAware / GamCare and local help", "Invite minors to gamble"],
   ]
 )}`,
       },
@@ -169,7 +169,7 @@ function terms(site: SiteInfo): CorePage {
         html: ul([
           "Do not scrape the site in a way that degrades service for others.",
           "Do not misrepresent our pages as the official 1win operator site.",
-          "Do not use our content to target or encourage under-18 gambling.",
+          "Do not use our content to target or encourage gambling by minors.",
           "Do not remove affiliate or responsible-gambling disclosures when republishing excerpts with permission.",
         ]),
       },

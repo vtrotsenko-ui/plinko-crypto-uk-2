@@ -1,0 +1,32 @@
+{
+  "briefId": "editorial-is-1win-legal-in-argentina",
+  "clusterId": null,
+  "primaryKeyword": "is 1win legal in argentina",
+  "intent": "informational",
+  "pageType": "trust",
+  "supportingKeywords": [
+    "is 1win legal in argentina"
+  ],
+  "knownSearchVolume": null,
+  "targets": {
+    "wordCount": {
+      "median": 900,
+      "min": 765,
+      "max": 1035
+    },
+    "h2": 5,
+    "tables": 3,
+    "lists": 4
+  },
+  "lsiTerms": [],
+  "faqQuestions": [
+    "Is 1win legal in argentina?",
+    "What is is 1win legal in argentina?",
+    "Is is 1win legal in argentina available in the UK?",
+    "How do I try is 1win legal in argentina for free before playing for real money?"
+  ],
+  "competitorAnalysis": {
+    "available": false,
+    "note": "No SERP_API_KEY configured - targets are fixed defaults per page type, not measured from the live top 10. Re-run with SERP_API_KEY set to replace these with observed competitor word/heading/table counts."
+  }
+}

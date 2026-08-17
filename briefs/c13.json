@@ -1,0 +1,63 @@
+{
+  "briefId": "c13",
+  "clusterId": "c13",
+  "primaryKeyword": "1win aviator",
+  "intent": "informational",
+  "pageType": "landing",
+  "supportingKeywords": [
+    "1win aviator",
+    "aviator 1win",
+    "aviator game 1win",
+    "aviator juego 1win",
+    "1win aviator demo",
+    "aviator predictor 1win",
+    "1win aviator download",
+    "1win aviator game",
+    "1win aviator prediction",
+    "1win aviator predictor",
+    "1win aviator review",
+    "1win aviator strategy",
+    "aviator 1win bot",
+    "aviator 1win game",
+    "aviator game 1win download",
+    "bot 1win aviator",
+    "bot aviator 1win",
+    "estrategia aviator 1win",
+    "jogo aviator 1win",
+    "robot aviator 1win"
+  ],
+  "knownSearchVolume": 300,
+  "targets": {
+    "wordCount": {
+      "median": 1300,
+      "min": 1105,
+      "max": 1495
+    },
+    "h2": 8,
+    "tables": 3,
+    "lists": 4
+  },
+  "lsiTerms": [
+    "game",
+    "bot",
+    "predictor",
+    "download",
+    "juego",
+    "demo",
+    "prediction",
+    "review",
+    "strategy",
+    "estrategia",
+    "jogo",
+    "robot"
+  ],
+  "faqQuestions": [
+    "What is 1win aviator?",
+    "Is 1win aviator available in the UK?",
+    "How do I try 1win aviator for free before playing for real money?"
+  ],
+  "competitorAnalysis": {
+    "available": false,
+    "note": "No SERP_API_KEY configured - targets are fixed defaults per page type, not measured from the live top 10. Re-run with SERP_API_KEY set to replace these with observed competitor word/heading/table counts."
+  }
+}

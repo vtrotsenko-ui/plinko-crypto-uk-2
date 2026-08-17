@@ -1,0 +1,194 @@
+[
+  {
+    "site": "1win-argentina",
+    "url": "https://1win-argentina-guide.com/",
+    "cluster_id": "c1",
+    "primary_keyword": "1win",
+    "intent": "informational",
+    "page_type": "home",
+    "internal_links_to": [
+      "/1win-casino/",
+      "/1win-app/",
+      "/1win-login/",
+      "/1win-bonus-code/",
+      "/1win-aviator/",
+      "/1win-argentina/",
+      "/about-us/",
+      "/privacy-cookie-policy/",
+      "/terms-of-service/",
+      "/is-1win-legal-in-argentina/",
+      "/responsible-gambling/"
+    ],
+    "priority": 1
+  },
+  {
+    "site": "1win-argentina",
+    "url": "https://1win-argentina-guide.com/1win-casino/",
+    "cluster_id": "c2",
+    "primary_keyword": "1win casino",
+    "intent": "commercial",
+    "page_type": "landing",
+    "internal_links_to": [
+      "/",
+      "/is-1win-legal-in-argentina/",
+      "/responsible-gambling/",
+      "/about-us/"
+    ],
+    "priority": 0.9
+  },
+  {
+    "site": "1win-argentina",
+    "url": "https://1win-argentina-guide.com/1win-app/",
+    "cluster_id": "c4",
+    "primary_keyword": "1win app",
+    "intent": "transactional",
+    "page_type": "landing",
+    "internal_links_to": [
+      "/",
+      "/is-1win-legal-in-argentina/",
+      "/responsible-gambling/",
+      "/about-us/"
+    ],
+    "priority": 0.85
+  },
+  {
+    "site": "1win-argentina",
+    "url": "https://1win-argentina-guide.com/1win-login/",
+    "cluster_id": "c5",
+    "primary_keyword": "1win login",
+    "intent": "informational",
+    "page_type": "landing",
+    "internal_links_to": [
+      "/",
+      "/is-1win-legal-in-argentina/",
+      "/responsible-gambling/",
+      "/about-us/"
+    ],
+    "priority": 0.8
+  },
+  {
+    "site": "1win-argentina",
+    "url": "https://1win-argentina-guide.com/1win-bonus-code/",
+    "cluster_id": "c10",
+    "primary_keyword": "bonus code 1win",
+    "intent": "transactional",
+    "page_type": "landing",
+    "internal_links_to": [
+      "/",
+      "/is-1win-legal-in-argentina/",
+      "/responsible-gambling/",
+      "/about-us/"
+    ],
+    "priority": 0.8
+  },
+  {
+    "site": "1win-argentina",
+    "url": "https://1win-argentina-guide.com/1win-aviator/",
+    "cluster_id": "c13",
+    "primary_keyword": "1win aviator",
+    "intent": "informational",
+    "page_type": "landing",
+    "internal_links_to": [
+      "/",
+      "/is-1win-legal-in-argentina/",
+      "/responsible-gambling/",
+      "/about-us/"
+    ],
+    "priority": 0.75
+  },
+  {
+    "site": "1win-argentina",
+    "url": "https://1win-argentina-guide.com/1win-argentina/",
+    "cluster_id": "c3",
+    "primary_keyword": "1win argentina",
+    "intent": "informational",
+    "page_type": "landing",
+    "internal_links_to": [
+      "/",
+      "/is-1win-legal-in-argentina/",
+      "/responsible-gambling/",
+      "/about-us/"
+    ],
+    "priority": 0.9
+  },
+  {
+    "site": "1win-argentina",
+    "url": "https://1win-argentina-guide.com/about-us/",
+    "cluster_id": null,
+    "primary_keyword": "about us",
+    "intent": "informational",
+    "page_type": "trust",
+    "internal_links_to": [
+      "/",
+      "/privacy-cookie-policy/",
+      "/terms-of-service/",
+      "/is-1win-legal-in-argentina/",
+      "/responsible-gambling/"
+    ],
+    "priority": 0.2
+  },
+  {
+    "site": "1win-argentina",
+    "url": "https://1win-argentina-guide.com/privacy-cookie-policy/",
+    "cluster_id": null,
+    "primary_keyword": "privacy and cookie policy",
+    "intent": "informational",
+    "page_type": "trust",
+    "internal_links_to": [
+      "/",
+      "/about-us/",
+      "/terms-of-service/",
+      "/is-1win-legal-in-argentina/",
+      "/responsible-gambling/"
+    ],
+    "priority": 0.2
+  },
+  {
+    "site": "1win-argentina",
+    "url": "https://1win-argentina-guide.com/terms-of-service/",
+    "cluster_id": null,
+    "primary_keyword": "terms of service",
+    "intent": "informational",
+    "page_type": "trust",
+    "internal_links_to": [
+      "/",
+      "/about-us/",
+      "/privacy-cookie-policy/",
+      "/is-1win-legal-in-argentina/",
+      "/responsible-gambling/"
+    ],
+    "priority": 0.2
+  },
+  {
+    "site": "1win-argentina",
+    "url": "https://1win-argentina-guide.com/is-1win-legal-in-argentina/",
+    "cluster_id": null,
+    "primary_keyword": "is 1win legal in argentina",
+    "intent": "informational",
+    "page_type": "trust",
+    "internal_links_to": [
+      "/",
+      "/about-us/",
+      "/privacy-cookie-policy/",
+      "/terms-of-service/",
+      "/responsible-gambling/"
+    ],
+    "priority": 0.4
+  },
+  {
+    "site": "1win-argentina",
+    "url": "https://1win-argentina-guide.com/responsible-gambling/",
+    "cluster_id": null,
+    "primary_keyword": "responsible gambling",
+    "intent": "informational",
+    "page_type": "trust",
+    "internal_links_to": [
+      "/",
+      "/about-us/",
+      "/privacy-cookie-policy/",
+      "/terms-of-service/",
+      "/is-1win-legal-in-argentina/"
+    ],
+    "priority": 0.4
+  }
+]

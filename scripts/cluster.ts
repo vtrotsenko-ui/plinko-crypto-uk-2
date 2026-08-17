@@ -401,14 +401,26 @@ async function main(): Promise<void> {
     }
   }
 
-  // Singleton clusters (nothing else ever matched the core) become orphans.
-  const realClusters = clusters.filter((c) => c.members.length > 1);
+  // Singleton clusters: keep high-volume cores (e.g. head brand term "1win")
+  // as real clusters so primary-keyword assignment still works. Low/unknown
+  // volume singletons that never attracted members become orphans - never
+  // silently dropped.
+  const realClusters: ClusterCore[] = [];
   for (const c of clusters) {
-    if (c.members.length === 1) orphans.push(c.members[0]);
+    if (c.members.length > 1) {
+      realClusters.push(c);
+      continue;
+    }
+    const only = c.members[0];
+    if (only.volume !== null && only.volume >= MIN_VOLUME) {
+      realClusters.push(c);
+    } else {
+      orphans.push(only);
+    }
   }
 
   console.log(
-    `[info] formed ${realClusters.length} multi-keyword clusters, ${orphans.length} orphan (singleton) keywords`
+    `[info] formed ${realClusters.length} clusters (incl. high-volume singletons), ${orphans.length} orphan keywords`
   );
 
   const clusterRows: string[] = ["cluster_id,cluster_name,keyword,volume,kd,intent,serp_overlap_score"];
